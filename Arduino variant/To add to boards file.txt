@@ -1,0 +1,10 @@
+# NEATAMP_F030C8 board
+GenF0.menu.pnum.NEATAMP_F030C8=NEATAMP_F030C8
+GenF0.menu.pnum.NEATAMP_F030C8.upload.maximum_size=65536
+GenF0.menu.pnum.NEATAMP_F030C8.upload.maximum_data_size=8192
+GenF0.menu.pnum.NEATAMP_F030C8.build.mcu=cortex-m0
+GenF0.menu.pnum.NEATAMP_F030C8.build.board=NEATAMP_F030C8
+GenF0.menu.pnum.NEATAMP_F030C8.build.series=STM32F0xx
+GenF0.menu.pnum.NEATAMP_F030C8.build.product_line=STM32F030x8
+GenF0.menu.pnum.NEATAMP_F030C8.build.variant=NeatAmp_F030C8
+GenF0.menu.pnum.NEATAMP_F030C8.build.cmsis_lib_gcc=arm_cortexM0l_math
