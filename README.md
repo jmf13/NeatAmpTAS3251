@@ -36,7 +36,14 @@ The discussion about the project can be found here [[design log] Neat 2x170W I2S
 
 To define the configuration of the TI TAS3251, usage of TI application PurePath console (PPC3) with the TAS3251 module is expected. When I started the project, TI was easily granting access to those applications. The Datasheets contain a lot of information on the registers and the configuration, but it seems that not all was documented.
 
+A 3D rendring of the PCB:
+![](https://github.com/jmf13/NeatAmpTAS3251/blob/master/Pictures/TAS3251_3D.JPG)
+
+![Under operation](https://github.com/jmf13/NeatAmpTAS3251/blob/master/Pictures/IMG_20200510_144029.jpg)
+
 Other important ressources:
 [TAS3251](https://www.ti.com/product/TAS3251)
+
 [NeatAmp Wiki](https://github.com/jmf13/NeatAmpTAS3251/wiki/Home/_edit)
+
 [AIM65/NeatAMP-Test-Dev-software ](https://github.com/AIM65/NeatAMP-Test-Dev-software)
