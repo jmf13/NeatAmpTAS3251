@@ -6,3 +6,5 @@ The Attached NeatAmp designe is fully functionnal
 -the silk screen for the 4 caps C25, C26, C27, C28 is inversed. You have to solder the caps opposite side !!!!!
 To upload the exact same board as the one manufactured, this has not been corrected.
 - The ref for the heatsink need some rework to fit (reduce the lencth and file part of one pad). So we went for home made ones.
+
+NeatAmp is under Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licence
