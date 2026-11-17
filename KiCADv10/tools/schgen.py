@@ -98,7 +98,7 @@ def chip(libname, refpfx, w, top, bot, pins, desc):
             ['symbol', Q(base + '_0_1'),
              ['rectangle', ['start', F(-w), F(top)], ['end', F(w), F(bot)],
               ['stroke', ['width', F(0.254)], ['type', 'default']], ['fill', ['type', 'background']]]],
-            ['symbol', Q(base + '_1_1')] + [lpin(n, nm, x, y, a) for n, nm, x, y, a in pins]]
+            ['symbol', Q(base + '_1_1')] + [lpin(*p) for p in pins]]
 
 
 def sym_lmq66430():
@@ -141,6 +141,70 @@ def sym_tps7a2033():
             ('2', 'GND', 0, -7.62, 90)]
     return chip('NeatAmp:TPS7A2033PDBVR', 'U', 6.35, 5.08, -5.08, pins,
                 'TPS7A2033 3.3V 300mA low-noise LDO, SOT-23-5')
+
+
+def sym_esp32s3_wroom():
+    """ESP32-S3-WROOM-1U, Schematic.pdf layout: left 1..14, bottom 15..26, right 40..27, top 41 (GND)."""
+    names = {1: 'GND', 2: '3V3', 3: 'EN', 4: 'IO4', 5: 'IO5', 6: 'IO6', 7: 'IO7', 8: 'IO15', 9: 'IO16', 10: 'IO17',
+             11: 'IO18', 12: 'IO8', 13: 'IO19', 14: 'IO20', 15: 'IO3', 16: 'IO46', 17: 'IO9', 18: 'IO10', 19: 'IO11',
+             20: 'IO12', 21: 'IO13', 22: 'IO14', 23: 'IO21', 24: 'IO47', 25: 'IO48', 26: 'IO45', 27: 'IO0', 28: 'IO35',
+             29: 'IO36', 30: 'IO37', 31: 'IO38', 32: 'IO39', 33: 'IO40', 34: 'IO41', 35: 'IO42', 36: 'RXD0',
+             37: 'TXD0', 38: 'IO2', 39: 'IO1', 40: 'GND', 41: 'GND'}
+    pins = [(str(n), names[n], mm(-21), mm(13 - 2 * (n - 1)), 0) for n in range(1, 15)]
+    pins += [(str(n), names[n], mm(21), mm(13 - 2 * (40 - n)), 180) for n in range(27, 41)]
+    pins += [(str(n), names[n], mm(-11 + 2 * (n - 15)), mm(-19), 90) for n in range(15, 27)]
+    pins += [('41', 'GND', 0, mm(18), 270)]
+    return chip('NeatAmp:ESP32-S3-WROOM-1U', 'U', mm(19), mm(16), mm(-17), pins,
+                'ESP32-S3-WROOM-1U-N8R8 module (pin order as in Schematic.pdf). IO35/36/37 = Octal PSRAM, keep NC')
+
+
+def sym_usbc_receptacle():
+    """TYPE-C-31-M-12 USB 2.0 receptacle, functional order; shell pads 1-4 as one stacked pin."""
+    rows = [('A4B9', 'VBUS', 11), ('B4A9', 'VBUS', 9), ('A5', 'CC1', 6), ('B5', 'CC2', 4), ('A6', 'DP1', 0),
+            ('B6', 'DP2', -2), ('A7', 'DN1', -4), ('B7', 'DN2', -6), ('A8', 'SBU1', -9), ('B8', 'SBU2', -11)]
+    pins = [(n, nm, mm(10), mm(y), 180, 5.08) for n, nm, y in rows]
+    pins += [('A1B12', 'GND', mm(-1), mm(-19), 90, 5.08), ('B1A12', 'GND', mm(2), mm(-19), 90, 5.08),
+             ('[1-4]', 'SHIELD', mm(-4), mm(-19), 90, 5.08)]
+    return chip('NeatAmp:USB_C_TYPE-C-31-M-12', 'USBC', mm(6), mm(13), mm(-15), pins,
+                'USB-C receptacle (USB 2.0), shell pads 1-4 = SHIELD')
+
+
+def sym_usblc6():
+    """USBLC6-2SC6 ESD array: connector side left, MCU side right, VBUS top, GND bottom."""
+    pins = [('1', 'IO1', mm(-7), mm(2), 0), ('3', 'IO2', mm(-7), mm(-2), 0),
+            ('6', 'IO1', mm(7), mm(2), 180), ('4', 'IO2', mm(7), mm(-2), 180),
+            ('5', 'VBUS', 0, mm(7), 270), ('2', 'GND', 0, mm(-7), 90)]
+    return chip('NeatAmp:USBLC6-2SC6', 'D', mm(5), mm(5), mm(-5), pins, 'USBLC6-2SC6 USB ESD protection, SOT-23-6')
+
+
+def sym_sk9822():
+    """SK9822 (APA102-type) RGB LED: SDI/CKI/GND left, SDO/CKO/VCC right (Schematic.pdf order)."""
+    pins = [('1', 'SDI', mm(-6), mm(2), 0), ('2', 'CKI', mm(-6), 0, 0), ('3', 'GND', mm(-6), mm(-2), 0),
+            ('6', 'SDO', mm(6), mm(2), 180), ('5', 'CKO', mm(6), 0, 180), ('4', 'VCC', mm(6), mm(-2), 180)]
+    return chip('NeatAmp:SK9822', 'U', mm(4), mm(4), mm(-4), pins, 'SK9822 RGB LED with SPI-like data/clock, 5050')
+
+
+def sym_sw_push_4pin():
+    """4-terminal tact switch (PTS645): 1-2 and 3-4 are joined inside the part, contact between the pairs."""
+    st = ['stroke', ['width', F(0.254)], ['type', 'default']]
+    fl = ['fill', ['type', 'none']]
+    g = [['polyline', ['pts', ['xy', -2.54, 5.08], ['xy', 2.54, 5.08]], st, fl],
+         ['polyline', ['pts', ['xy', 0, 5.08], ['xy', 0, 2.286]], st, fl],
+         ['polyline', ['pts', ['xy', -2.54, -5.08], ['xy', 2.54, -5.08]], st, fl],
+         ['polyline', ['pts', ['xy', 0, -5.08], ['xy', 0, -2.286]], st, fl],
+         ['circle', ['center', 0, 1.778], ['radius', 0.508], st, fl],
+         ['circle', ['center', 0, -1.778], ['radius', 0.508], st, fl],
+         ['polyline', ['pts', ['xy', 1.27, 2.286], ['xy', 1.27, -2.286]], st, fl],
+         ['polyline', ['pts', ['xy', 1.27, 0], ['xy', 3.302, 0]], st, fl],
+         ['polyline', ['pts', ['xy', 3.302, 1.016], ['xy', 3.302, -1.016]], st, fl]]
+    pins = [lpin('1', '1', -5.08, 5.08, 0), lpin('2', '2', 5.08, 5.08, 180),
+            lpin('3', '3', -5.08, -5.08, 0), lpin('4', '4', 5.08, -5.08, 180)]
+    return ['symbol', Q('NeatAmp:SW_Push_4pin'), ['pin_names', ['offset', 0], ['hide', 'yes']],
+            ['exclude_from_sim', 'no'], ['in_bom', 'yes'], ['on_board', 'yes'],
+            lprop('Reference', 'SW', 3.81, 2.54, justify='left'), lprop('Value', 'SW_Push_4pin', 3.81, -2.54, justify='left'),
+            lprop('Footprint', '', hide=True), lprop('Datasheet', '', hide=True),
+            lprop('Description', 'Tact switch, 4 pins: 1-2 joined, 3-4 joined, push closes 1/2 to 3/4', hide=True),
+            ['symbol', Q('SW_Push_4pin_0_1')] + g, ['symbol', Q('SW_Push_4pin_1_1')] + pins]
 
 
 def _rot90(x):
@@ -224,6 +288,11 @@ CUSTOM = {
     'NeatAmp:Q_PMOS_E38P100KH': sym_q_pmos_e38p100kh,
     'NeatAmp:AP63203WU-7': sym_ap63203,
     'NeatAmp:TPS7A2033PDBVR': sym_tps7a2033,
+    'NeatAmp:ESP32-S3-WROOM-1U': sym_esp32s3_wroom,
+    'NeatAmp:USB_C_TYPE-C-31-M-12': sym_usbc_receptacle,
+    'NeatAmp:USBLC6-2SC6': sym_usblc6,
+    'NeatAmp:SK9822': sym_sk9822,
+    'NeatAmp:SW_Push_4pin': sym_sw_push_4pin,
     'NeatAmp:D_Schottky_1A2K': lambda: sym_renumbered(
         'Device:D_Schottky', 'NeatAmp:D_Schottky_1A2K', {'1': '2', '2': '1'},
         'Schottky diode, pin 1 = anode, pin 2 = cathode (matches EasyEDA SMA footprints)'),
@@ -234,6 +303,10 @@ LIB = {
     'FB': 'Device:FerriteBead', 'DZ': 'Device:D_Zener', 'F': 'Device:Fuse',
     'TP': 'Connector:TestPoint', 'CN': 'Connector:Screw_Terminal_01x02',
     'DS': 'NeatAmp:D_Schottky_1A2K',
+    'ESP': 'NeatAmp:ESP32-S3-WROOM-1U', 'USBC': 'NeatAmp:USB_C_TYPE-C-31-M-12', 'ESD': 'NeatAmp:USBLC6-2SC6',
+    'LED9822': 'NeatAmp:SK9822', 'SW4': 'NeatAmp:SW_Push_4pin',
+    'H1x4': 'Connector_Generic:Conn_01x04', 'H1x6': 'Connector_Generic:Conn_01x06',
+    'H2x4': 'Connector_Generic:Conn_02x04_Odd_Even', 'H2x12': 'Connector_Generic:Conn_02x12_Odd_Even',
     'AP': 'NeatAmp:AP63203WU-7', 'LDO20': 'NeatAmp:TPS7A2033PDBVR',
     'Q': 'NeatAmp:Q_PMOS_E38P100KH', 'LMQ': 'NeatAmp:LMQ66430MC3RXBRQ1', 'TPS': 'NeatAmp:TPS7A4701RGWR',
 }
@@ -367,18 +440,22 @@ class Sheet:
     def NC(self, x, y):
         self.nc.append((mm(self.sx(x)), mm(y)))
 
-    def LBL(self, name, x, y):
-        self.labels.append((name, mm(self.sx(x)), mm(y)))
+    def LBL(self, name, x, y, ang=0):
+        """Local net label; ang 0 text right of anchor, 180 left, 90 up, 270 down."""
+        self.labels.append((name, mm(self.sx(x)), mm(y), ang))
 
-    def GL(self, name, x, y, shape, ang=0):
-        """Global label; ang 0 = text to the right of the anchor, 180 = to the left."""
+    def GL(self, name, x, y, shape=None, ang=0):
+        """Global label; ang 0 = text to the right of the anchor, 180 left, 90 up, 270 down.
+        shape defaults to the shape the label had on the old sheet."""
+        if shape is None:
+            shape = next((find(g, 'shape')[1] for g in findall(self.sch, 'global_label') if g[1] == name), 'passive')
         self.glabels.append((name, mm(self.sx(x)), mm(y), shape, ang))
 
     def T(self, s, x, y, size=1.27, bold=False):
         self.texts.append((s, mm(self.sx(x)), mm(y), size, bold))
 
     # -------------------------------------------------------------- build
-    def save(self, title, page, dst=None, update_lib=None):
+    def save(self, title, page, dst=None, update_lib=None, paper='A3'):
         dst = dst or self.path
         if update_lib is None:
             update_lib = os.path.abspath(dst) == os.path.abspath(self.path)
@@ -406,9 +483,9 @@ class Sheet:
             r, v = prop(s, 'Reference'), prop(s, 'Value')
             t = d['txt']
             if isinstance(t, tuple):        # (ref dx, ref dy, value dx, value dy, justify) in grid units
-                rdx, rdy, vdx, vdy, jj = t
+                rdx, rdy, vdx, vdy, jj = t[:5]
                 set_at(r, X + mm(rdx), Y + mm(rdy)); set_at(v, X + mm(vdx), Y + mm(vdy))
-                set_eff(r, jj); set_eff(v, jj)
+                set_eff(r, jj); set_eff(v, jj, hide=len(t) > 5 and t[5] == 'hidev')
             elif t == 'r':
                 set_at(r, X + mm(2), Y - mm(1)); set_at(v, X + mm(2), Y + mm(1))
                 set_eff(r, 'left'); set_eff(v, 'left')
@@ -439,7 +516,7 @@ class Sheet:
                 find(find(p, 'effects'), 'font')[:] = ['font', ['size', 1.27, 1.27]]
                 if d['rot'] in (90, 270):
                     find(p, 'at')[3] = 90   # field angle is relative to symbol -> horizontal text
-                if d['rot'] == 180:         # KiCad mirrors justification on 180-deg symbols
+                if d['rot'] in (90, 180):   # KiCad mirrors justification on 90/180-deg symbols
                     j = find(find(p, 'effects'), 'justify')
                     if j:
                         j[1:] = [{'left': 'right', 'right': 'left'}.get(a, a) for a in j[1:]]
@@ -473,10 +550,11 @@ class Sheet:
             ref = new_ref()
             gnd = name in ('GND', 'AGND')
             vy = y + (3.81 if gnd else -3.556) if rot == 0 else y
-            v = ['property', Q('Value'), Q(name), ['at', F(x), F(vy), 0]]
-            if not show:
+            side = rot in (90, 270)
+            v = ['property', Q('Value'), Q(name), ['at', F(x), F(vy), 90 if side else 0]]
+            if not show or (side and (gnd or rot == 270)):
                 v.append(['hide', 'yes'])
-            v.append(eff(1.0))
+            v.append(eff(1.0, justify='left' if side else None))
             s = ['symbol', ['lib_id', Q(libname)], ['at', F(x), F(y), rot], ['unit', 1],
                  ['exclude_from_sim', 'no'], ['in_bom', 'yes'], ['on_board', 'yes'], ['dnp', 'no'],
                  ['uuid', uid()],
@@ -495,7 +573,7 @@ class Sheet:
             for a, b in zip(poly, poly[1:]):
                 segs.append(((round(a[0], 3), round(a[1], 3)), (round(b[0], 3), round(b[1], 3))))
         special = ({p for s in segs for p in s} | {p for p, _, _ in pin_pts}
-                   | {(round(x, 3), round(y, 3)) for _, x, y in self.labels}
+                   | {(round(x, 3), round(y, 3)) for _, x, y, _ in self.labels}
                    | {(round(x, 3), round(y, 3)) for _, x, y, _, _ in self.glabels})
 
         def on_seg(p, a, b):
@@ -538,10 +616,11 @@ class Sheet:
         for a, b in segs:
             body.append(['wire', ['pts', ['xy', F(a[0]), F(a[1])], ['xy', F(b[0]), F(b[1])]],
                          ['stroke', ['width', 0], ['type', 'default']], ['uuid', uid()]])
-        for name, x, y in self.labels:
-            body.append(['label', Q(name), ['at', F(x), F(y), 0], eff(justify='left bottom'), ['uuid', uid()]])
+        for name, x, y, ang in self.labels:
+            j = 'left bottom' if ang in (0, 90) else 'right bottom'
+            body.append(['label', Q(name), ['at', F(x), F(y), ang], eff(justify=j), ['uuid', uid()]])
         for name, x, y, shape, ang in self.glabels:
-            j = 'left' if ang == 0 else 'right'
+            j = 'left' if ang in (0, 90) else 'right'
             body.append(['global_label', Q(name), ['shape', shape], ['at', F(x), F(y), ang],
                          ['fields_autoplaced', 'yes'], eff(justify=j), ['uuid', uid()],
                          ['property', Q('Intersheetrefs'), Q('${INTERSHEET_REFS}'), ['at', F(x), F(y), 0],
@@ -557,6 +636,8 @@ class Sheet:
                 continue
             if isinstance(c, list) and c[0] == 'lib_symbols':
                 c = ['lib_symbols'] + [libsyms[k] for k in sorted(libsyms)]
+            if isinstance(c, list) and c[0] == 'paper':
+                c = ['paper', Q(paper)]
             if isinstance(c, list) and c[0] == 'title_block':
                 c = ['title_block', ['title', Q(title)], ['rev', Q('V1.2')], ['company', Q('zoomMediaPlus')],
                      ['comment', 1, Q('Board: MainBoard - Class D amp')],
