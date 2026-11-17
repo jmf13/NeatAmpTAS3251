@@ -3849,4 +3849,1294 @@
 		)
 	)
 )
+(symbol "TAS3251"
+	(pin_names
+		(offset 0.508)
+	)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "U"
+		(at -19.05 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "TAS3251"
+		(at -19.05 -55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Description" "TAS3251 stereo DAC + 175W class-D amplifier, HTSSOP-56 (pin order as in Schematic.pdf)"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(symbol "TAS3251_0_1"
+		(rectangle
+			(start -19.05 53.34)
+			(end 19.05 -54.61)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+	)
+	(symbol "TAS3251_1_1"
+		(pin passive line
+			(at -21.59 50.8 0)
+			(length 2.54)
+			(name "DAC_OUTB+"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 46.99 0)
+			(length 2.54)
+			(name "DAC_OUTB-"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 43.18 0)
+			(length 2.54)
+			(name "DAC_OUTA-"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "3"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 39.37 0)
+			(length 2.54)
+			(name "DAC_OUTA+"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "4"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 35.56 0)
+			(length 2.54)
+			(name "CPVSS"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "5"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 31.75 0)
+			(length 2.54)
+			(name "CN"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "6"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 27.94 0)
+			(length 2.54)
+			(name "GND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "7"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 24.13 0)
+			(length 2.54)
+			(name "CP"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "8"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 20.32 0)
+			(length 2.54)
+			(name "DAC_DVDD"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "9"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 16.51 0)
+			(length 2.54)
+			(name "DGND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "10"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 12.7 0)
+			(length 2.54)
+			(name "DVDD_REG"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "11"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 8.89 0)
+			(length 2.54)
+			(name "GVDD_A"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "12"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 5.08 0)
+			(length 2.54)
+			(name "GND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "13"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 1.27 0)
+			(length 2.54)
+			(name "MODE"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "14"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -2.54 0)
+			(length 2.54)
+			(name "SPK_INA+"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "15"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -6.35 0)
+			(length 2.54)
+			(name "SPK_INA-"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "16"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -10.16 0)
+			(length 2.54)
+			(name "OC_ADJ"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "17"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -13.97 0)
+			(length 2.54)
+			(name "FREQ_ADJ"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "18"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -17.78 0)
+			(length 2.54)
+			(name "OSC_IOM"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "19"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -21.59 0)
+			(length 2.54)
+			(name "OSC_IOP"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "20"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -25.4 0)
+			(length 2.54)
+			(name "DVDD"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "21"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -29.21 0)
+			(length 2.54)
+			(name "GND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "22"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -33.02 0)
+			(length 2.54)
+			(name "AVDD"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "23"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -36.83 0)
+			(length 2.54)
+			(name "C_START"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "24"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -40.64 0)
+			(length 2.54)
+			(name "SPK_INB+"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "25"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -44.45 0)
+			(length 2.54)
+			(name "SPK_INB-"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "26"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -48.26 0)
+			(length 2.54)
+			(name "RESET_AMP#"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "27"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -21.59 -52.07 0)
+			(length 2.54)
+			(name "FAULT#"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "28"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -52.07 180)
+			(length 2.54)
+			(name "CLIP_OTW#"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "29"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -48.26 180)
+			(length 2.54)
+			(name "GVDD_B"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "30"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -44.45 180)
+			(length 2.54)
+			(name "BST_B-"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "31"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -40.64 180)
+			(length 2.54)
+			(name "BST_B+"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "32"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -36.83 180)
+			(length 2.54)
+			(name "GND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "33"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -33.02 180)
+			(length 2.54)
+			(name "SPK_OUTB-"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "34"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -29.21 180)
+			(length 2.54)
+			(name "PVDD_B"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "35"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -25.4 180)
+			(length 2.54)
+			(name "SPK_OUTB+"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "36"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -21.59 180)
+			(length 2.54)
+			(name "GND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "37"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -17.78 180)
+			(length 2.54)
+			(name "GND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "38"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -13.97 180)
+			(length 2.54)
+			(name "SPK_OUTA-"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "39"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -10.16 180)
+			(length 2.54)
+			(name "PVDD_A"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "40"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -6.35 180)
+			(length 2.54)
+			(name "SPK_OUTA+"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "41"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 -2.54 180)
+			(length 2.54)
+			(name "GND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "42"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 1.27 180)
+			(length 2.54)
+			(name "BST_A-"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "43"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 5.08 180)
+			(length 2.54)
+			(name "BST_A+"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "44"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 8.89 180)
+			(length 2.54)
+			(name "DAC_MUTE#"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "45"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 12.7 180)
+			(length 2.54)
+			(name "ADR"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "46"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 16.51 180)
+			(length 2.54)
+			(name "LRCK"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "47"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 20.32 180)
+			(length 2.54)
+			(name "SDIN"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "48"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 24.13 180)
+			(length 2.54)
+			(name "SCLK"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "49"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 27.94 180)
+			(length 2.54)
+			(name "MCLK"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "50"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 31.75 180)
+			(length 2.54)
+			(name "SDOUT"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "51"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 35.56 180)
+			(length 2.54)
+			(name "XPU"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "52"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 39.37 180)
+			(length 2.54)
+			(name "SCL"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "53"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 43.18 180)
+			(length 2.54)
+			(name "SDA"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "54"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 46.99 180)
+			(length 2.54)
+			(name "AGND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "55"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 21.59 50.8 180)
+			(length 2.54)
+			(name "DAC_AVDD"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "56"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+)
+(symbol "LED_1A2K"
+	(pin_numbers
+		(hide yes)
+	)
+	(pin_names
+		(offset 1.016)
+		(hide yes)
+	)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(in_pos_files yes)
+	(duplicate_pin_numbers_are_jumpers no)
+	(property "Reference" "D"
+		(at 0 2.54 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "LED"
+		(at 0 -2.54 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "LED, pin 1 = anode, pin 2 = cathode (matches its EasyEDA footprint)"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "ki_keywords" "LED diode"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(symbol "LED_1A2K_0_1"
+		(polyline
+			(pts
+				(xy -3.048 -0.762)
+				(xy -4.572 -2.286)
+				(xy -3.81 -2.286)
+				(xy -4.572 -2.286)
+				(xy -4.572 -1.524)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy -1.778 -0.762)
+				(xy -3.302 -2.286)
+				(xy -2.54 -2.286)
+				(xy -3.302 -2.286)
+				(xy -3.302 -1.524)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy -1.27 0)
+				(xy 1.27 0)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy -1.27 -1.27)
+				(xy -1.27 1.27)
+			)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy 1.27 -1.27)
+				(xy 1.27 1.27)
+				(xy -1.27 0)
+				(xy 1.27 -1.27)
+			)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+	)
+	(symbol "LED_1A2K_1_1"
+		(pin passive line
+			(at -3.81 0 0)
+			(length 2.54)
+			(name "K"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 3.81 0 180)
+			(length 2.54)
+			(name "A"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
 )

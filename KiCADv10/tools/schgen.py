@@ -207,6 +207,21 @@ def sym_sw_push_4pin():
             ['symbol', Q('SW_Push_4pin_0_1')] + g, ['symbol', Q('SW_Push_4pin_1_1')] + pins]
 
 
+def sym_tas3251():
+    """TAS3251 (HTSSOP-56), Schematic.pdf pin order (left 1..28, right 56..29) on a 3-grid pitch
+    so series parts and their text fit right at the pins."""
+    names = ['DAC_OUTB+', 'DAC_OUTB-', 'DAC_OUTA-', 'DAC_OUTA+', 'CPVSS', 'CN', 'GND', 'CP', 'DAC_DVDD', 'DGND',
+             'DVDD_REG', 'GVDD_A', 'GND', 'MODE', 'SPK_INA+', 'SPK_INA-', 'OC_ADJ', 'FREQ_ADJ', 'OSC_IOM', 'OSC_IOP',
+             'DVDD', 'GND', 'AVDD', 'C_START', 'SPK_INB+', 'SPK_INB-', 'RESET_AMP#', 'FAULT#', 'CLIP_OTW#', 'GVDD_B',
+             'BST_B-', 'BST_B+', 'GND', 'SPK_OUTB-', 'PVDD_B', 'SPK_OUTB+', 'GND', 'GND', 'SPK_OUTA-', 'PVDD_A',
+             'SPK_OUTA+', 'GND', 'BST_A-', 'BST_A+', 'DAC_MUTE#', 'ADR', 'LRCK', 'SDIN', 'SCLK', 'MCLK', 'SDOUT',
+             'XPU', 'SCL', 'SDA', 'AGND', 'DAC_AVDD']
+    pins = [(str(k), names[k - 1], mm(-17), mm(40 - 3 * (k - 1)), 0) for k in range(1, 29)]
+    pins += [(str(n), names[n - 1], mm(17), mm(40 - 3 * (56 - n)), 180) for n in range(29, 57)]
+    return chip('NeatAmp:TAS3251', 'U', mm(15), mm(42), mm(-43), pins,
+                'TAS3251 stereo DAC + 175W class-D amplifier, HTSSOP-56 (pin order as in Schematic.pdf)')
+
+
 def _rot90(x):
     if isinstance(x, list):
         if x and x[0] in ('xy', 'center', 'start', 'mid', 'end') and len(x) == 3:
@@ -293,6 +308,10 @@ CUSTOM = {
     'NeatAmp:USBLC6-2SC6': sym_usblc6,
     'NeatAmp:SK9822': sym_sk9822,
     'NeatAmp:SW_Push_4pin': sym_sw_push_4pin,
+    'NeatAmp:TAS3251': sym_tas3251,
+    'NeatAmp:LED_1A2K': lambda: sym_renumbered(
+        'Device:LED', 'NeatAmp:LED_1A2K', {'1': '2', '2': '1'},
+        'LED, pin 1 = anode, pin 2 = cathode (matches its EasyEDA footprint)'),
     'NeatAmp:D_Schottky_1A2K': lambda: sym_renumbered(
         'Device:D_Schottky', 'NeatAmp:D_Schottky_1A2K', {'1': '2', '2': '1'},
         'Schottky diode, pin 1 = anode, pin 2 = cathode (matches EasyEDA SMA footprints)'),
@@ -307,6 +326,7 @@ LIB = {
     'LED9822': 'NeatAmp:SK9822', 'SW4': 'NeatAmp:SW_Push_4pin',
     'H1x4': 'Connector_Generic:Conn_01x04', 'H1x6': 'Connector_Generic:Conn_01x06',
     'H2x4': 'Connector_Generic:Conn_02x04_Odd_Even', 'H2x12': 'Connector_Generic:Conn_02x12_Odd_Even',
+    'TAS': 'NeatAmp:TAS3251', 'LED': 'Device:LED', 'LEDA': 'NeatAmp:LED_1A2K',
     'AP': 'NeatAmp:AP63203WU-7', 'LDO20': 'NeatAmp:TPS7A2033PDBVR',
     'Q': 'NeatAmp:Q_PMOS_E38P100KH', 'LMQ': 'NeatAmp:LMQ66430MC3RXBRQ1', 'TPS': 'NeatAmp:TPS7A4701RGWR',
 }
