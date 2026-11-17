@@ -20,7 +20,7 @@ Source: `Netlist_Class_D_amp_2026-11-10.enet` (EasyEDA Pro, V1.2), 233 component
 3. Footprint fields point to `easyeda2kicad:<EasyEDA footprint name>`. easyeda2kicad normally names footprints the same way. Any that differ show up as missing footprints in *Update PCB from Schematic*; fix them with *Tools → Edit Symbol Fields* (filter by the `EasyEDA Footprint` column).
 4. Parts without LCSC number:
    - Test points → `TestPoint:TestPoint_Pad_D1.0mm` (KiCad standard)
-   - L7/L9/L11/L13 (XGL1712) and L8/L10/L12/L14 (MA5172-AE) → `NeatAmp_custom:*`, which needs footprints created from the Coilcraft datasheets. Per review P0-3, keep only the MA5172.
+   - L7/L9/L11/L13 (XGL1712) and L8/L10/L12/L14 (MA5172-AE) → `NeatAmp_custom:*`, which needs footprints created from the Coilcraft datasheets. Both footprints are intentional (alternative inductors to compare); only one per leg is mounted.
 
 ## Re-check after editing
 ```

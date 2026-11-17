@@ -86,9 +86,15 @@ The complete V1.2 hardware schematic is available in [Schematic.pdf](Schematic.p
 
 **Version:** 1.0/1.1 (Prototype), 1.2 (layout done, not yet produced)
 
-⚠️ **V1.0/V1.1 boards need rework before the first power-up**: remove C51,
-R17 and R18, and bodge the LEDs to IO8/IO9. V1.0 also needs UART flashing
-because of the rotated USB-C connector. Follow the
+⚠️ **V1.0/V1.1 boards need rework before the first power-up**:
+- remove C51, R17 and R18, and bodge the LEDs to IO8/IO9
+- add a 10 kΩ pull-up from ESP32 EN (TP9) to 3.3V
+
+V1.0 also needs UART flashing because of the rotated USB-C connector.
+
+On V1.0/V1.1 the reverse-polarity FET Q1 is mounted the wrong way round, so
+**check the CN1 polarity before connecting** and use a current-limited
+supply for the first power-up. Follow the
 [V1.0/V1.1 rework checklist](tas/README.md#hardware-v10v11-rework-checklist-before-first-power-up).
 
 ⚠️ This is the first public prototype release. The hardware has **not yet been validated in real-world operation**. It should be considered experimental until prototype testing is completed.

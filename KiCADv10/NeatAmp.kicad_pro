@@ -439,24 +439,24 @@
       "NeatAmp"
     ],
     [
-      "cf62527a-29c2-4792-afba-de34d3c9050d",
+      "6008f4fb-ff8e-4306-9ff9-83228c44f689",
       "Power 12V DC"
     ],
     [
-      "cc9c3ca0-addb-47ed-ab48-07b187d472d4",
-      "Power 5V DC"
-    ],
-    [
-      "7b1bab78-2d36-4193-9d57-dcedda9e616e",
-      "Power 3.3V DC"
-    ],
-    [
-      "634fb415-0ed2-42a8-bf6a-38af545d269b",
+      "76a69935-161a-4b31-bab6-197a5037526f",
       "Microcontroler"
     ],
     [
-      "ccc0d344-75d2-4157-9031-42f59b611fc9",
+      "988faa9c-4a7c-42eb-be46-0b06c4e58228",
+      "Power 5V DC"
+    ],
+    [
+      "f9225482-5a52-40bd-a9f9-5af688b65258",
       "Amplifier"
+    ],
+    [
+      "a5cd39a2-799e-4eb6-8961-d9a1d545934a",
+      "Power 3.3V DC"
     ]
   ],
   "text_variables": {},

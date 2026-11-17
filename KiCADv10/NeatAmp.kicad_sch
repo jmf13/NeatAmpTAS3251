@@ -1,12 +1,248 @@
-(kicad_sch (version 20230121) (generator eeschema)
-(uuid d3ca10b2-2648-4287-aaee-dfefad853f56)
-(paper "A4")
-(title_block (title "NeatAmp MainBoard") (company "zoomMediaPlus"))
-(lib_symbols)
-(sheet (at 25.4 38.1) (size 76.2 25.4) (fields_autoplaced) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid 6008f4fb-ff8e-4306-9ff9-83228c44f689) (property "Sheetname" "Power 12V DC" (at 25.4 37.4 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "Power_12V_DC.kicad_sch" (at 25.4 64.1 0) (effects (font (size 1.27 1.27)) (justify left top))) (instances (project "NeatAmp" (path "/d3ca10b2-2648-4287-aaee-dfefad853f56" (page "2")))))
-(sheet (at 114.3 38.1) (size 76.2 25.4) (fields_autoplaced) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid 988faa9c-4a7c-42eb-be46-0b06c4e58228) (property "Sheetname" "Power 5V DC" (at 114.3 37.4 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "Power_5V_DC.kicad_sch" (at 114.3 64.1 0) (effects (font (size 1.27 1.27)) (justify left top))) (instances (project "NeatAmp" (path "/d3ca10b2-2648-4287-aaee-dfefad853f56" (page "3")))))
-(sheet (at 203.2 38.1) (size 76.2 25.4) (fields_autoplaced) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid a5cd39a2-799e-4eb6-8961-d9a1d545934a) (property "Sheetname" "Power 3.3V DC" (at 203.2 37.4 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "Power_3_3V_DC.kicad_sch" (at 203.2 64.1 0) (effects (font (size 1.27 1.27)) (justify left top))) (instances (project "NeatAmp" (path "/d3ca10b2-2648-4287-aaee-dfefad853f56" (page "4")))))
-(sheet (at 25.4 88.9) (size 76.2 25.4) (fields_autoplaced) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid 76a69935-161a-4b31-bab6-197a5037526f) (property "Sheetname" "Microcontroler" (at 25.4 88.2 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "Microcontroler.kicad_sch" (at 25.4 114.9 0) (effects (font (size 1.27 1.27)) (justify left top))) (instances (project "NeatAmp" (path "/d3ca10b2-2648-4287-aaee-dfefad853f56" (page "5")))))
-(sheet (at 114.3 88.9) (size 76.2 25.4) (fields_autoplaced) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid f9225482-5a52-40bd-a9f9-5af688b65258) (property "Sheetname" "Amplifier" (at 114.3 88.2 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "Amplifier.kicad_sch" (at 114.3 114.9 0) (effects (font (size 1.27 1.27)) (justify left top))) (instances (project "NeatAmp" (path "/d3ca10b2-2648-4287-aaee-dfefad853f56" (page "6")))))
-(sheet_instances (path "/" (page "1")))
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d3ca10b2-2648-4287-aaee-dfefad853f56")
+	(paper "A4")
+	(title_block
+		(title "NeatAmp MainBoard")
+		(company "zoomMediaPlus")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 38.1)
+		(size 76.2 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6008f4fb-ff8e-4306-9ff9-83228c44f689")
+		(property "Sheetname" "Power 12V DC"
+			(at 25.4 37.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_12V_DC.kicad_sch"
+			(at 25.4 64.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 88.9)
+		(size 76.2 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "76a69935-161a-4b31-bab6-197a5037526f")
+		(property "Sheetname" "Microcontroler"
+			(at 25.4 88.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroler.kicad_sch"
+			(at 25.4 114.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 38.1)
+		(size 76.2 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "988faa9c-4a7c-42eb-be46-0b06c4e58228")
+		(property "Sheetname" "Power 5V DC"
+			(at 114.3 37.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_5V_DC.kicad_sch"
+			(at 114.3 64.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 38.1)
+		(size 76.2 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a5cd39a2-799e-4eb6-8961-d9a1d545934a")
+		(property "Sheetname" "Power 3.3V DC"
+			(at 203.2 37.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_3_3V_DC.kicad_sch"
+			(at 203.2 64.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 88.9)
+		(size 76.2 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f9225482-5a52-40bd-a9f9-5af688b65258")
+		(property "Sheetname" "Amplifier"
+			(at 114.3 88.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amplifier.kicad_sch"
+			(at 114.3 114.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

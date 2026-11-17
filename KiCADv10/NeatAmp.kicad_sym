@@ -535,4 +535,1106 @@
 (symbol "PWR_VBUS1_0_1" (polyline (pts (xy 0 0) (xy 0 1.27)) (stroke (width 0.254) (type default)) (fill (type none))) (polyline (pts (xy -1.27 1.27) (xy 1.27 1.27)) (stroke (width 0.254) (type default)) (fill (type none))))
 (symbol "PWR_VBUS1_1_1" (pin power_in line (at 0 0 90) (length 0) hide (name "VBUS1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))
 )
+(symbol "LMQ66430MC3RXBRQ1"
+	(pin_names
+		(offset 0.508)
+	)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "U"
+		(at -12.7 12.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "LMQ66430MC3RXBRQ1"
+		(at -12.7 -12.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Description" "LMQ66430 36V 3A synchronous buck, VQFN-14 (pin order as in Schematic.pdf)"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(symbol "LMQ66430MC3RXBRQ1_0_1"
+		(rectangle
+			(start -12.7 11.43)
+			(end 12.7 -11.43)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+	)
+	(symbol "LMQ66430MC3RXBRQ1_1_1"
+		(pin passive line
+			(at -15.24 6.35 0)
+			(length 2.54)
+			(name "EN/UVLO"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -15.24 3.81 0)
+			(length 2.54)
+			(name "NC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -15.24 1.27 0)
+			(length 2.54)
+			(name "VIN"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "3"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -15.24 -1.27 0)
+			(length 2.54)
+			(name "NC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "4"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -15.24 -3.81 0)
+			(length 2.54)
+			(name "NC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "5"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -15.24 -6.35 0)
+			(length 2.54)
+			(name "PGND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "6"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -15.24 -8.89 0)
+			(length 2.54)
+			(name "SW"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "7"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 15.24 8.89 180)
+			(length 2.54)
+			(name "GND/DAP"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "15"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 15.24 6.35 180)
+			(length 2.54)
+			(name "PG"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "14"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 15.24 3.81 180)
+			(length 2.54)
+			(name "MODE/SYNC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "13"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 15.24 1.27 180)
+			(length 2.54)
+			(name "NC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "12"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 15.24 -1.27 180)
+			(length 2.54)
+			(name "VOUT/FB"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "11"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 15.24 -3.81 180)
+			(length 2.54)
+			(name "VCC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "10"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 15.24 -6.35 180)
+			(length 2.54)
+			(name "NC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "9"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 15.24 -8.89 180)
+			(length 2.54)
+			(name "BOOT"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "8"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+)
+(symbol "TPS7A4701RGWR"
+	(pin_names
+		(offset 0.508)
+	)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "U"
+		(at -16.51 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "TPS7A4701RGWR"
+		(at -16.51 -25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "Description" "TPS7A4701 36V 1A low-noise LDO with ANY-OUT, VQFN-20"
+		(at 0 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(symbol "TPS7A4701RGWR_0_1"
+		(rectangle
+			(start -16.51 13.97)
+			(end 16.51 -24.13)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+	)
+	(symbol "TPS7A4701RGWR_1_1"
+		(pin passive line
+			(at -19.05 11.43 0)
+			(length 2.54)
+			(name "EN"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "13"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -19.05 6.35 0)
+			(length 2.54)
+			(name "IN"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "15"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -19.05 3.81 0)
+			(length 2.54)
+			(name "IN"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "16"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -19.05 -1.27 0)
+			(length 2.54)
+			(name "NR"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "14"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 19.05 11.43 180)
+			(length 2.54)
+			(name "OUT"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 19.05 8.89 180)
+			(length 2.54)
+			(name "OUT"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "20"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 19.05 3.81 180)
+			(length 2.54)
+			(name "SENSE/FB"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "3"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 19.05 -3.81 180)
+			(length 2.54)
+			(name "NC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 19.05 -6.35 180)
+			(length 2.54)
+			(name "NC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "17"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 19.05 -8.89 180)
+			(length 2.54)
+			(name "NC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "18"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 19.05 -11.43 180)
+			(length 2.54)
+			(name "NC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "19"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -11.43 -26.67 90)
+			(length 2.54)
+			(name "6P4V1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "5"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -8.89 -26.67 90)
+			(length 2.54)
+			(name "6P4V2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "4"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -6.35 -26.67 90)
+			(length 2.54)
+			(name "3P2V"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "6"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -3.81 -26.67 90)
+			(length 2.54)
+			(name "1P6V"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "8"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -1.27 -26.67 90)
+			(length 2.54)
+			(name "0P8V"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "9"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 1.27 -26.67 90)
+			(length 2.54)
+			(name "0P4V"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "10"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 3.81 -26.67 90)
+			(length 2.54)
+			(name "0P2V"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "11"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 6.35 -26.67 90)
+			(length 2.54)
+			(name "0P1V"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "12"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 8.89 -26.67 90)
+			(length 2.54)
+			(name "GND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "7"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 11.43 -26.67 90)
+			(length 2.54)
+			(name "EPAD"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "21"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+)
+(symbol "Q_PMOS_E38P100KH"
+	(pin_names
+		(offset 0)
+	)
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(in_pos_files yes)
+	(duplicate_pin_numbers_are_jumpers no)
+	(property "Reference" "Q"
+		(at 3.81 -3.81 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Q_PMOS_E38P100KH"
+		(at 3.81 -6.35 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" ""
+		(at 5.08 2.54 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "P-MOSFET E38P100KH, PDFN5x6: S = pads 1,2,3  G = pad 4  D = pads 5-8 + exposed pad 9"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "ki_keywords" "PMOS P-MOS"
+		(at 0 0 0)
+		(show_name no)
+		(do_not_autoplace no)
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(symbol "Q_PMOS_E38P100KH_0_1"
+		(polyline
+			(pts
+				(xy -1.905 0.254)
+				(xy 1.905 0.254)
+			)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy 0 0.254)
+				(xy 0 -2.54)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy -2.286 0.762)
+				(xy -1.27 0.762)
+			)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy -1.778 0.762)
+				(xy -1.778 3.302)
+				(xy 1.778 3.302)
+				(xy 1.778 0.762)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy -0.508 0.762)
+				(xy 0.508 0.762)
+			)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy 1.27 0.762)
+				(xy 2.286 0.762)
+			)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(circle
+			(center 0 1.651)
+			(radius 2.794)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy 0 2.286)
+				(xy -0.381 1.27)
+				(xy 0.381 1.27)
+				(xy 0 2.286)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type outline)
+			)
+		)
+		(polyline
+			(pts
+				(xy -2.54 2.54)
+				(xy -1.778 2.54)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(circle
+			(center -1.778 2.54)
+			(radius 0.254)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type outline)
+			)
+		)
+		(circle
+			(center 1.778 2.54)
+			(radius 0.254)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type outline)
+			)
+		)
+		(polyline
+			(pts
+				(xy 2.54 2.54)
+				(xy 0 2.54)
+				(xy 0 0.762)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy 0.381 2.921)
+				(xy 0.381 3.683)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+		(polyline
+			(pts
+				(xy 0.381 3.302)
+				(xy -0.254 2.921)
+				(xy -0.254 3.683)
+				(xy 0.381 3.302)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill
+				(type none)
+			)
+		)
+	)
+	(symbol "Q_PMOS_E38P100KH_1_1"
+		(pin passive line
+			(at -7.62 2.54 0)
+			(length 5.08)
+			(name "D"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "[5-9]"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 0 -5.08 90)
+			(length 2.54)
+			(name "G"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "4"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 7.62 2.54 180)
+			(length 5.08)
+			(name "S"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "[1-3]"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
 )
