@@ -24058,7 +24058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SSOP-56_L18.5-W7.6-P0.63-LS10.7-BL"
+		(property "Footprint" "NeatAmp_custom:TAS3251_DKQ_HSSOP-56_Heatsink_ATS-TI1OP-1099"
 			(at 203.2 142.24 0)
 			(hide yes)
 			(show_name no)
