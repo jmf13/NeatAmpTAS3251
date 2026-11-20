@@ -1641,7 +1641,7 @@
 	(footprint "easyeda2kicad:C0402"
 		(layer "F.Cu")
 		(uuid "06946b1b-a8b6-4bb1-9585-095476dab140")
-		(at 140.199999 44.447999 -90)
+		(at 137.466606 37.780037 -90)
 		(property "Reference" "C36"
 			(at -0.888999 -0.635 90)
 			(layer "F.SilkS")
@@ -5824,7 +5824,7 @@
 	(footprint "easyeda2kicad:IND-SMD_L10.2-W10.0"
 		(layer "F.Cu")
 		(uuid "14112950-e75d-434d-9d3b-1ee8670427a2")
-		(at 134.104 47.242)
+		(at 131.370607 40.574038)
 		(property "Reference" "L4"
 			(at 5.334 -3.937001 0)
 			(layer "F.SilkS")
@@ -7322,6 +7322,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7333,6 +7334,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7344,6 +7346,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7355,6 +7358,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7366,6 +7370,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7377,6 +7382,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7388,6 +7394,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11027,7 +11034,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "24db89d7-53a2-474c-9ac0-580e1b2a19d9")
-		(at 126.828754 100.504377)
+		(at 119.5 108.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP29"
@@ -16314,7 +16321,7 @@
 	(footprint "easyeda2kicad:C1206"
 		(layer "F.Cu")
 		(uuid "361db4d3-2cb4-4d93-86f7-9f4740927a57")
-		(at 135.374 40.638)
+		(at 132.640607 33.970038)
 		(property "Reference" "C29"
 			(at 2.794 1.015999 0)
 			(layer "F.SilkS")
@@ -17305,7 +17312,7 @@
 	(footprint "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
 		(layer "F.Cu")
 		(uuid "376593eb-3f71-4492-89fc-155636ce5a99")
-		(at 114.8 41.146 -90)
+		(at 112.066607 34.478038 -90)
 		(property "Reference" "C24"
 			(at 4.854 2.8 90)
 			(layer "F.SilkS")
@@ -22944,7 +22951,7 @@
 	(footprint "easyeda2kicad:C1206"
 		(layer "F.Cu")
 		(uuid "4acf5276-fc21-48ba-aa7f-85a391a57d69")
-		(at 127.210986 41.757962 90)
+		(at 124.477593 35.09 90)
 		(property "Reference" "C28"
 			(at -4.242038 -0.210986 90)
 			(layer "F.SilkS")
@@ -23634,7 +23641,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "4dd1b152-ab5c-4c30-a6ec-a2e900b13c78")
-		(at 126.865 98.169)
+		(at 124.5 111.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP28"
@@ -26998,7 +27005,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "5bee716a-d344-4e9b-b4e3-86a41ff7e38e")
-		(at 129.278 37.844)
+		(at 126.544607 31.176038)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP13"
@@ -27832,7 +27839,7 @@
 	(footprint "easyeda2kicad:R0402"
 		(layer "F.Cu")
 		(uuid "5d3484d4-b028-4a81-9d05-b4bea4992c8d")
-		(at 134.612 99.819999)
+		(at 138.43 100.5)
 		(property "Reference" "R46"
 			(at -0.889 1.778001 0)
 			(layer "F.SilkS")
@@ -29124,7 +29131,7 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "638cf70f-a109-4fd2-a293-ee89f44971d2")
-		(at 133.469 37.844 -90)
+		(at 130.735607 31.176038 -90)
 		(property "Reference" "R9"
 			(at -2.921 0.508 90)
 			(layer "F.SilkS")
@@ -33308,7 +33315,7 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "78420589-0875-4f58-a4cf-f980fc4014ae")
-		(at 130.039136 101.786823 -90)
+		(at 128.5 110.75 -90)
 		(property "Reference" "R44"
 			(at -0.696823 -0.762864 90)
 			(layer "F.SilkS")
@@ -35062,7 +35069,7 @@
 	(footprint "easyeda2kicad:C1206"
 		(layer "F.Cu")
 		(uuid "7d494cad-5609-40ba-85f7-4f09c1b80f8e")
-		(at 124.733393 41.757962 90)
+		(at 122 35.09 90)
 		(property "Reference" "C27"
 			(at -4.242038 -0.233393 90)
 			(layer "F.SilkS")
@@ -42755,7 +42762,7 @@
 	(footprint "easyeda2kicad:CONN-TH_MKDS3-2-5.08"
 		(layer "F.Cu")
 		(uuid "98133b12-a944-4e5d-9b00-5e1773b299c7")
-		(at 123.055 31.748 180)
+		(at 123.055 19 180)
 		(property "Reference" "CN5"
 			(at -7.493 5.461 0)
 			(layer "F.SilkS")
@@ -46193,7 +46200,7 @@
 	(footprint "easyeda2kicad:CAP-TH_BD18.0-P7.5-D0.8-FD"
 		(layer "F.Cu")
 		(uuid "a55c3d15-dcd2-4ad6-8a4d-6b218b06b061")
-		(at 154.297 106.17 -90)
+		(at 155 107 -90)
 		(property "Reference" "C55"
 			(at -8.382 -6.731 90)
 			(layer "F.SilkS")
@@ -46246,6 +46253,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -46257,6 +46265,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -46268,6 +46277,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -46279,6 +46289,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -46290,6 +46301,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -46301,6 +46313,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -46312,6 +46325,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -47039,6 +47053,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -47050,6 +47065,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -47061,6 +47077,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -47072,6 +47089,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -47083,6 +47101,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -47094,6 +47113,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -47105,6 +47125,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -52752,7 +52773,7 @@
 	(footprint "easyeda2kicad:C0402"
 		(layer "F.Cu")
 		(uuid "bb008cf5-5b94-481e-82b6-65a089ca688a")
-		(at 136.771 37.844 90)
+		(at 134.037607 31.176038 90)
 		(property "Reference" "C23"
 			(at 1.143 0.508 90)
 			(layer "F.SilkS")
@@ -58527,7 +58548,7 @@
 	(footprint "easyeda2kicad:C1206"
 		(layer "F.Cu")
 		(uuid "d071dd2b-ccea-4285-adad-a247be090612")
-		(at 122.255801 41.757962 90)
+		(at 119.522408 35.09 90)
 		(property "Reference" "C26"
 			(at -4.242038 -0.255801 90)
 			(layer "F.SilkS")
@@ -58872,7 +58893,7 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "d0c88b90-f76c-4fc5-97da-57faea77c04c")
-		(at 130.04 35.304 90)
+		(at 127.306607 28.636038 90)
 		(property "Reference" "R50"
 			(at 1.778 0.508 90)
 			(layer "F.SilkS")
@@ -64613,7 +64634,7 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "e273b393-f69a-4ddb-a899-529cfcc0cd86")
-		(at 127.5 102.614)
+		(at 124.25 106)
 		(property "Reference" "R45"
 			(at -1.270001 1.904999 0)
 			(layer "F.SilkS")
@@ -67894,7 +67915,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "e9a85afe-6601-4b35-b72c-fc0a3a676d23")
-		(at 113.022 29.462)
+		(at 113.022 28.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP19"
@@ -68427,7 +68448,7 @@
 	(footprint "easyeda2kicad:R0402"
 		(layer "F.Cu")
 		(uuid "ec24c245-1cc8-4b53-9250-078f2200c054")
-		(at 137.152 99.819999 180)
+		(at 140.97 100.5 180)
 		(property "Reference" "R47"
 			(at 1.064895 -1.844803 0)
 			(layer "F.SilkS")
@@ -69029,7 +69050,7 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "f043600d-1cea-481f-8911-2563ec90e562")
-		(at 135.119999 37.844 90)
+		(at 132.386606 31.176038 90)
 		(property "Reference" "R8"
 			(at 1.651 0.635001 90)
 			(layer "F.SilkS")
@@ -69330,7 +69351,7 @@
 	(footprint "easyeda2kicad:C1206"
 		(layer "F.Cu")
 		(uuid "f076fbfd-84c5-4901-a8d2-99a59812253e")
-		(at 119.778209 41.757962 90)
+		(at 117.044816 35.09 90)
 		(property "Reference" "C25"
 			(at -4.242038 -0.278209 90)
 			(layer "F.SilkS")
@@ -71925,7 +71946,7 @@
 	(footprint "easyeda2kicad:VQFN-14_L2.6-W2.6-P0.50-BL"
 		(layer "F.Cu")
 		(uuid "f50a7240-b68a-4865-b90d-a645613c94ab")
-		(at 130.651238 40.233962)
+		(at 127.917845 33.566)
 		(property "Reference" "U3"
 			(at 0.531762 -1.754962 0)
 			(layer "F.SilkS")
