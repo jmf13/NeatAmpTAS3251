@@ -18,8 +18,7 @@
 	(fp_circle (center -3.75 0.00) (end -3.55 0.00) (layer F.Fab) (width 0.40))
 	(fp_circle (center 3.75 0.00) (end 3.95 0.00) (layer F.Fab) (width 0.40))
 	(fp_circle (center 0.00 0.00) (end 9.07 0.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -9.01 0.00) (end 9.01 0.00) (layer F.CrtYd) (width 0.05))
-	(fp_line (start 9.01 0.00) (end -9.01 0.00) (layer F.CrtYd) (width 0.05))
+	(fp_circle (center 0 0) (end 9.35 0) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy 9.017000 0.000000) (xy 9.017000 -0.323113) (xy 6.858000 -5.969000) (xy 6.604000 -5.535397) (xy 6.604000 6.350000) (xy 9.144000 0.217907) (xy 9.144000 0.000000) (xy 9.017000 0.000000)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
 	(model "libs/easyeda2kicad.3dshapes/CAP-TH_BD18.0-P7.5-D0.8-FD.wrl"
 		(offset (xyz 0.000 0.000 0.000))
