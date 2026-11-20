@@ -2002,6 +2002,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "5V_SYS\n├── AP63203 -- 3.3V_DI\n└── ferrite bead → TPS7A20 → 3.3V_ANA\n(ferrite bead not fitted yet: U5 IN is fed straight from +5V, see review P2-1)"
 		(exclude_from_sim no)
@@ -3478,7 +3636,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 139.7 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3498,7 +3656,7 @@
 				)
 			)
 		)
-		(property "Value" "1711725"
+		(property "Value" "B2B-XH-A(LF)(SN)"
 			(at 138.43 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_MKDS3-2-5.08"
+		(property "Footprint" "easyeda2kicad:CONN-TH_B2B-XH-A-LF-SN"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3519,7 +3677,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/1711725/90300.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_JST-B2B-XH-A-LF-SN_C158012.html"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3530,7 +3688,7 @@
 				)
 			)
 		)
-		(property "Description" "Number of Positions or Pins:1x2P Pitch:5.08mm Color:Green Mounting Type:Through Hole Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Current Rating:24A Voltage Rating (Max):400V Wire Gauge - AWG:12~30 Operating Temperature:- Operating Temperat"
+		(property "Description" "Wire-to-board header, JST XH, 1x2P, pitch 2.5 mm, through hole (same series as U11)"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3541,7 +3699,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C89120"
+		(property "LCSC" "C158012"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3552,7 +3710,7 @@
 				)
 			)
 		)
-		(property "MPN" "1711725"
+		(property "MPN" "B2B-XH-A(LF)(SN)"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3563,7 +3721,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Phoenix Contact(菲尼克斯)"
+		(property "Manufacturer" "JST"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3585,7 +3743,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Footprint" "CONN-TH_MKDS3-2-5.08"
+		(property "EasyEDA Footprint" "CONN-TH_B2B-XH-A-LF-SN"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3596,7 +3754,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "1711725"
+		(property "EasyEDA Device" "B2B-XH-A(LF)(SN)"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
