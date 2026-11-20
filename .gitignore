@@ -124,3 +124,6 @@ eim_config.toml
 # KiCad local backups / lock files
 .history/
 *.lck
+
+# EasyEDA exports (regenerable from the EasyEDA project)
+EasyEDA-Pro/export/
