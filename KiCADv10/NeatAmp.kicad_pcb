@@ -467,7 +467,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 4 270)
+			(at 4.838888 4.533012 270)
 			(layer "F.Fab")
 			(uuid "39dc2c80-ed7d-49f6-a484-82d465a97f48")
 			(effects
@@ -4029,7 +4029,7 @@
 	(footprint "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-RD"
 		(layer "F.Cu")
 		(uuid "0d560b6b-63f0-4ffb-a99d-6297746e5665")
-		(at 141.978 60.45 90)
+		(at 109.5 61.05 90)
 		(property "Reference" "C40"
 			(at -3.429 -3.556 90)
 			(layer "F.SilkS")
@@ -5249,7 +5249,7 @@
 	(footprint "easyeda2kicad:VQFN-14_L2.6-W2.6-P0.50-BL"
 		(layer "F.Cu")
 		(uuid "1141c526-85e8-4972-af6d-6c049f3cee25")
-		(at 114.100313 117.612776)
+		(at 113.567301 122.451664)
 		(property "Reference" "U1"
 			(at 0.445687 -1.790776 0)
 			(layer "F.SilkS")
@@ -11004,7 +11004,7 @@
 	(footprint "easyeda2kicad:C0402"
 		(layer "F.Cu")
 		(uuid "22cbc7b8-19fa-4dc0-b16a-799e714180d9")
-		(at 120.895999 123.569 90)
+		(at 120.5 125.08 90)
 		(property "Reference" "C15"
 			(at -2.94894 0.254001 90)
 			(layer "F.SilkS")
@@ -14274,9 +14274,9 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "2f2979c6-14b3-4897-9ff5-7c82d5cf6631")
-		(at 131.437 116.584 90)
+		(at 99.54 92.548 90)
 		(property "Reference" "R41"
-			(at -0.762 2.158999 90)
+			(at -2.952 -0.04 90)
 			(layer "F.SilkS")
 			(uuid "f930bad3-7660-4455-9c11-fca3b60e806c")
 			(effects
@@ -18005,9 +18005,9 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "387e78cd-77eb-4d1d-9503-e24f77e9837f")
-		(at 126.357 116.584 90)
+		(at 94.46 92.548 90)
 		(property "Reference" "R38"
-			(at -0.889 -0.889001 90)
+			(at -2.952 0.04 90)
 			(layer "F.SilkS")
 			(uuid "9a1e11a6-e613-4c83-9d2a-c9d964a2c136")
 			(effects
@@ -18306,7 +18306,7 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "397aa195-66c3-4312-9946-3bb0077ac01f")
-		(at 118.483 114.932999 90)
+		(at 117.949988 119.771887 90)
 		(property "Reference" "R3"
 			(at 1.866899 -0.5969 0)
 			(layer "F.SilkS")
@@ -22175,7 +22175,7 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "4371c781-f131-42c2-b453-6772032ea745")
-		(at 116.815929 114.917912 -90)
+		(at 116.282917 119.7568 -90)
 		(property "Reference" "R6"
 			(at -1.765452 0.56559 0)
 			(layer "F.SilkS")
@@ -23624,7 +23624,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 0 4 90)
+			(at -4.838888 3.466988 90)
 			(layer "F.Fab")
 			(uuid "b178d7f9-b95c-4b3b-87d9-92bc6509a614")
 			(effects
@@ -25778,7 +25778,7 @@
 	(footprint "easyeda2kicad:TSOT-26_L2.9-W1.6-P0.95-LS2.8-BL"
 		(layer "F.Cu")
 		(uuid "56d41f4e-9053-4226-8688-5c5add9b51c6")
-		(at 121.657999 59.688 -90)
+		(at 91.424999 63.897 -90)
 		(property "Reference" "U4"
 			(at -1.651001 0.762 0)
 			(layer "F.SilkS")
@@ -25791,7 +25791,7 @@
 			)
 		)
 		(property "Value" "AP63203WU-7"
-			(at 0 5.2 270)
+			(at -2.397 6.424999 180)
 			(layer "F.Fab")
 			(uuid "91a201c9-293c-4e90-b885-5eae2eecc82e")
 			(effects
@@ -26179,7 +26179,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "5815efc1-f728-47d6-9162-c69e6f792c72")
-		(at 135.628 55.497)
+		(at 104 59.706)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
@@ -27508,7 +27508,7 @@
 	(footprint "easyeda2kicad:R1206"
 		(layer "F.Cu")
 		(uuid "5c1b18cc-af76-4b27-a636-3a431f299b68")
-		(at 133.214999 65.911 90)
+		(at 138.5 62.48 90)
 		(property "Reference" "R49"
 			(at -2.38732 -1.282293 90)
 			(layer "F.SilkS")
@@ -27809,9 +27809,9 @@
 	(footprint "easyeda2kicad:C1210"
 		(layer "F.Cu")
 		(uuid "5c9ec9a9-c06d-46ad-8c36-f12a8e9b0d99")
-		(at 120.233796 63.386176)
+		(at 90.000796 67.595176)
 		(property "Reference" "C38"
-			(at -2.631376 0.353797 90)
+			(at -0.000796 2.904824 0)
 			(layer "F.SilkS")
 			(uuid "49e4c931-a482-4a1c-a2d4-e9a634504a1d")
 			(effects
@@ -31735,9 +31735,9 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "6dd22eac-a4f8-47de-b9c2-641ee7b0451a")
-		(at 128.77 116.584 90)
+		(at 96.873 92.548 90)
 		(property "Reference" "R37"
-			(at -3.682999 0.635 90)
+			(at -2.952 0.127 90)
 			(layer "F.SilkS")
 			(uuid "57a237d7-57f1-41b8-961c-76b171936f75")
 			(effects
@@ -35147,6 +35147,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -35158,6 +35159,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -35169,6 +35171,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -35180,6 +35183,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -35191,6 +35195,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -35202,6 +35207,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -35213,6 +35219,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -36026,7 +36033,7 @@
 	(footprint "easyeda2kicad:IND-SMD_L6.7-W6.5"
 		(layer "F.Cu")
 		(uuid "7cbf32b9-a87b-401f-844d-be9a7c02c944")
-		(at 116.324 122.934 180)
+		(at 115.790988 127.772888 180)
 		(property "Reference" "L2"
 			(at 4.826001 -2.666999 0)
 			(layer "F.SilkS")
@@ -40609,7 +40616,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 4 180)
+			(at 30.233 -0.209 180)
 			(layer "F.Fab")
 			(uuid "f161e5c8-4a8c-4791-bce3-d947c326bd87")
 			(effects
@@ -41037,9 +41044,9 @@
 	(footprint "easyeda2kicad:LED0603-FD"
 		(layer "F.Cu")
 		(uuid "8dcf7686-041a-47f6-8ddd-755a02d52685")
-		(at 136.136 98.042 180)
+		(at 146.65 129.5 180)
 		(property "Reference" "LED2"
-			(at -1.778 -0.508 0)
+			(at 0.15 1.5 0)
 			(layer "F.SilkS")
 			(uuid "774c262c-7961-45a1-acaa-a8793484c59d")
 			(effects
@@ -41400,9 +41407,9 @@
 	(footprint "easyeda2kicad:C1210"
 		(layer "F.Cu")
 		(uuid "8eeca6b4-6f1b-4e56-9466-16cab70cbd23")
-		(at 125.857153 63.398724 180)
+		(at 95.624153 67.607724 180)
 		(property "Reference" "C39"
-			(at -2.912847 -1.623276 0)
+			(at 0.124153 -2.892276 0)
 			(layer "F.SilkS")
 			(uuid "7116b10b-a4d9-401c-832b-3c3c5223971f")
 			(effects
@@ -42391,7 +42398,7 @@
 	(footprint "easyeda2kicad:C1206"
 		(layer "F.Cu")
 		(uuid "920a2427-4d3c-489e-84a9-45e54930d8d5")
-		(at 118.623012 117.661112)
+		(at 118.09 122.5)
 		(property "Reference" "C8"
 			(at 2.653987 1.208888 0)
 			(layer "F.SilkS")
@@ -43037,9 +43044,9 @@
 	(footprint "easyeda2kicad:HDR-TH_4P-P2.54-V-M"
 		(layer "F.Cu")
 		(uuid "94ff92e1-6e4f-4575-a42e-006200795322")
-		(at 128.389 69.848)
+		(at 106.5 89.19 -90)
 		(property "Reference" "H3"
-			(at -5.207001 -1.524 0)
+			(at -5.207001 -1.524 90)
 			(layer "F.SilkS")
 			(uuid "bcdec345-fad1-427a-aca6-1f82347e35b1")
 			(effects
@@ -43050,7 +43057,7 @@
 			)
 		)
 		(property "Value" "PH2.54-1X4P-H25"
-			(at 0 4 0)
+			(at 0 4 90)
 			(layer "F.Fab")
 			(uuid "c243c8fa-8a92-49ed-af65-6c26d886fdd3")
 			(effects
@@ -43061,7 +43068,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/PH2.54-1X4P-H25/44458938.html"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afeb3a67-59c0-4c2f-9fdc-ee80c315c83f")
@@ -43072,7 +43079,7 @@
 			)
 		)
 		(property "Description" "Pin Structure:1x4P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:4P Current Rating:3A Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connec"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1bcf5c9e-a592-470b-b9aa-2960f9366a66")
@@ -43083,7 +43090,7 @@
 			)
 		)
 		(property "LCSC Part" "C42431808"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e080cd5d-5bc3-477f-a3e8-6e8437089f91")
@@ -43095,7 +43102,7 @@
 			)
 		)
 		(property "LCSC" "C42431808"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -43108,7 +43115,7 @@
 			)
 		)
 		(property "MPN" "PH2.54-1X4P-H25"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -43121,7 +43128,7 @@
 			)
 		)
 		(property "Manufacturer" "JXTCONN(聚兴泰)"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -43134,7 +43141,7 @@
 			)
 		)
 		(property "JLC Class" "Extended Part"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -43147,7 +43154,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "HDR-TH_4P-P2.54-V-M"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -43160,7 +43167,7 @@
 			)
 		)
 		(property "EasyEDA Device" "PH2.54-1X4P-H25"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -43185,16 +43192,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -5.08 -1.27)
-			(end -2.52 -1.27)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3f43d4f2-c7cf-4041-b2eb-38ceaa93f59c")
-		)
-		(fp_line
 			(start -5.08 1.27)
 			(end -5.08 -1.27)
 			(stroke
@@ -43203,6 +43200,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f9ba7d55-9a51-4e60-afec-af666d59b3fe")
+		)
+		(fp_line
+			(start 5.08 1.27)
+			(end -5.08 1.27)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "14abaf55-5a74-4fac-8f8d-18fc5523bb77")
+		)
+		(fp_line
+			(start -5.08 -1.27)
+			(end -2.52 -1.27)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f43d4f2-c7cf-4041-b2eb-38ceaa93f59c")
 		)
 		(fp_line
 			(start -2.52 -1.27)
@@ -43234,16 +43251,6 @@
 			(layer "F.SilkS")
 			(uuid "8bab1873-5e0a-4f5e-b53a-14d4609e25d1")
 		)
-		(fp_line
-			(start 5.08 1.27)
-			(end -5.08 1.27)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "14abaf55-5a74-4fac-8f8d-18fc5523bb77")
-		)
 		(fp_circle
 			(center -5.08 1.25)
 			(end -5.05 1.25)
@@ -43256,16 +43263,6 @@
 			(uuid "82857fb4-4612-4975-9597-3d99a4da3881")
 		)
 		(fp_line
-			(start -5.08 -1.25)
-			(end 5.08 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "eaf5c488-d7c1-49b1-ad2b-e363df7529a3")
-		)
-		(fp_line
 			(start -5.08 1.25)
 			(end -5.08 -1.25)
 			(stroke
@@ -43274,16 +43271,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "20647df9-45e1-4ae9-b8c6-829692a974a6")
-		)
-		(fp_line
-			(start 5.08 -1.25)
-			(end 5.08 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6211a17f-535a-4673-9aa5-78aa900544b2")
 		)
 		(fp_line
 			(start 5.08 1.25)
@@ -43295,8 +43282,28 @@
 			(layer "F.CrtYd")
 			(uuid "1a4043d3-5486-477d-9eb7-c3ca4f8b405a")
 		)
+		(fp_line
+			(start -5.08 -1.25)
+			(end 5.08 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eaf5c488-d7c1-49b1-ad2b-e363df7529a3")
+		)
+		(fp_line
+			(start 5.08 -1.25)
+			(end 5.08 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6211a17f-535a-4673-9aa5-78aa900544b2")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "286131be-7f58-4e60-9fc6-a5bdec70fba1")
 			(effects
@@ -43307,7 +43314,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at -3.81 0)
+			(at -3.81 0 270)
 			(size 1.7 1.7)
 			(drill 1.100024)
 			(layers "*.Cu" "*.Mask")
@@ -43318,7 +43325,7 @@
 			(uuid "67299e0a-5f7c-4363-b175-0d4cb4187968")
 		)
 		(pad "2" thru_hole circle
-			(at -1.27 0)
+			(at -1.27 0 270)
 			(size 1.7 1.7)
 			(drill 1.100024)
 			(layers "*.Cu" "*.Mask")
@@ -43329,7 +43336,7 @@
 			(uuid "60e88591-afd5-484b-b0da-44932ce016b7")
 		)
 		(pad "3" thru_hole circle
-			(at 1.27 0)
+			(at 1.27 0 270)
 			(size 1.7 1.7)
 			(drill 1.100024)
 			(layers "*.Cu" "*.Mask")
@@ -43340,7 +43347,7 @@
 			(uuid "e1c4b55e-6ffd-4322-9b0d-684d5b610a43")
 		)
 		(pad "4" thru_hole circle
-			(at 3.81 0)
+			(at 3.81 0 270)
 			(size 1.7 1.7)
 			(drill 1.100024)
 			(layers "*.Cu" "*.Mask")
@@ -43366,7 +43373,7 @@
 	(footprint "easyeda2kicad:C0402"
 		(layer "F.Cu")
 		(uuid "9515c6b1-3a59-40d6-8d84-f1a80851b121")
-		(at 123.562999 57.529)
+		(at 93.329999 61.738)
 		(property "Reference" "C37"
 			(at -0.95001 -0.702844 0)
 			(layer "F.SilkS")
@@ -47077,7 +47084,7 @@
 	(footprint "easyeda2kicad:HDR-TH_8P-P2.54-V-M-R2-C4-S2.54"
 		(layer "F.Cu")
 		(uuid "a48293b3-112f-4515-b429-bca1971971fb")
-		(at 127.627 112.266)
+		(at 95.73 88.23)
 		(property "Reference" "U13"
 			(at 5.461 2.666999 0)
 			(layer "F.SilkS")
@@ -47336,7 +47343,7 @@
 			(uuid "ac3a5b09-dab1-463d-ac9b-46a034c233cb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at -3.73 -3.23 0)
 			(layer "F.Fab")
 			(uuid "0dd9f0f1-5157-41e9-ad9d-aea6e83fe6a2")
 			(effects
@@ -53145,10 +53152,10 @@
 	(footprint "easyeda2kicad:LED-SMD_L1.6-W0.8-R-RD"
 		(layer "F.Cu")
 		(uuid "b9da3bbe-9f89-4958-8fc5-fcb013db4a92")
-		(at 132.072 98.042 180)
+		(at 141.25 129.5 180)
 		(descr "0603")
 		(property "Reference" "LED1"
-			(at 1.143 -2.032 0)
+			(at -0.25 1.5 0)
 			(layer "F.SilkS")
 			(uuid "4e0f125e-7f37-4ded-91ac-af0dcfb0c657")
 			(effects
@@ -54463,9 +54470,9 @@
 	(footprint "easyeda2kicad:IND-SMD_L7.1-W6.6"
 		(layer "F.Cu")
 		(uuid "c28d880b-8c01-485e-bb51-ab8fab0ffb90")
-		(at 128.643 58.291)
+		(at 98.41 62.5)
 		(property "Reference" "L5"
-			(at -3.302 -3.429 0)
+			(at -2.41 -4 0)
 			(layer "F.SilkS")
 			(uuid "069166c9-6118-43ad-bf11-78dfdd438434")
 			(effects
@@ -55378,9 +55385,9 @@
 	(footprint "easyeda2kicad:C0402"
 		(layer "F.Cu")
 		(uuid "c47b7031-5928-46b6-b5c7-7339aabbf6ef")
-		(at 118.991 59.179999 90)
+		(at 88.758 63.388999 90)
 		(property "Reference" "C41"
-			(at -0.889001 -0.635 90)
+			(at -0.111001 -1.758 90)
 			(layer "F.SilkS")
 			(uuid "3c088e42-9bc2-493c-bdb2-66d710d98639")
 			(effects
@@ -60785,7 +60792,7 @@
 	(footprint "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-RD"
 		(layer "F.Cu")
 		(uuid "d8afcc94-4b6c-4142-a7cd-19482d3d9000")
-		(at 148.836 43.559 90)
+		(at 148.836 42.05 90)
 		(property "Reference" "C105"
 			(at -4.18498 -3.579368 90)
 			(layer "F.SilkS")
@@ -63023,9 +63030,9 @@
 	(footprint "easyeda2kicad:C0402"
 		(layer "F.Cu")
 		(uuid "de2dbed9-4b15-4bfb-8619-b86588b39ea8")
-		(at 120.007 114.932999 90)
+		(at 119.5 119.58 90)
 		(property "Reference" "C1"
-			(at 1.015999 -0.508 0)
+			(at 1.58 0 0)
 			(layer "F.SilkS")
 			(uuid "195e1130-789d-4ce2-8c6b-198595ff8969")
 			(effects
@@ -63036,7 +63043,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 4 90)
+			(at 24.036 -27.897 90)
 			(layer "F.Fab")
 			(uuid "40015bde-d9ff-49ce-9ac7-f09baf77eb80")
 			(effects
@@ -64697,7 +64704,7 @@
 	(footprint "easyeda2kicad:R0603"
 		(layer "F.Cu")
 		(uuid "e4847bb2-c25e-4bcf-87c9-c09baa98813a")
-		(at 113.403 114.298 90)
+		(at 112.869988 119.136888 90)
 		(property "Reference" "R1"
 			(at 1.651001 0.635 90)
 			(layer "F.SilkS")
