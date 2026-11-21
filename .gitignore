@@ -22,6 +22,7 @@
 *~
 ~*
 _autosave-*
+_restore_backup_*/
 \#auto_saved_files\#
 *.tmp
 *-save.pro
