@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "a5cd39a2-799e-4eb6-8961-d9a1d545934a")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "Power 3.3V DC")
 		(rev "V1.2")
@@ -2163,7 +2163,7 @@
 	)
 	(text "5V_SYS\n├── AP63203 -- 3.3V_DI\n└── ferrite bead → TPS7A20 → 3.3V_ANA\n(ferrite bead not fitted yet: U5 IN is fed straight from +5V, see review P2-1)"
 		(exclude_from_sim no)
-		(at 20.32 205.74 0)
+		(at 30.734 146.558 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2174,7 +2174,7 @@
 	)
 	(text "U5 returns to AGND (C42, C43, U5 GND)"
 		(exclude_from_sim no)
-		(at 96.52 109.22 0)
+		(at 231.14 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2185,7 +2185,7 @@
 	)
 	(text "3.3 V ANALOG  (TPS7A2033 LDO)  ->  +3.3VA = TAS3251 DAC_AVDD"
 		(exclude_from_sim no)
-		(at 30.48 81.28 0)
+		(at 165.1 35.56 0)
 		(effects
 			(font
 				(size 1.8 1.8)
@@ -2208,7 +2208,7 @@
 		(uuid "9523ad49-ec1d-49f9-9cc3-b698a699e2d4")
 	)
 	(junction
-		(at 107.95 91.44)
+		(at 242.57 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0301c42f-bd62-41c7-891a-8eb7a5b5e11e")
@@ -2218,6 +2218,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "047bb336-58c9-4c52-b30d-674da2dd239d")
+	)
+	(junction
+		(at 254 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c04bbde-9d80-4a51-b684-43fc35cffaab")
 	)
 	(junction
 		(at 73.66 66.04)
@@ -2230,6 +2236,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ec40bdb-2331-49f5-b346-31275f8bff8a")
+	)
+	(junction
+		(at 187.96 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35eb8ef9-cc8e-4083-a7d7-e8ae509108fe")
 	)
 	(junction
 		(at 99.06 66.04)
@@ -2250,13 +2262,13 @@
 		(uuid "45f41d29-5485-458e-b5d8-5771914c3d31")
 	)
 	(junction
-		(at 66.04 106.68)
+		(at 200.66 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46db86aa-4f07-4275-8e1e-87ee7e888281")
 	)
 	(junction
-		(at 53.34 91.44)
+		(at 187.96 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c06cd36-34e0-4591-8954-e55a1787bc4e")
@@ -2268,13 +2280,13 @@
 		(uuid "5da9d18e-cdb5-406d-9c27-a65a5547220b")
 	)
 	(junction
-		(at 101.6 91.44)
+		(at 236.22 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f0faf00-d41a-436c-8fe4-dd1da6affdad")
 	)
 	(junction
-		(at 83.82 104.14)
+		(at 218.44 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97101d2e-b1bd-48a0-8c99-65638532ac01")
@@ -2334,7 +2346,7 @@
 		(uuid "f62186da-4f5f-47c5-b547-bd3a475ea6a3")
 	)
 	(no_connect
-		(at 92.71 96.52)
+		(at 227.33 50.8)
 		(uuid "bb48f054-adb3-4bf4-84d5-9e09f3a2c81c")
 	)
 	(wire
@@ -2359,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 66.04 106.68)
+			(xy 207.01 60.96) (xy 200.66 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2389,7 +2401,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 96.52) (xy 72.39 96.52)
+			(xy 209.55 50.8) (xy 207.01 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2409,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 106.68) (xy 45.72 106.68)
+			(xy 200.66 60.96) (xy 180.34 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2459,7 +2471,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 91.44) (xy 101.6 91.44)
+			(xy 227.33 45.72) (xy 236.22 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2479,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 91.44) (xy 119.38 91.44)
+			(xy 242.57 45.72) (xy 254 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 91.44) (xy 74.93 91.44)
+			(xy 187.96 45.72) (xy 209.55 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2549,7 +2561,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 91.44) (xy 53.34 91.44)
+			(xy 182.88 45.72) (xy 187.96 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2669,7 +2681,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 96.52) (xy 72.39 106.68)
+			(xy 207.01 50.8) (xy 207.01 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2679,7 +2691,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 101.6) (xy 83.82 104.14)
+			(xy 218.44 55.88) (xy 218.44 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2689,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 104.14) (xy 88.9 104.14)
+			(xy 218.44 58.42) (xy 223.52 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2719,7 +2731,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 91.44) (xy 107.95 91.44)
+			(xy 236.22 45.72) (xy 242.57 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2799,7 +2811,7 @@
 	)
 	(global_label "ENABLE_3.3V"
 		(shape input)
-		(at 45.72 106.68 180)
+		(at 180.34 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2809,7 +2821,7 @@
 		)
 		(uuid "9e69bb7a-35cd-47d8-96b8-fbe69705bb4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 106.68 0)
+			(at 180.34 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,7 +3427,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 119.38 91.44 180)
+		(at 254 45.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3425,7 +3437,7 @@
 		(dnp no)
 		(uuid "24a52dcc-093a-4d1b-9251-99741b342876")
 		(property "Reference" "#FLG08"
-			(at 119.38 91.44 0)
+			(at 254 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3436,7 +3448,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 119.38 95.758 0)
+			(at 254 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3446,7 +3458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 91.44 0)
+			(at 254 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3457,7 +3469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 91.44 0)
+			(at 254 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3468,7 +3480,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 91.44 0)
+			(at 254 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3782,7 +3794,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 107.95 91.44 0)
+		(at 242.57 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3792,7 +3804,7 @@
 		(dnp no)
 		(uuid "382e31f4-9338-44e1-b718-2e443b3b3c35")
 		(property "Reference" "TP7"
-			(at 109.22 86.36 0)
+			(at 243.84 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3803,7 +3815,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 107.95 91.44 0)
+			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +3826,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 107.95 91.44 0)
+			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3825,7 +3837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 91.44 0)
+			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +3848,7 @@
 			)
 		)
 		(property "Description" "Test Point 测试点"
-			(at 107.95 91.44 0)
+			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3847,7 +3859,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 107.95 91.44 0)
+			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3858,7 +3870,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 107.95 91.44 0)
+			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3869,7 +3881,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 107.95 91.44 0)
+			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3880,7 +3892,7 @@
 			)
 		)
 		(property "JLC Class" ""
-			(at 107.95 91.44 0)
+			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3891,7 +3903,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "TESTPOINT-SMD_1P-BD1.0"
-			(at 107.95 91.44 0)
+			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3902,7 +3914,7 @@
 			)
 		)
 		(property "EasyEDA Device" "Test-Point"
-			(at 107.95 91.44 0)
+			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3926,7 +3938,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 101.6 95.25 0)
+		(at 236.22 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3936,7 +3948,7 @@
 		(dnp no)
 		(uuid "3a99cd68-4f51-42ce-9029-39c891c84c0e")
 		(property "Reference" "C43"
-			(at 104.14 93.98 0)
+			(at 238.76 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3947,7 +3959,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 104.14 96.52 0)
+			(at 238.76 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3958,7 +3970,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 101.6 95.25 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3969,7 +3981,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
-			(at 101.6 95.25 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3980,7 +3992,7 @@
 			)
 		)
 		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 101.6 95.25 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3991,7 +4003,7 @@
 			)
 		)
 		(property "LCSC" "C5199872"
-			(at 101.6 95.25 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4002,7 +4014,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KB8NQNC"
-			(at 101.6 95.25 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4013,7 +4025,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 101.6 95.25 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,7 +4036,7 @@
 			)
 		)
 		(property "JLC Class" "Extended Part"
-			(at 101.6 95.25 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +4047,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "C0603"
-			(at 101.6 95.25 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +4058,7 @@
 			)
 		)
 		(property "EasyEDA Device" "CL10B105KB8NQNC"
-			(at 101.6 95.25 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,7 +4085,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 95.25 0)
+		(at 187.96 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4083,7 +4095,7 @@
 		(dnp no)
 		(uuid "4fe798b7-0f4c-4b69-902b-e28a75d23a04")
 		(property "Reference" "C42"
-			(at 55.88 93.98 0)
+			(at 190.5 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4094,7 +4106,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 55.88 96.52 0)
+			(at 190.5 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4105,7 +4117,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 53.34 95.25 0)
+			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,7 +4128,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
-			(at 53.34 95.25 0)
+			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +4139,7 @@
 			)
 		)
 		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 53.34 95.25 0)
+			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4138,7 +4150,7 @@
 			)
 		)
 		(property "LCSC" "C5199872"
-			(at 53.34 95.25 0)
+			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4149,7 +4161,7 @@
 			)
 		)
 		(property "MPN" "CL10B105KB8NQNC"
-			(at 53.34 95.25 0)
+			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4160,7 +4172,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 53.34 95.25 0)
+			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4171,7 +4183,7 @@
 			)
 		)
 		(property "JLC Class" "Extended Part"
-			(at 53.34 95.25 0)
+			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4182,7 +4194,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "C0603"
-			(at 53.34 95.25 0)
+			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4193,7 +4205,7 @@
 			)
 		)
 		(property "EasyEDA Device" "CL10B105KB8NQNC"
-			(at 53.34 95.25 0)
+			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,7 +4531,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_+3.3VA")
-		(at 119.38 91.44 0)
+		(at 254 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4529,7 +4541,7 @@
 		(dnp no)
 		(uuid "93d3f3c6-4176-42e0-b0fa-cd1c3e8a6549")
 		(property "Reference" "#PWR0116"
-			(at 119.38 91.44 0)
+			(at 254 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4552,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 119.38 87.884 0)
+			(at 254 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4550,7 +4562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 91.44 0)
+			(at 254 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,7 +4573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 91.44 0)
+			(at 254 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4572,7 +4584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 91.44 0)
+			(at 254 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5033,7 +5045,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_AGND")
-		(at 83.82 104.14 0)
+		(at 218.44 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5043,7 +5055,7 @@
 		(dnp no)
 		(uuid "9ecc4808-9803-4395-95fb-1e40413686f9")
 		(property "Reference" "#PWR0114"
-			(at 83.82 104.14 0)
+			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5054,7 +5066,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 83.82 107.95 0)
+			(at 218.44 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5064,7 +5076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 104.14 0)
+			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5075,7 +5087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 104.14 0)
+			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5086,7 +5098,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 104.14 0)
+			(at 218.44 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5185,7 +5197,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 102.87 180)
+		(at 200.66 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5195,7 +5207,7 @@
 		(dnp no)
 		(uuid "b21b5a68-2d99-479f-a6a4-a9213d2327a2")
 		(property "Reference" "R10"
-			(at 63.5 101.6 0)
+			(at 198.12 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5206,7 +5218,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 63.5 104.14 0)
+			(at 198.12 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5217,7 +5229,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
-			(at 66.04 102.87 0)
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5228,7 +5240,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
-			(at 66.04 102.87 0)
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5239,7 +5251,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
-			(at 66.04 102.87 0)
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5250,7 +5262,7 @@
 			)
 		)
 		(property "LCSC" "C269699"
-			(at 66.04 102.87 0)
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5261,7 +5273,7 @@
 			)
 		)
 		(property "MPN" "RMC0603100K1%N"
-			(at 66.04 102.87 0)
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5272,7 +5284,7 @@
 			)
 		)
 		(property "Manufacturer" "Tyohm(幸亚电阻)"
-			(at 66.04 102.87 0)
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5283,7 +5295,7 @@
 			)
 		)
 		(property "JLC Class" "Extended Part"
-			(at 66.04 102.87 0)
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5294,7 +5306,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "R0603"
-			(at 66.04 102.87 0)
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5305,7 +5317,7 @@
 			)
 		)
 		(property "EasyEDA Device" "RMC0603100K1%N"
-			(at 66.04 102.87 0)
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5332,7 +5344,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 53.34 99.06 90)
+		(at 187.96 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5342,7 +5354,7 @@
 		(dnp no)
 		(uuid "b4ccd86f-c9b9-42f5-8cb4-fc8d4274034d")
 		(property "Reference" "#FLG09"
-			(at 53.34 99.06 0)
+			(at 187.96 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5365,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 50.292 99.06 90)
+			(at 184.912 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5364,7 +5376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 99.06 0)
+			(at 187.96 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,7 +5387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 99.06 0)
+			(at 187.96 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5398,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 99.06 0)
+			(at 187.96 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5410,7 +5422,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_AGND")
-		(at 101.6 99.06 0)
+		(at 236.22 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5420,7 +5432,7 @@
 		(dnp no)
 		(uuid "ba63eb5a-c9bf-45a1-aa6c-c95eaac02e87")
 		(property "Reference" "#PWR0115"
-			(at 101.6 99.06 0)
+			(at 236.22 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5431,7 +5443,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 101.6 102.87 0)
+			(at 236.22 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5441,7 +5453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 99.06 0)
+			(at 236.22 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5452,7 +5464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 99.06 0)
+			(at 236.22 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5463,7 +5475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 99.06 0)
+			(at 236.22 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5486,7 +5498,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_AGND")
-		(at 53.34 99.06 0)
+		(at 187.96 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5496,7 +5508,7 @@
 		(dnp no)
 		(uuid "c790391d-af06-4586-a3fa-d4859ccfb5b7")
 		(property "Reference" "#PWR0112"
-			(at 53.34 99.06 0)
+			(at 187.96 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5507,7 +5519,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 53.34 102.87 0)
+			(at 187.96 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5517,7 +5529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 99.06 0)
+			(at 187.96 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5528,7 +5540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 99.06 0)
+			(at 187.96 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5539,7 +5551,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 99.06 0)
+			(at 187.96 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5639,7 +5651,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 88.9 104.14 0)
+		(at 223.52 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5649,7 +5661,7 @@
 		(dnp no)
 		(uuid "dd97640e-b632-4f6b-b4c7-8e035e60dab1")
 		(property "Reference" "TP8"
-			(at 90.17 99.06 0)
+			(at 224.79 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5660,7 +5672,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 88.9 104.14 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5671,7 +5683,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 88.9 104.14 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5682,7 +5694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 104.14 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5693,7 +5705,7 @@
 			)
 		)
 		(property "Description" "Test Point 测试点"
-			(at 88.9 104.14 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5704,7 +5716,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 88.9 104.14 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,7 +5727,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 88.9 104.14 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5726,7 +5738,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 88.9 104.14 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5737,7 +5749,7 @@
 			)
 		)
 		(property "JLC Class" ""
-			(at 88.9 104.14 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5748,7 +5760,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "TESTPOINT-SMD_1P-BD1.0"
-			(at 88.9 104.14 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5759,7 +5771,7 @@
 			)
 		)
 		(property "EasyEDA Device" "Test-Point"
-			(at 88.9 104.14 0)
+			(at 223.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5783,7 +5795,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_+5V")
-		(at 48.26 91.44 0)
+		(at 182.88 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5793,7 +5805,7 @@
 		(dnp no)
 		(uuid "dfa6e2dd-e3b3-4882-954d-b76979dc3e38")
 		(property "Reference" "#PWR0111"
-			(at 48.26 91.44 0)
+			(at 182.88 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5804,7 +5816,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 48.26 87.884 0)
+			(at 182.88 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5814,7 +5826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 91.44 0)
+			(at 182.88 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5825,7 +5837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 91.44 0)
+			(at 182.88 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5836,7 +5848,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 91.44 0)
+			(at 182.88 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5859,7 +5871,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:TPS7A2033PDBVR")
-		(at 83.82 93.98 0)
+		(at 218.44 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5869,7 +5881,7 @@
 		(dnp no)
 		(uuid "e257d849-6e44-41c5-810f-7fbd7cccee19")
 		(property "Reference" "U5"
-			(at 77.47 86.36 0)
+			(at 212.09 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5880,7 +5892,7 @@
 			)
 		)
 		(property "Value" "TPS7A2033PDBVR"
-			(at 82.55 86.36 0)
+			(at 217.17 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5891,7 +5903,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR"
-			(at 83.82 93.98 0)
+			(at 218.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5902,7 +5914,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/cn/lit/gpn/tps7a20"
-			(at 83.82 93.98 0)
+			(at 218.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5913,7 +5925,7 @@
 			)
 		)
 		(property "Description" "Output Type:Fixed Maximum Input Voltage:6V Output Voltage:3.3V Output Voltage:3.3V Output Current:300mA Dropout Voltage:140mV@(300mA) standby current:15uA Feature:防静电保护；Soft Start；浪涌保护；低ESR；Thermal Protection(TSD)；欠压闭锁；Overcurrent Protection(OCP)；带使能；防倒灌"
-			(at 83.82 93.98 0)
+			(at 218.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5924,7 +5936,7 @@
 			)
 		)
 		(property "LCSC" "C2862740"
-			(at 83.82 93.98 0)
+			(at 218.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5935,7 +5947,7 @@
 			)
 		)
 		(property "MPN" "TPS7A2033PDBVR"
-			(at 83.82 93.98 0)
+			(at 218.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5946,7 +5958,7 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
-			(at 83.82 93.98 0)
+			(at 218.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5957,7 +5969,7 @@
 			)
 		)
 		(property "JLC Class" "Extended Part"
-			(at 83.82 93.98 0)
+			(at 218.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5968,7 +5980,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR"
-			(at 83.82 93.98 0)
+			(at 218.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5979,7 +5991,7 @@
 			)
 		)
 		(property "EasyEDA Device" "TPS7A2033PDBVR"
-			(at 83.82 93.98 0)
+			(at 218.44 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6015,7 +6027,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_3.3V")
-		(at 66.04 99.06 0)
+		(at 200.66 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6025,7 +6037,7 @@
 		(dnp no)
 		(uuid "f06ad5d1-15c9-436d-8e79-c1010891dee1")
 		(property "Reference" "#PWR0113"
-			(at 66.04 99.06 0)
+			(at 200.66 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6036,7 +6048,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 66.04 95.504 0)
+			(at 200.66 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6046,7 +6058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 99.06 0)
+			(at 200.66 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6057,7 +6069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 99.06 0)
+			(at 200.66 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6068,7 +6080,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 99.06 0)
+			(at 200.66 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
