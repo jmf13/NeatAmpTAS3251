@@ -39,6 +39,22 @@
 #define TAS_PIN_ENABLE_3V3_ANALOG GPIO_NUM_40
 ///@}
 
+/*
+ * TODO(HW V1.3, hw_review P0-7): PVDD sense on IO8 = ADC1_CH7.
+ *   Divider: R53 100k (PVDD) / R54 6.8k (GND) + C70 100nF at the pin.
+ *   V_pin = PVDD * 6.8 / 106.8  ->  36 V = 2.29 V, 30 V = 1.91 V, 40 V = 2.55 V.
+ *   Source impedance about 6.4 kOhm, tau about 0.64 ms.
+ *   Not enabled yet: on the V1.2 map below, IO8 is still TAS_PIN_STATUS_LED_SDI.
+ *   Add this line together with the V1.3 pin-map update from hw_review P0-2
+ *   (LED_DATA -> IO46, LED_CLK -> IO3):
+ *     #define TAS_PIN_PVDD_SENSE GPIO_NUM_8   // ADC1_CHANNEL_7, input only
+ *   Reworked V1.0/V1.1 (tas/README "pop-free rework" step P2): the same
+ *   divider is built off-board on U7 pin 3, i.e. GPIO_NUM_4 (ADC1_CHANNEL_3).
+ *   Make the pin a board-revision option (Kconfig) instead of a fixed value.
+ *   Use ADC1 only (ADC2 isn't available while Wi-Fi is on).
+ *   See PowerSupplies for the monitor and shutdown logic still to be written.
+ */
+
 /** @name Optional ADAU1466 DSP control lines (connector U10) */
 ///@{
 #define TAS_PIN_DSP_RESET GPIO_NUM_47

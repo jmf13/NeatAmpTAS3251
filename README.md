@@ -92,6 +92,13 @@ The complete V1.2 hardware schematic is available in [Schematic.pdf](Schematic.p
 
 V1.0 also needs UART flashing because of the rotated USB-C connector.
 
+Optional for boards used in firmware development: the
+[pop-free rework](tas/README.md#optional-pop-free-rework-v13-equivalent).
+It changes RESET_AMP and ENABLE_12V to default off and adds a PVDD sense
+divider on IO4. It can also swap F1 for a time-lag fuse. These are the V1.3
+fixes from review P0-7 / P0-4. Without it the board works, but clicks at
+switch-on and thumps at switch-off, so mute before switching the mains off.
+
 On V1.0/V1.1 the reverse-polarity FET Q1 is mounted the wrong way round, so
 **check the CN1 polarity before connecting** and use a current-limited
 supply for the first power-up. Follow the
@@ -210,7 +217,7 @@ with the ADAU1466 when fitted.
 |--------|--------------|-------------|-------|
 | SDA | GPIO IO0 | SDA (54) | 6.8kΩ pull-up (R21) to 3.3V |
 | SCL | GPIO IO45 | SCL (53) | 6.8kΩ pull-up (R22) to 3.3V |
-| RESET_AMP | GPIO out IO42 | /RESET_AMP (27) | Active low; 10kΩ pull-up to 3.3V (default: not in reset) |
+| RESET_AMP | GPIO out IO42 | /RESET_AMP (27) | Active low; R45 10kΩ. V1.0–V1.2: pull-up to 3.3V (default: not in reset). V1.3: pull-down to GND (default: in reset) |
 | DAC_MUTE | GPIO out IO1 | DAC_MUTE (45) | Active low; 10kΩ pull-down to GND (default: muted at boot) |
 | /FAULT | GPIO in + IRQ IO41 | /FAULT (28) | Open-drain; 10kΩ pull-up; falling-edge interrupt |
 | /CLIP_OTW | GPIO in + IRQ IO2 | /CLIP_OTW (29) | Open-drain; 10kΩ pull-up; falling-edge interrupt |

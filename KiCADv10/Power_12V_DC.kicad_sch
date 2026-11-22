@@ -3513,12 +3513,6 @@
 		(uuid "27607080-c4f3-4323-b326-18f1baf55811")
 	)
 	(junction
-		(at 172.72 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28240f51-420e-42cf-993e-dc4e4786d4be")
-	)
-	(junction
 		(at 63.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3667,6 +3661,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95b602f9-c81a-4e6f-9361-944119a5666d")
+	)
+	(junction
+		(at 172.72 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c50782-d074-4d93-b244-96fed32907af")
 	)
 	(junction
 		(at 264.16 151.13)
@@ -4080,6 +4080,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 138.43) (xy 191.77 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da0e225-f83f-4c91-82dc-98ce0d0c504d")
+	)
+	(wire
+		(pts
 			(xy 90.17 50.8) (xy 95.25 50.8)
 		)
 		(stroke
@@ -4470,6 +4480,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 138.43) (xy 172.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75546db0-d80c-4750-807d-d587e6dc1d38")
+	)
+	(wire
+		(pts
 			(xy 274.32 138.43) (xy 284.48 138.43)
 		)
 		(stroke
@@ -4630,16 +4650,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 138.43) (xy 172.72 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9971906c-0bdd-4b4c-b10c-863a20ffada8")
-	)
-	(wire
-		(pts
 			(xy 172.72 50.8) (xy 172.72 58.42)
 		)
 		(stroke
@@ -4780,7 +4790,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 138.43) (xy 191.77 138.43)
+			(xy 162.56 138.43) (xy 172.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5561,7 +5571,7 @@
 				)
 			)
 		)
-		(property "Value" "0451005.MRL"
+		(property "Value" "0452005.MRL"
 			(at 35.56 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5582,7 +5592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0451005.MRL/49474.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C66503.pdf"
 			(at 35.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5593,7 +5603,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Surface Mount Fuse Current Rating:5A Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃ Interrupt Rating:50A"
+		(property "Description" "Type:Surface Mount Fuse, NANO2 Slo-Blo (time-lag) Current Rating:5A Melting I2t:53.7A2s Voltage Rating (AC):125V Voltage Rating (DC):125V Operating Temperature:-55℃~+125℃ Interrupt Rating:50A"
 			(at 35.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5604,7 +5614,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C48467"
+		(property "LCSC" "C66503"
 			(at 35.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5615,7 +5625,7 @@
 				)
 			)
 		)
-		(property "MPN" "0451005.MRL"
+		(property "MPN" "0452005.MRL"
 			(at 35.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5659,7 +5669,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "0451005.MRL"
+		(property "EasyEDA Device" "0452005.MRL"
 			(at 35.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8943,82 +8953,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NeatAmp:PWR_3.3V")
-		(at 172.72 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64584fa4-381c-4bf4-a68c-3b3201695c59")
-		(property "Reference" "#PWR0014"
-			(at 172.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 172.72 127.254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "169307a0-c2cf-47e4-b7ec-db68320ba3f7")
-		)
-		(instances
-			(project "NeatAmp"
-				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/6008f4fb-ff8e-4306-9ff9-83228c44f689"
-					(reference "#PWR0014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 162.56 62.23 180)
 		(unit 1)
@@ -10265,6 +10199,153 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 172.72 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87a37202-7408-4eed-a2ee-6b136ccdceef")
+		(property "Reference" "R7"
+			(at 175.26 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 175.26 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 172.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+			(at 172.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+			(at 172.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC" "C269699"
+			(at 172.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "RMC0603100K1%N"
+			(at 172.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Tyohm(幸亚电阻)"
+			(at 172.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 172.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "R0603"
+			(at 172.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Device" "RMC0603100K1%N"
+			(at 172.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95709561-2021-4ad1-afc0-b3c3625758d6")
+		)
+		(pin "2"
+			(uuid "86c3a7e1-498f-4875-9c93-a50050892c7e")
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/6008f4fb-ff8e-4306-9ff9-83228c44f689"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 238.76 138.43 0)
 		(unit 1)
@@ -10403,6 +10484,82 @@
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/6008f4fb-ff8e-4306-9ff9-83228c44f689"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NeatAmp:PWR_GND")
+		(at 172.72 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "908501b0-5b1b-4a03-9a61-c5ee2c73ad1d")
+		(property "Reference" "#PWR014"
+			(at 172.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0b92fa4-06e4-4f65-8cb3-f73a075a5ac7")
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/6008f4fb-ff8e-4306-9ff9-83228c44f689"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11623,153 +11780,6 @@
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/6008f4fb-ff8e-4306-9ff9-83228c44f689"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.72 134.62 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b5aa6c8c-846f-4371-b8c7-fdbe60c645db")
-		(property "Reference" "R7"
-			(at 175.26 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100kΩ"
-			(at 175.26 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 172.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
-			(at 172.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
-			(at 172.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC" "C269699"
-			(at 172.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "RMC0603100K1%N"
-			(at 172.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
-			(at 172.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLC Class" "Extended Part"
-			(at 172.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "EasyEDA Footprint" "R0603"
-			(at 172.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
-			(at 172.72 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8208c35d-7c6a-4adc-a1d1-96d0468222a2")
-		)
-		(pin "2"
-			(uuid "2c28234c-db49-4238-b09f-91449107fa08")
-		)
-		(instances
-			(project "NeatAmp"
-				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/6008f4fb-ff8e-4306-9ff9-83228c44f689"
-					(reference "R7")
 					(unit 1)
 				)
 			)
