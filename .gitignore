@@ -48,8 +48,6 @@ fp-info-cache
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
 
-# Kicad 3D model files
-*/libs/easyeda2kicad.3dshapes/*
 
 # Local project settings
 *.kicad_prl
