@@ -119,23 +119,98 @@ while keeping thermal dissipation manageable across all operating conditions.
 | Rail | Voltage | Chip | Purpose |
 |------|---------|------|---------|
 | PVDD | 36V | External PSU | TAS3251 output stage (H-bridges) |
-| 13.2V | Buck | LMQ66410 | Intermediate rail for GVDD chain |
+| 13.2V | Buck | LMQ66430 (U1) | Intermediate rail for GVDD chain |
 | 12V GVDD | LDO | TPS7A4701 | TAS3251 gate drive (GVDD_A, GVDD_B, VDD) |
-| 5V | Buck | LMQ66430 | System 5V bus, USB-C OR node |
+| 5V | Buck | LMQ66430 (U3) | System 5V bus, USB-C OR node |
 | 3.3V digital | Buck | AP63203 | ESP32-S3, STM32, ADAU1466, TAS DAC_DVDD |
 | 3.3V analog | LDO | TPS7A2033 | TAS3251 DAC_AVDD only |
 
-### 12V GVDD Chain — LMQ66410 → TPS7A4701
+### External PVDD Supply — Mean Well UHP-500-36
+
+The recommended PVDD supply is the **Mean Well UHP-500-36**
+(datasheet: [Datasheets/UHP-500-spec.pdf](Datasheets/UHP-500-spec.pdf)).
+
+| Parameter | UHP-500-36 | Relevance to this board |
+|-----------|------------|-------------------------|
+| Output | 36 V / 13.9 A, 500 W | TAS3251 at full power (2 × 175 W into 4 Ω) draws about 400 W. Music averages far less. |
+| Voltage trim | 34.2–37.8 V | TAS3251 PVDD: recommended max 38 V, absolute max 50 V |
+| Over-voltage protection | 39.6–46.8 V | Trips below the TAS3251 absolute max of 50 V |
+| Overload | 110–140 %, hiccup mode | Short peaks are fine, and the 3 × 2200 µF PVDD bulk caps cover bass transients |
+| Start-up / rise time | 1000 ms / 50 ms | Charging 6600 µF to 36 V in 50 ms takes about 4.75 A (≈ 1.1 A²s). That's well below the ~12 A²s derated limit of F1 (0452005.MRL slow-blow) |
+| Ripple and noise | 360 mVpp, PFC 60 kHz / PWM 65–75 kHz | Above the audio band; the bulk caps and the TAS3251's 60 dB PSRR handle it |
+| Cooling | Fanless, cooled through its case | Silent |
+| Other | Active PFC, 94 % efficiency, EMC Class B, optional DC-OK relay | |
+
+Installation notes:
+
+1. **Trim the output to about 35 V** with the SVR potentiometer. The
+   LMQ66430 bucks (U1, U3) are 36 V-input parts, so running exactly at
+   36 V (±1 %) leaves them no margin. 35 V costs about 0.25 dB of maximum
+   output.
+2. **Mount it flat on the metal chassis floor**, with thermal grease if the
+   surface isn't smooth. Mean Well specifies the full rating on a
+   450 × 450 × 3 mm aluminium plate (or a cabinet of the same size). Without
+   one it is derated. At normal listening levels this hardly matters.
+3. **F1 limits continuous power, not the PSU.** A 5 A fuse at 36 V allows
+   about 180 W continuous. That's fine for music, but a full-power sine test
+   will blow it. Use a bench supply or a temporary higher-rated fuse for such
+   tests, or fit a 7–8 A slow-blow if sustained full power is needed.
+4. **DC-OK relay (optional).** Versions with the DC-OK connector (CN1, JST
+   PH 2-pin, 30 V / 1 A contact) open the contact when the output drops.
+   Wired to an ESP32 GPIO with a pull-up, it would let the firmware mute and
+   reset the amp before PVDD collapses at mains switch-off, which removes the
+   switch-off thump. Check that the version you order has the connector.
+5. **Still to verify on the bench:** the datasheet gives no maximum
+   capacitive load. Confirm with a scope at mains switch-on that the PSU
+   starts cleanly into about 6600 µF plus the buck input caps (see
+   [hw_review_2026-11-06.md](hw_review_2026-11-06.md), P0-4).
+
+### Buck Converters U1 / U3 — LMQ66430MC3RXBRQ1
+
+Both bucks use the same part (datasheet: [Datasheets/lmq66430.pdf](Datasheets/lmq66430.pdf)).
+Decoding the part number with the datasheet's nomenclature (Figure 9-1):
+
+| Code | Meaning |
+|------|---------|
+| Q | Internal VIN bypass caps (pins 4/5 = cap midpoint, left floating) and internal 100 nF BOOT cap (pin 8 left open) |
+| 3 | 3 A |
+| M | MODE/SYNC on pin 13 (this variant has no RT pin) |
+| C | **2.2 MHz fixed** switching frequency |
+| 3 | 3.3 V fixed output. Used here as **adjustable**: the FB divider is detected at start-up |
+| RXB, Q1 | VQFN-14 (2.6 × 2.6 mm), automotive grade |
+
+- **Clocking:** a fixed 2.2 MHz (with dual random spread spectrum), so there is
+  no RT resistor. MODE/SYNC (pin 13) is tied to the 3.3V rail to select
+  **FPWM**: constant frequency at light load, no PFM bursts in the audio band.
+  The datasheet revision in the repo no longer documents the MODE/SYNC
+  levels, so confirm FPWM on the bench (review P0-5): the SW node should be a
+  continuous ~2.2 MHz square wave at idle.
+- **Minimum on-time:** at 35 V in, U3 (→ 5 V) needs about 65 ns per cycle,
+  which is at the device's minimum on-time. It then stretches its period to
+  about 1.8–2.0 MHz and keeps regulating. U1 (→ 13.2 V) is not affected.
+- **Feedback** (V_FB = 1.0 V, V_OUT = 1 V × (1 + R_FBT / R_FBB)). The divider
+  must satisfy 5 kΩ < R_FBT ∥ R_FBB ≤ 10 kΩ so the start-up detection picks
+  adjustable mode:
+
+| Buck | Output | R_FBT | R_FBB | R_FBT ∥ R_FBB | C_FF | L |
+|------|--------|-------|-------|---------------|------|---|
+| U1 | 13.2 V | R3 100 kΩ | R6 8.2 kΩ | 7.6 kΩ | C1: **DNP** (10 nF on V1.0–V1.2, remove) | L2 10 µH |
+| U3 | 5.02 V | R8 49.9 kΩ | R9 12.4 kΩ | 9.9 kΩ | C23: 10 pF C0G | L4 4.7 µH |
+
+TI's Table 8-1 lists no feed-forward cap at 2.2 MHz. The upper limit is
+C_FF < C_OUT × √V_OUT / 1.2 MΩ, which is about 180 pF for U1 and 110 pF for U3.
+
+### 12V GVDD Chain — LMQ66430 (U1) → TPS7A4701
 
 The gate drive supply uses a two-stage approach: a switching regulator handles the large
 36V→13.2V step efficiently, followed by a low-noise LDO for the final 13.2V→12V drop. ESP32 senses GOOD_13.2V on IO39 and once stable, it triggers 12V analog power via IO38.
 
 ```
-PVDD (36V) → LMQ66410 (buck, 1.25MHz) → 13.2V → TPS7A4701 (LDO) → 12V GVDD
+PVDD (35V) → LMQ66430 U1 (buck, 2.2MHz FPWM) → 13.2V → TPS7A4701 (LDO) → 12V GVDD
 ```
 
-- **LMQ66410**: 36V input, 1.25MHz switching frequency (RT = 39.2kΩ), feedback
-  R_FBT = 49.9kΩ / R_FBB = 4.12kΩ
+- **LMQ66430 (U1)**: 2.2 MHz fixed, feedback R3 = 100 kΩ / R6 = 8.2 kΩ → 13.2 V
+  (see the buck section above)
 - **TPS7A4701**: 1A LDO, 4µVrms noise, 82dB PSRR @ 100Hz, output set via ANY-OUT
   pin programming to 12.0V (pins 0P2V + 0P8V + 3P2V + 6P4V1 → GND)
 - A ferrite bead (BLM31PG121SN1L) is placed between the 13.2V rail and TPS7A4701
@@ -146,13 +221,13 @@ PVDD (36V) → LMQ66410 (buck, 1.25MHz) → 13.2V → TPS7A4701 (LDO) → 12V GV
 > total dissipation under 0.8W while achieving better noise performance than a
 > single-stage buck alone.
 
-### 5V Rail — LMQ66430
+### 5V Rail — LMQ66430 (U3)
 
 ```
-PVDD (36V) → LMQ66430 (buck, 1.25MHz) → 5V
+PVDD (35V) → LMQ66430 U3 (buck, 2.2MHz FPWM) → 5V
 ```
 
-- Feedback: R_FBT = 49.9kΩ / R_FBB = 24.9kΩ
+- Feedback: R8 = 49.9 kΩ / R9 = 12.4 kΩ → 5.02 V (TI's recommended values for 5 V), C23 = 10 pF
 - Feeds the 5V OR node (see USB-C section)
 - Sources the 3.3V digital buck and 3.3V analog LDO
 

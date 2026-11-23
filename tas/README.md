@@ -552,8 +552,9 @@ before the first power-up (details in
 | 6 | **Q1 reverse-polarity FET is mounted the wrong way round** (source to input, drain to PVDD; review P0-6, fixed in the KiCad redraw) | Correct polarity works normally. A **reversed** supply is not blocked: Q1's body diode and D2 conduct and F1 must blow | **Procedure**: step 12a. Not reworkable on V1.0/V1.1 |
 | 7 | **RESET_AMP and ENABLE_12V default to "on"** (R45 10 kΩ and R7 100 kΩ pull **up** to 3.3 V; review P0-7, fixed in V1.3) | For the ~0.3 s while the ESP32 boots, GVDD turns on and the power stage leaves reset with no configuration. Then the firmware resets it again. You hear a click or two at switch-on | Optional rework: step P1 |
 | 8 | **No PVDD sense** (review P0-7, added in V1.3 on IO8) | At mains-off the firmware can't see PVDD falling, so the amp runs until GVDD collapses. You hear a thump at switch-off | Optional rework: step P2 (PVDD sense on IO4). Without it, use the soft-off procedure (step P4) |
+| 9 | **C1 = 10 nF feed-forward cap on U1** (13.2 V buck), about 50× over the LMQ66430 limit of ~180 pF (review P0-5, DNP from V1.3) | U1 may not set up for the 13.2 V divider at start-up (wrong GOOD_13.2V rail voltage), or its control loop may be unstable or oscillate | **Rework**: step A7 |
 
-The board works at the correct input voltage once items 2 and 3 are reworked
+The board works at the correct input voltage once items 2, 3 and 9 are reworked
 and item 4 checks out. Items 1, 5 and 6 are handled by procedure, not
 rework. Items 7 and 8 only affect switch-on and switch-off noise, not
 function. Do the optional [pop-free rework](#optional-pop-free-rework-v13-equivalent)
@@ -589,6 +590,12 @@ do sections A and B, then flash over USB-C instead of section C.
    to the nearest 3.3V pad, for example C48's neighbourhood or any 3.3V test
    point. With the existing C48 1 µF this gives the RC reset delay Espressif
    recommends. Check: TP9 measures ~10 kΩ to 3.3V and does not beep to GND.
+7. **Remove C1** (10 nF, 0402), the feed-forward cap across R3 (100 kΩ)
+   between U1 pin 11 (VOUT/FB) and +13.2V. Leave the pads empty. TI
+   specifies no feed-forward cap at 2.2 MHz. Leave **C23** (10 pF on U3, the
+   5 V buck) in place. Check: R3's two pads measure ~100 kΩ, not a short.
+   After the first 36 V power-up (section D), TP2 (+13.2V) should read
+   **13.2 V ±2 %**.
 
 #### Optional: SW2 on IO10 (V1.2 equivalent)
 

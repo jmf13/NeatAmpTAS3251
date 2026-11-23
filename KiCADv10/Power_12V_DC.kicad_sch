@@ -12760,7 +12760,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dd3fc83a-c585-4fdd-be65-146ac61ec3a7")
 		(property "Reference" "C1"
 			(at 312.42 48.26 0)
