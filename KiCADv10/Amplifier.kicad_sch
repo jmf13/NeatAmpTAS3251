@@ -7911,6 +7911,86 @@
 		)
 		(uuid "e434eca1-b355-4610-8928-34ebc949f680")
 	)
+	(label "DAC_OUTA+"
+		(at 168.91 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6755aba6-c285-421a-a23b-bcd7c971483d")
+	)
+	(label "DAC_OUTA-"
+		(at 168.91 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36fe9a6a-2d9b-4c7b-ab2d-64fada7bcf86")
+	)
+	(label "DAC_OUTB+"
+		(at 168.91 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e531df8b-666f-4d73-bfe4-011b144c20c4")
+	)
+	(label "DAC_OUTB-"
+		(at 168.91 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "955a1f11-ec3c-4261-b52f-e81ebfd00ee8")
+	)
+	(label "DAC_FILTA+"
+		(at 161.29 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64b1d151-ac1b-49fb-95df-4bd0b15a931e")
+	)
+	(label "DAC_FILTA-"
+		(at 161.29 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "552bd6ec-5ab3-44b0-a44a-a6862b5e1497")
+	)
+	(label "DAC_FILTB+"
+		(at 161.29 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b5a8a2f-976f-4447-9b28-c849101f779d")
+	)
+	(label "DAC_FILTB-"
+		(at 161.29 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "067829cb-67b8-4db8-9651-3e0e60d2e98b")
+	)
 	(global_label "LRCK"
 		(shape passive)
 		(at 250.19 125.73 0)
