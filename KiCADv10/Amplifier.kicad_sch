@@ -4360,6 +4360,12 @@
 		(uuid "1cea831d-1386-4cfb-9b48-95390082e238")
 	)
 	(junction
+		(at 243.84 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d2feadc-5923-4da7-ba6f-8102ba65d36a")
+	)
+	(junction
 		(at 78.74 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4420,6 +4426,12 @@
 		(uuid "291cc150-0448-4fe1-aa3e-0423f32efbc1")
 	)
 	(junction
+		(at 228.6 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "333a94df-8e01-4527-bb5e-17dd884af41c")
+	)
+	(junction
 		(at 323.85 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4430,6 +4442,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "354fa0d0-8660-466f-8935-c3058fe95cf1")
+	)
+	(junction
+		(at 233.68 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "380e0a05-e603-46c9-9b84-6c2efedd5a61")
 	)
 	(junction
 		(at 104.14 248.92)
@@ -4636,7 +4654,7 @@
 		(uuid "9d1f146b-b262-4315-98c9-4d091b4dbbd1")
 	)
 	(junction
-		(at 243.84 30.48)
+		(at 233.68 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1e14aff-97d4-46d5-b607-1ab230da45d6")
@@ -5115,7 +5133,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 30.48) (xy 254 30.48)
+			(xy 233.68 86.36) (xy 243.84 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5282,6 +5300,16 @@
 			(type default)
 		)
 		(uuid "29c7b0e0-bfca-4f41-9897-d27c4a59640e")
+	)
+	(wire
+		(pts
+			(xy 224.79 95.25) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1c3357-0cb2-4572-b394-e1807e092214")
 	)
 	(wire
 		(pts
@@ -5855,7 +5883,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 30.48) (xy 243.84 30.48)
+			(xy 228.6 86.36) (xy 233.68 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5882,6 +5910,16 @@
 			(type default)
 		)
 		(uuid "5946fecc-41b4-4551-9514-d35466078307")
+	)
+	(wire
+		(pts
+			(xy 228.6 86.36) (xy 228.6 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf3db43-c280-4326-9110-c3831b800fcd")
 	)
 	(wire
 		(pts
@@ -5952,6 +5990,16 @@
 			(type default)
 		)
 		(uuid "655faee4-0988-4d19-87ab-28da277ed225")
+	)
+	(wire
+		(pts
+			(xy 233.68 93.98) (xy 243.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656c2feb-ba7f-4f49-8c7b-1b2186aa95f9")
 	)
 	(wire
 		(pts
@@ -6532,6 +6580,16 @@
 			(type default)
 		)
 		(uuid "96fb0404-f683-4b6c-a686-e0d79842410a")
+	)
+	(wire
+		(pts
+			(xy 233.68 93.98) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9832ac3e-5afb-4f16-baf9-db9498fc7a21")
 	)
 	(wire
 		(pts
@@ -7162,16 +7220,6 @@
 			(type default)
 		)
 		(uuid "d09c456e-9e11-4984-8441-2adfb0bff520")
-	)
-	(wire
-		(pts
-			(xy 228.6 91.44) (xy 228.6 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ee33ef-2f8f-4ad8-9d04-886db64deca3")
 	)
 	(wire
 		(pts
@@ -14093,82 +14141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NeatAmp:PWR_AGND")
-		(at 243.84 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "41e1e72c-1b16-46f7-aaf1-ed8c3e8dd751")
-		(property "Reference" "#PWR0216"
-			(at 243.84 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 243.84 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23aba6a0-ca5b-405f-b972-32bc945dc0b6")
-		)
-		(instances
-			(project "NeatAmp"
-				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
-					(reference "#PWR0216")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NeatAmp:PWR_GND")
 		(at 181.61 140.97 270)
 		(unit 1)
@@ -17724,84 +17696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NeatAmp:PWR_AGND")
-		(at 224.79 95.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80c4e982-54eb-49e4-a27f-ad72ab4a0c8b")
-		(property "Reference" "#PWR0202"
-			(at 224.79 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 224.79 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "900ed2ca-4367-45ef-b6c9-80c0a8296fa8")
-		)
-		(instances
-			(project "NeatAmp"
-				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
-					(reference "#PWR0202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 60.96 232.41 180)
 		(unit 1)
@@ -17943,82 +17837,6 @@
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
 					(reference "C92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NeatAmp:PWR_+3.3VA")
-		(at 228.6 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81abd17f-d866-4e36-959d-a855479e1b01")
-		(property "Reference" "#PWR0201"
-			(at 228.6 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 228.6 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e58e2e02-6d01-4c88-93be-7212ac3fc5b8")
-		)
-		(instances
-			(project "NeatAmp"
-				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
-					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -22076,7 +21894,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 276.86 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22087,7 +21905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "easyeda2kicad:C0603"
 			(at 274.32 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -22098,7 +21916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
 			(at 274.32 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -22109,7 +21927,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:1uF Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 274.32 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -22120,7 +21938,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C5199872"
 			(at 274.32 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -22131,7 +21949,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL10B105KB8NQNC"
 			(at 274.32 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -22153,7 +21971,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 274.32 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -22164,7 +21982,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Footprint" "C0402"
+		(property "EasyEDA Footprint" "C0603"
 			(at 274.32 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -22175,7 +21993,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
 			(at 274.32 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -22279,7 +22097,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_+3.3VA")
-		(at 238.76 30.48 0)
+		(at 228.6 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22289,7 +22107,7 @@
 		(dnp no)
 		(uuid "b8d9181a-4cf3-4356-850e-8c7777c623f3")
 		(property "Reference" "#PWR0215"
-			(at 238.76 30.48 0)
+			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22300,7 +22118,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 238.76 26.924 0)
+			(at 228.6 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22310,7 +22128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 30.48 0)
+			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22321,7 +22139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 30.48 0)
+			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22332,7 +22150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 30.48 0)
+			(at 228.6 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27252,7 +27070,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 243.84 34.29 180)
+		(at 233.68 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27262,7 +27080,7 @@
 		(dnp no)
 		(uuid "ebf87691-d3bd-424e-8362-8d78f1e11c5d")
 		(property "Reference" "C61"
-			(at 246.38 33.02 0)
+			(at 236.22 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27272,8 +27090,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 246.38 35.56 0)
+		(property "Value" "1uF"
+			(at 236.22 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27283,8 +27101,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
-			(at 243.84 34.29 0)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27294,8 +27112,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
-			(at 243.84 34.29 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
+			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27305,8 +27123,8 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
-			(at 243.84 34.29 0)
+		(property "Description" "Capacitance:1uF Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27316,8 +27134,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 243.84 34.29 0)
+		(property "LCSC" "C5199872"
+			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27327,8 +27145,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
-			(at 243.84 34.29 0)
+		(property "MPN" "CL10B105KB8NQNC"
+			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27339,7 +27157,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 243.84 34.29 0)
+			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27349,8 +27167,8 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
-			(at 243.84 34.29 0)
+		(property "JLC Class" "Extended Part"
+			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27360,8 +27178,8 @@
 				)
 			)
 		)
-		(property "EasyEDA Footprint" "C0402"
-			(at 243.84 34.29 0)
+		(property "EasyEDA Footprint" "C0603"
+			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27371,8 +27189,8 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
-			(at 243.84 34.29 0)
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
+			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27553,7 +27371,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 254 34.29 0)
+		(at 243.84 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27563,7 +27381,7 @@
 		(dnp no)
 		(uuid "f07ec6e8-5d59-4890-8a2c-54aa7e02d4f6")
 		(property "Reference" "C62"
-			(at 256.54 33.02 0)
+			(at 246.38 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27574,7 +27392,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 256.54 35.56 0)
+			(at 246.38 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27585,7 +27403,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C1210"
-			(at 254 34.29 0)
+			(at 243.84 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27596,7 +27414,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL32B106KBJNNNE/150006.html"
-			(at 254 34.29 0)
+			(at 243.84 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27607,7 +27425,7 @@
 			)
 		)
 		(property "Description" "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 254 34.29 0)
+			(at 243.84 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27618,7 +27436,7 @@
 			)
 		)
 		(property "LCSC" "C138687"
-			(at 254 34.29 0)
+			(at 243.84 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27629,7 +27447,7 @@
 			)
 		)
 		(property "MPN" "CL32B106KBJNNNE"
-			(at 254 34.29 0)
+			(at 243.84 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27640,7 +27458,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 254 34.29 0)
+			(at 243.84 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27651,7 +27469,7 @@
 			)
 		)
 		(property "JLC Class" "Extended Part"
-			(at 254 34.29 0)
+			(at 243.84 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27662,7 +27480,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "C1210"
-			(at 254 34.29 0)
+			(at 243.84 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27673,7 +27491,7 @@
 			)
 		)
 		(property "EasyEDA Device" "CL32B106KBJNNNE"
-			(at 254 34.29 0)
+			(at 243.84 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28144,7 +27962,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_AGND")
-		(at 254 38.1 0)
+		(at 243.84 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28154,7 +27972,7 @@
 		(dnp no)
 		(uuid "f3fc0e8d-4bc9-4416-8a06-cde688282f6a")
 		(property "Reference" "#PWR0217"
-			(at 254 38.1 0)
+			(at 243.84 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28165,7 +27983,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 254 41.91 0)
+			(at 243.84 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28175,7 +27993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 38.1 0)
+			(at 243.84 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28186,7 +28004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 38.1 0)
+			(at 243.84 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28197,7 +28015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 38.1 0)
+			(at 243.84 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

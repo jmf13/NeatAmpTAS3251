@@ -553,9 +553,10 @@ before the first power-up (details in
 | 7 | **RESET_AMP and ENABLE_12V default to "on"** (R45 10 kΩ and R7 100 kΩ pull **up** to 3.3 V; review P0-7, fixed in V1.3) | For the ~0.3 s while the ESP32 boots, GVDD turns on and the power stage leaves reset with no configuration. Then the firmware resets it again. You hear a click or two at switch-on | Optional rework: step P1 |
 | 8 | **No PVDD sense** (review P0-7, added in V1.3 on IO8) | At mains-off the firmware can't see PVDD falling, so the amp runs until GVDD collapses. You hear a thump at switch-off | Optional rework: step P2 (PVDD sense on IO4). Without it, use the soft-off procedure (step P4) |
 | 9 | **C1 = 10 nF feed-forward cap on U1** (13.2 V buck), about 50× over the LMQ66430 limit of ~180 pF (review P0-5, DNP from V1.3) | U1 may not set up for the 13.2 V divider at start-up (wrong GOOD_13.2V rail voltage), or its control loop may be unstable or oscillate | **Rework**: step A7 |
+| 10 | **No 1 µF ceramic at the TAS3251 PVDD pins 35/40** (nearest PVDD caps are 13–20 mm away; TAS3251 datasheet §8.3.1.2; fixed in V1.3 with C108/C109 on the bottom) | Output ringing at high PVDD and high power can exceed the SPK_OUT absolute maximum (50 V incl. peaks) and damage U12 | Bring-up at reduced PVDD and low volume is fine. **Before 35 V / high power**: rework step A8 |
 
 The board works at the correct input voltage once items 2, 3 and 9 are reworked
-and item 4 checks out. Items 1, 5 and 6 are handled by procedure, not
+and item 4 checks out. Do item 10 before running at full PVDD and high power. Items 1, 5 and 6 are handled by procedure, not
 rework. Items 7 and 8 only affect switch-on and switch-off noise, not
 function. Do the optional [pop-free rework](#optional-pop-free-rework-v13-equivalent)
 if the board is used for firmware development, so the power sequencing code
@@ -596,6 +597,28 @@ do sections A and B, then flash over USB-C instead of section C.
    5 V buck) in place. Check: R3's two pads measure ~100 kΩ, not a short.
    After the first 36 V power-up (section D), TP2 (+13.2V) should read
    **13.2 V ±2 %**.
+8. **Add a 1 µF PVDD bypass cap at each TAS3251 PVDD pin** (pin 40 =
+   PVDD_A, pin 35 = PVDD_B). TI requires a 1 µF ceramic as close to each
+   PVDD pin as possible (datasheet §8.1.4.1.1 and §8.3.1.2). V1.3 has them as
+   C108/C109 on the bottom.
+   - **Part:** 1 µF, **X7R, ≥ 50 V** (100 V preferred: it keeps more of its
+     capacitance at 35 V). For example Samsung CL31B105KCHNNNE (1206,
+     LCSC C13832), the same as V1.3's C108/C109. A radial through-hole
+     1 µF 100 V X7R ceramic (2.5 mm lead pitch) also works if it's easier
+     to mount.
+   - **Where:** from the PVDD copper (trace or via) **nearest to pin 40**,
+     and again nearest to pin 35, to the closest GND copper (GND pins 37/38/42
+     area, a GND via or GND pour). Scrape the solder mask a few mm from the
+     pin if needed. Keep the loop as short as possible (total lead length
+     well under 10 mm). A 1206 on the bottom side, across a PVDD via and a
+     GND via, is ideal if the V1.0 layout has vias there.
+   - **Never solder onto the pin row itself.** The neighbouring pins are
+     SPK_OUT outputs (pins 34/36/39/41) switching 35 V at 0.635 mm pitch. A
+     bridge there destroys the output stage.
+   - **Check:** no short between PVDD and GND (> 1 kΩ, rising as the bulk
+     caps charge from the meter), and no continuity from the new cap to any
+     SPK_OUT pin. Optional: at full PVDD, scope SPK_OUTx at the pin and
+     confirm the overshoot stays well below 50 V.
 
 #### Optional: SW2 on IO10 (V1.2 equivalent)
 
