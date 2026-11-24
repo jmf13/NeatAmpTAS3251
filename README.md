@@ -541,9 +541,46 @@ The following components are excluded from the SMT order
 
 - **L7–L14** — output filter inductors (Coilcraft XGL1712-103MED and
   Würth/Codaca MA5172-AE dual footprints) — order from Mouser
-- **TP1–TP30** — test points (optional)
+- **Test points** (bare pads, no part): V1.3 keeps 15 of the original 30.
+  See [Test points (V1.3)](#test-points-v13) below.
 - **C80, C81, C108, C109** — bottom-side 1206 caps directly under U12 (see
   below) — order from LCSC
+
+#### Test points (V1.3)
+
+The U12 heatsink covers part of the board, so V1.3 keeps only the test points
+that are worth having and moves TP3 out from under the heatsink. All are bare
+1 mm pads.
+
+| Priority | TP | Net | Access with heatsink fitted |
+|----------|----|-----|-----------------------------|
+| Must | TP1 | PVDD | yes |
+| Must | TP2 | +13.2V | yes |
+| Must | TP3 | 12V_GVDD | yes (moved next to U2's output in V1.3) |
+| Must | TP4 | +5V | yes |
+| Must | TP5 | 3.3V | yes |
+| Must | TP6 | GND | yes |
+| Must | TP8 | AGND | yes |
+| Useful | TP13 | 5 V buck power-good (U3 PG) | yes |
+| Useful | TP14–TP17 | I²S at U12 (MCLK, SCLK, SDIN, LRCK, after the 22 Ω resistors) | yes |
+| Heatsink off | TP7 | +3.3VA (DAC analog supply) | no |
+| Heatsink off | TP21 | OC_ADJ | no |
+| Heatsink off | TP23 | DVDD (U12 internal regulator) | no |
+
+Removed in V1.3 (they still exist on V1.0–V1.2 boards). Probe here instead:
+
+| Old TP | Net | Probe instead |
+|--------|-----|---------------|
+| TP9 | ESP32 EN | SW1 pin 2 pad |
+| TP10 / TP11 | TXD / RXD | H2 pin 3 / pin 5 |
+| TP12 | IO10 (SW2) | SW2 pin 1 pad |
+| TP18 | 12V_GVDD | TP3 |
+| TP19 | TAS_MUTE | U14 pin 2 |
+| TP20 / TP22 / TP24 / TP26 | OUTA+ / OUTA− / OUTB+ / OUTB− | output inductor THT pads (L7–L14) |
+| TP25 | U12 AVDD | C80 pad on the bottom side |
+| TP27 | 5V_PVDD (5 V buck output, before D5) | C31–C35 pads |
+| TP28 / TP29 | TAS_FAULT / TAS_RESET | U14 pin 8 / pin 6 |
+| TP30 | PVDDLMQ | C2–C7 pads |
 
 #### Bottom-side caps under U12 (hand-soldered, V1.3)
 

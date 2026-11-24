@@ -800,7 +800,7 @@ low, and never connect a tweeter without its crossover capacitor.
     | Test point | Rail | Expected |
     |------------|------|----------|
     | TP1 | PVDD | supply voltage minus a few mV (Q1 fully on) |
-    | TP30 | PVDDLMQ | ≈ PVDD |
+    | TP30 (V1.3: C2–C7 pads) | PVDDLMQ | ≈ PVDD |
     | TP2 | +13.2V | 13.2 V |
     | TP3 | 12V_GVDD | 12.0 V, once the firmware drives ENABLE_12V (review P0-5) |
 
