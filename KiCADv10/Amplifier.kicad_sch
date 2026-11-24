@@ -9083,7 +9083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CGA4J1C0G2A333JT0Y0E/5751574.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1739.html"
 			(at 241.3 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9094,7 +9094,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:33nF Tolerance:±5% Tolerance:±5% Voltage Rating:100V Temperature Coefficient:C0G"
+		(property "Description" "Capacitance:33nF Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 241.3 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9105,7 +9105,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5139491"
+		(property "LCSC" "C1739"
 			(at 241.3 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9116,7 +9116,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA4J1C0G2A333JT0Y0E"
+		(property "MPN" "0805B333K500NT"
 			(at 241.3 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9127,7 +9127,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "FH(风华)"
 			(at 241.3 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9138,7 +9138,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 241.3 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9160,7 +9160,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA4J1C0G2A333JT0Y0E"
+		(property "EasyEDA Device" "0805B333K500NT"
 			(at 241.3 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9532,7 +9532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KBHNNNE/51263.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KCHSNNE/181486.html"
 			(at 257.81 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -9543,7 +9543,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 257.81 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -9554,7 +9554,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C50254"
+		(property "LCSC" "C170101"
 			(at 257.81 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -9565,7 +9565,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B225KBHNNNE"
+		(property "MPN" "CL31B225KCHSNNE"
 			(at 257.81 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -9587,7 +9587,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 257.81 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -9609,7 +9609,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL31B225KBHNNNE"
+		(property "EasyEDA Device" "CL31B225KCHSNNE"
 			(at 257.81 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10945,7 +10945,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KBHNNNE/51263.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KCHSNNE/181486.html"
 			(at 224.79 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10956,7 +10956,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 224.79 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10967,7 +10967,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C50254"
+		(property "LCSC" "C170101"
 			(at 224.79 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10978,7 +10978,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B225KBHNNNE"
+		(property "MPN" "CL31B225KCHSNNE"
 			(at 224.79 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -11000,7 +11000,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 224.79 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -11022,7 +11022,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL31B225KBHNNNE"
+		(property "EasyEDA Device" "CL31B225KCHSNNE"
 			(at 224.79 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -11092,7 +11092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB9VPNC/17319102.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
 			(at 259.08 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11114,7 +11114,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16194026"
+		(property "LCSC" "C5199872"
 			(at 259.08 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11125,7 +11125,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KB9VPNC"
+		(property "MPN" "CL10B105KB8NQNC"
 			(at 259.08 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11169,7 +11169,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL10B105KB9VPNC"
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
 			(at 259.08 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11757,7 +11757,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB9VPNC/17319102.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
 			(at 287.02 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11779,7 +11779,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16194026"
+		(property "LCSC" "C5199872"
 			(at 287.02 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11790,7 +11790,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KB9VPNC"
+		(property "MPN" "CL10B105KB8NQNC"
 			(at 287.02 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11834,7 +11834,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL10B105KB9VPNC"
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
 			(at 287.02 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -14806,7 +14806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CGA4J1C0G2A333JT0Y0E/5751574.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1739.html"
 			(at 264.16 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14817,7 +14817,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:33nF Tolerance:±5% Tolerance:±5% Voltage Rating:100V Temperature Coefficient:C0G"
+		(property "Description" "Capacitance:33nF Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 264.16 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14828,7 +14828,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5139491"
+		(property "LCSC" "C1739"
 			(at 264.16 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14839,7 +14839,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA4J1C0G2A333JT0Y0E"
+		(property "MPN" "0805B333K500NT"
 			(at 264.16 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14850,7 +14850,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "FH(风华)"
 			(at 264.16 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14861,7 +14861,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 264.16 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14883,7 +14883,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA4J1C0G2A333JT0Y0E"
+		(property "EasyEDA Device" "0805B333K500NT"
 			(at 264.16 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -15988,7 +15988,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CGA4J1C0G2A333JT0Y0E/5751574.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1739.html"
 			(at 241.3 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15999,7 +15999,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:33nF Tolerance:±5% Tolerance:±5% Voltage Rating:100V Temperature Coefficient:C0G"
+		(property "Description" "Capacitance:33nF Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 241.3 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16010,7 +16010,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5139491"
+		(property "LCSC" "C1739"
 			(at 241.3 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16021,7 +16021,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA4J1C0G2A333JT0Y0E"
+		(property "MPN" "0805B333K500NT"
 			(at 241.3 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16032,7 +16032,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "FH(风华)"
 			(at 241.3 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16043,7 +16043,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 241.3 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16065,7 +16065,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA4J1C0G2A333JT0Y0E"
+		(property "EasyEDA Device" "0805B333K500NT"
 			(at 241.3 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16135,7 +16135,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB9VPNC/17319102.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
 			(at 172.72 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -16157,7 +16157,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16194026"
+		(property "LCSC" "C5199872"
 			(at 172.72 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -16168,7 +16168,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KB9VPNC"
+		(property "MPN" "CL10B105KB8NQNC"
 			(at 172.72 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -16212,7 +16212,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL10B105KB9VPNC"
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
 			(at 172.72 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17099,7 +17099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C17888.html"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17110,7 +17110,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±5% Tolerance:±5% Power(Watts):250mW Voltage-Supply(Max):200V Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Power(Watts):250mW Voltage-Supply(Max):200V Temperature Coefficient:±100ppm/℃"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17121,7 +17121,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907406"
+		(property "LCSC" "C17888"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17132,7 +17132,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC1206P000 TS"
+		(property "MPN" "1206W4F0000T5E"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17143,7 +17143,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17154,7 +17154,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17176,7 +17176,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC1206P000 TS"
+		(property "EasyEDA Device" "1206W4F0000T5E"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17635,7 +17635,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17646,7 +17646,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17657,7 +17657,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17668,7 +17668,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17679,7 +17679,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17690,7 +17690,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17712,7 +17712,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -18153,7 +18153,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CGA4J1C0G2A333JT0Y0E/5751574.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1739.html"
 			(at 264.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18164,7 +18164,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:33nF Tolerance:±5% Tolerance:±5% Voltage Rating:100V Temperature Coefficient:C0G"
+		(property "Description" "Capacitance:33nF Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 264.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18175,7 +18175,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5139491"
+		(property "LCSC" "C1739"
 			(at 264.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18186,7 +18186,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA4J1C0G2A333JT0Y0E"
+		(property "MPN" "0805B333K500NT"
 			(at 264.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18197,7 +18197,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "FH(风华)"
 			(at 264.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18208,7 +18208,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 264.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18230,7 +18230,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA4J1C0G2A333JT0Y0E"
+		(property "EasyEDA Device" "0805B333K500NT"
 			(at 264.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -20462,7 +20462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C4184.html"
 			(at 52.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20473,7 +20473,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:20kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:20kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 52.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20484,7 +20484,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907011"
+		(property "LCSC" "C4184"
 			(at 52.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20495,7 +20495,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F2002TS"
+		(property "MPN" "0603WAF2002T5E"
 			(at 52.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20506,7 +20506,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 52.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20517,7 +20517,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 52.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20539,7 +20539,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC0603F2002TS"
+		(property "EasyEDA Device" "0603WAF2002T5E"
 			(at 52.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20909,7 +20909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25917.html"
 			(at 276.86 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20920,7 +20920,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:6.8kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:6.8kΩ Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃"
 			(at 276.86 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20931,7 +20931,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906876"
+		(property "LCSC" "C25917"
 			(at 276.86 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20942,7 +20942,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0402F6801TS"
+		(property "MPN" "0402WGF6801TCE"
 			(at 276.86 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20953,7 +20953,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 276.86 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20964,7 +20964,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 276.86 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20986,7 +20986,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC0402F6801TS"
+		(property "EasyEDA Device" "0402WGF6801TCE"
 			(at 276.86 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -22039,7 +22039,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KBHNNNE/51263.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KCHSNNE/181486.html"
 			(at 237.49 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -22050,7 +22050,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 237.49 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -22061,7 +22061,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C50254"
+		(property "LCSC" "C170101"
 			(at 237.49 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -22072,7 +22072,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B225KBHNNNE"
+		(property "MPN" "CL31B225KCHSNNE"
 			(at 237.49 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -22094,7 +22094,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 237.49 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -22116,7 +22116,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL31B225KBHNNNE"
+		(property "EasyEDA Device" "CL31B225KCHSNNE"
 			(at 237.49 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -22186,7 +22186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB9VPNC/17319102.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
 			(at 172.72 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -22208,7 +22208,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16194026"
+		(property "LCSC" "C5199872"
 			(at 172.72 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -22219,7 +22219,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KB9VPNC"
+		(property "MPN" "CL10B105KB8NQNC"
 			(at 172.72 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -22263,7 +22263,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL10B105KB9VPNC"
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
 			(at 172.72 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -23191,7 +23191,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -23229,7 +23229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 248.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -23240,7 +23240,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 248.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -23251,7 +23251,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 248.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -23262,7 +23262,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 248.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -23306,7 +23306,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 248.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -24049,7 +24049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24060,7 +24060,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24071,7 +24071,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24082,7 +24082,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24093,7 +24093,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24104,7 +24104,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24126,7 +24126,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24789,7 +24789,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24800,7 +24800,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24811,7 +24811,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24822,7 +24822,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24833,7 +24833,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24844,7 +24844,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24866,7 +24866,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -25600,7 +25600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25917.html"
 			(at 289.56 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -25611,7 +25611,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:6.8kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:6.8kΩ Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃"
 			(at 289.56 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -25622,7 +25622,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906876"
+		(property "LCSC" "C25917"
 			(at 289.56 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -25633,7 +25633,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0402F6801TS"
+		(property "MPN" "0402WGF6801TCE"
 			(at 289.56 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -25644,7 +25644,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 289.56 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -25655,7 +25655,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 289.56 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -25677,7 +25677,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC0402F6801TS"
+		(property "EasyEDA Device" "0402WGF6801TCE"
 			(at 289.56 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -25747,7 +25747,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KBHNNNE/51263.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KCHSNNE/181486.html"
 			(at 214.63 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25758,7 +25758,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 214.63 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25769,7 +25769,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C50254"
+		(property "LCSC" "C170101"
 			(at 214.63 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25780,7 +25780,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B225KBHNNNE"
+		(property "MPN" "CL31B225KCHSNNE"
 			(at 214.63 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25802,7 +25802,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 214.63 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25824,7 +25824,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL31B225KBHNNNE"
+		(property "EasyEDA Device" "CL31B225KCHSNNE"
 			(at 214.63 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25894,7 +25894,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C22984.html"
 			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -25905,7 +25905,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:30kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:30kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -25916,7 +25916,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907025"
+		(property "LCSC" "C22984"
 			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -25927,7 +25927,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F3002TS"
+		(property "MPN" "0603WAF3002T5E"
 			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -25938,7 +25938,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -25949,7 +25949,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -25971,7 +25971,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC0603F3002TS"
+		(property "EasyEDA Device" "0603WAF3002T5E"
 			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -27756,7 +27756,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27767,7 +27767,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27778,7 +27778,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27789,7 +27789,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27800,7 +27800,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27811,7 +27811,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27833,7 +27833,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)

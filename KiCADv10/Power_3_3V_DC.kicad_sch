@@ -3178,7 +3178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3189,7 +3189,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3200,7 +3200,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3211,7 +3211,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3255,7 +3255,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4796,7 +4796,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4807,7 +4807,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4818,7 +4818,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4829,7 +4829,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4873,7 +4873,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5239,7 +5239,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5250,7 +5250,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5261,7 +5261,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5272,7 +5272,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5283,7 +5283,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5294,7 +5294,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5316,7 +5316,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6134,7 +6134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-RD"
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
 			(at 109.22 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6145,7 +6145,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/VES470M1HTR-0607/109272.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/VZH470M1HTR-0607L/3158589.html"
 			(at 109.22 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6156,7 +6156,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Ripple Current:- Equivalent Series Resistance(ESR):- Diameter:6.3mm Height - Seated (Max):7.7mm Lifetime:1000hrs@105℃ Operating Temperature:-45℃~+105℃ Operating Temperature:-45℃~+105℃"
+		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Diameter:6.3mm Height - Seated (Max):7.7mm Operating Temperature:-55℃~+105℃ Operating Temperature:-55℃~+105℃"
 			(at 109.22 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6167,7 +6167,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C108053"
+		(property "LCSC" "C2902971"
 			(at 109.22 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6178,7 +6178,7 @@
 				)
 			)
 		)
-		(property "MPN" "VES470M1HTR-0607"
+		(property "MPN" "VZH470M1HTR-0607L"
 			(at 109.22 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6211,7 +6211,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Footprint" "CAP-SMD_BD6.3-L6.6-W6.6-RD"
+		(property "EasyEDA Footprint" "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
 			(at 109.22 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6222,7 +6222,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "VES470M1HTR-0607"
+		(property "EasyEDA Device" "VZH470M1HTR-0607L"
 			(at 109.22 59.69 0)
 			(hide yes)
 			(show_name no)

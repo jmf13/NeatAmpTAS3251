@@ -1621,7 +1621,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1632,7 +1632,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1643,7 +1643,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1656,7 +1656,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1708,7 +1708,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2264,7 +2264,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2275,7 +2275,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2286,7 +2286,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2299,7 +2299,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2351,7 +2351,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2598,7 +2598,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KBHNNNE/51263.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KCHSNNE/181486.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2609,7 +2609,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2620,7 +2620,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C50254"
+		(property "LCSC" "C170101"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2633,7 +2633,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B225KBHNNNE"
+		(property "MPN" "CL31B225KCHSNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2659,7 +2659,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2685,7 +2685,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL31B225KBHNNNE"
+		(property "EasyEDA Device" "CL31B225KCHSNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3363,7 +3363,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RC0402FR-0727RL/149337.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25100.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3374,7 +3374,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:27Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:27Ω Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3385,7 +3385,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138021"
+		(property "LCSC" "C25100"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3398,7 +3398,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "0402WGF270JTCE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3411,7 +3411,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3424,7 +3424,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3450,7 +3450,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RC0402FR-0727RL"
+		(property "EasyEDA Device" "0402WGF270JTCE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3626,375 +3626,6 @@
 			)
 		)
 	)
-	(footprint "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-RD"
-		(layer "F.Cu")
-		(uuid "0d560b6b-63f0-4ffb-a99d-6297746e5665")
-		(at 109.5 61.05 90)
-		(property "Reference" "C40"
-			(at -0.399999 -5.132381 0)
-			(layer "F.SilkS")
-			(uuid "8cfad89b-b239-4708-bbb4-bba83af7888d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "47uF"
-			(at 0 4 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7285a9e4-d104-4f2d-9d8f-d87e0bd7f743")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/VES470M1HTR-0607/109272.html"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4254d77-4996-4ddf-b26c-60f022881339")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Ripple Current:- Equivalent Series Resistance(ESR):- Diameter:6.3mm Height - Seated (Max):7.7mm Lifetime:1000hrs@105℃ Operating Temperature:-45℃~+105℃ Operating Temperature:-45℃~+105℃"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4b8758f8-0598-4476-91fd-a5b6accfd21a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C108053"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7a521054-61d6-4a7f-9436-0bb45d827336")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "VES470M1HTR-0607"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92124077-9c9a-4171-a674-ece9bbabe814")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Lelon(立隆)"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b610faa7-4711-4bc7-9b0f-c815706dc357")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLC Class" "Extended Part"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c007aef6-f7bc-4911-8d39-1561013d1496")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EasyEDA Footprint" "CAP-SMD_BD6.3-L6.6-W6.6-RD"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "510bb042-38f9-4993-a20a-e8f551ef3946")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EasyEDA Device" "VES470M1HTR-0607"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "81b490c8-7096-4d04-aa5d-6ae57a9cb4fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "CP_*")
-		(path "/a5cd39a2-799e-4eb6-8961-d9a1d545934a/f7e0fa15-1786-484f-9e7d-b8154c7e6dec")
-		(sheetname "/Power 3.3V DC/")
-		(sheetfile "Power_3_3V_DC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 1.97 -3.38)
-			(end 3.36 -1.98)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e320ff67-50d4-476a-9ddc-0c987437a9ae")
-		)
-		(fp_line
-			(start -3.39 -3.38)
-			(end 1.97 -3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c884142f-f476-4f12-9b89-9a8882f8118a")
-		)
-		(fp_line
-			(start 3.36 -1.98)
-			(end 3.36 -0.61)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bba26037-5d74-4c19-a6b3-0ee2806ff997")
-		)
-		(fp_line
-			(start -3.39 -0.61)
-			(end -3.39 -3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9760a0b4-84cc-4636-a713-3869627b749d")
-		)
-		(fp_line
-			(start -3.39 0.61)
-			(end -3.39 3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cd4a649f-b362-4f4a-ad21-88f361e93ade")
-		)
-		(fp_line
-			(start 3.36 1.98)
-			(end 3.36 0.61)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8c0da67c-231a-4fc5-87db-7e2bb68894e8")
-		)
-		(fp_line
-			(start 1.97 3.38)
-			(end 3.36 1.98)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "aea56e90-ab98-41d4-992a-0504de1989c6")
-		)
-		(fp_line
-			(start -3.39 3.38)
-			(end 1.97 3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dbc910b1-04cc-4190-9c77-d6ad918e3dc0")
-		)
-		(fp_circle
-			(center -3.3 3.3)
-			(end -3.27 3.3)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "6ced5401-0751-478f-9272-4f292691c1a9")
-		)
-		(fp_poly
-			(pts
-				(xy 3.087014 -1.418996) (xy 3.087014 -1.616989) (xy 2.295017 -1.616989) (xy 2.295017 -1.418996)
-				(xy 3.087014 -1.418996)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "73d254d9-dca1-411c-90d9-8ceca49179a9")
-		)
-		(fp_poly
-			(pts
-				(xy -3.116986 -1.418996) (xy -3.116986 -1.616989) (xy -2.324989 -1.616989) (xy -2.324989 -1.418996)
-				(xy -3.116986 -1.418996)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "18ce0c8c-81f4-4e23-bb6b-dbe6297bfa5b")
-		)
-		(fp_poly
-			(pts
-				(xy 2.790012 -0.858012) (xy 2.790012 -2.177999) (xy 2.592019 -2.177999) (xy 2.592019 -0.858012)
-				(xy 2.790012 -0.858012)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "c2c4686b-0b83-4757-8f16-39ca28ff37b2")
-		)
-		(fp_line
-			(start 1.97 -3.3)
-			(end 3.29 -1.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f18210f6-4171-4e7f-8d58-f3e1ad6907c8")
-		)
-		(fp_line
-			(start -3.31 -3.3)
-			(end 1.97 -3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ec98dc50-f5a6-4a67-b53b-71f2800c3e69")
-		)
-		(fp_line
-			(start 3.29 -1.98)
-			(end 3.29 1.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "933c7ecb-3d89-41d8-b5c6-461d7f2fc54b")
-		)
-		(fp_line
-			(start 3.29 1.98)
-			(end 1.97 3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0bf3e575-7a31-49f7-9e71-f2d2bf4bb0b5")
-		)
-		(fp_line
-			(start 1.97 3.3)
-			(end -3.31 3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "591caf76-fa11-46b3-b9cd-768111abd951")
-		)
-		(fp_line
-			(start -3.31 3.3)
-			(end -3.31 -3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "467b1435-05df-4832-ab88-587d7ff5103d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "32dca2e6-8df5-4cd9-a363-1b436b4f317c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at 2.55 0 270)
-			(size 3.26 1.15)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "3.3V")
-			(pintype "passive")
-			(uuid "5559b62a-7dc6-42b5-87eb-9fa7f178bbc7")
-		)
-		(pad "2" smd rect
-			(at -2.55 0 270)
-			(size 3.26 1.15)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pintype "passive")
-			(uuid "b2439c0c-f21e-48f3-9e0b-70813f338c4a")
-		)
-		(embedded_fonts no)
-		(model "libs/easyeda2kicad.3dshapes/CAP-SMD_L6.6-W6.6-H7.0-LS7.2.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "easyeda2kicad:C0402"
 		(layer "F.Cu")
 		(uuid "0d6886b8-5159-43d7-b5d7-024e6997f381")
@@ -4022,7 +3653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4033,7 +3664,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4044,7 +3675,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4057,7 +3688,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4109,7 +3740,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5162,7 +4793,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5173,7 +4804,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5184,7 +4815,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5197,7 +4828,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5249,7 +4880,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5958,7 +5589,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CGA4J1C0G2A333JT0Y0E/5751574.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1739.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5969,7 +5600,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:33nF Tolerance:±5% Tolerance:±5% Voltage Rating:100V Temperature Coefficient:C0G"
+		(property "Description" "Capacitance:33nF Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5980,7 +5611,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5139491"
+		(property "LCSC" "C1739"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5993,7 +5624,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA4J1C0G2A333JT0Y0E"
+		(property "MPN" "0805B333K500NT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6006,7 +5637,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "FH(风华)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6019,7 +5650,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6045,7 +5676,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA4J1C0G2A333JT0Y0E"
+		(property "EasyEDA Device" "0805B333K500NT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7173,7 +6804,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7184,7 +6815,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7195,7 +6826,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7208,7 +6839,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7221,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7234,7 +6865,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7260,7 +6891,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8427,7 +8058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25917.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8438,7 +8069,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:6.8kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:6.8kΩ Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8449,7 +8080,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906876"
+		(property "LCSC" "C25917"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8462,7 +8093,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0402F6801TS"
+		(property "MPN" "0402WGF6801TCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8475,7 +8106,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8488,7 +8119,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8514,7 +8145,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC0402F6801TS"
+		(property "EasyEDA Device" "0402WGF6801TCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9369,7 +9000,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9380,7 +9011,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9391,7 +9022,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9404,7 +9035,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9456,7 +9087,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10674,7 +10305,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10685,7 +10316,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10696,7 +10327,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10709,7 +10340,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10761,7 +10392,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10981,6 +10612,293 @@
 			)
 		)
 	)
+	(footprint "easyeda2kicad:IND-SMD_L7.1-W6.6"
+		(layer "F.Cu")
+		(uuid "24a197ab-8e82-4096-9a5e-5b693890c980")
+		(at 115.790988 127.772888 180)
+		(property "Reference" "L2"
+			(at 0 -4.324999 0)
+			(layer "F.SilkS")
+			(uuid "74e63751-ba05-46c2-b0a8-5209e11d0a58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 0 4 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e80a818-282e-41b9-a6a1-c61a7b78e962")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C207842.html"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38b2026c-a746-4644-9b47-2a1da56f7425")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductance:10uH Tolerance:±20% Current Rating:4A Current - Saturation(Isat):5.5A DC Resistance(DCR):66mΩ Type:Magnetic Shielded Inductor Size:7.3x6.6mm"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "090e8b8a-3a26-458d-9394-ceea9c1a0e16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C207841"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd169a2e-68d2-4dee-9531-e2cef26c5a08")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C207842"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13e130a8-af15-4755-a46c-782b7a9f230f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SLO0630H100MTT"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d0eb5b7-e76f-44bf-aac7-e18d97f35872")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sunltech(顺磁)"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab02fca4-a228-4720-b00f-0e853a2dbff1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a5ab7c2-7fe5-48d9-b357-677ba4dc78db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "IND-SMD_L7.1-W6.6"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65740fc6-c7da-4047-8a3e-df796580bfe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Device" "SLO0630H100MTT"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6df7b7d-f08f-4798-813e-d370726a3822")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6008f4fb-ff8e-4306-9ff9-83228c44f689/b9dff717-83b3-4c7a-a9a7-9f71e8d58af0")
+		(sheetname "/Power 12V DC/")
+		(sheetfile "Power_12V_DC.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 3.3 3.3)
+			(end 3.3 1.84)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c183f8d3-11d0-49cc-9418-dfe56c4399b2")
+		)
+		(fp_line
+			(start 3.3 -1.84)
+			(end 3.3 -3.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d0809c1-f777-45b9-a40f-62aa51af6261")
+		)
+		(fp_line
+			(start 3.3 -3.3)
+			(end -3.3 -3.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "47032023-2416-469f-91dd-a224eb126420")
+		)
+		(fp_line
+			(start -3.3 3.3)
+			(end 3.3 3.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c2fc711-5ba9-49b3-99ec-7a5b33b0fb42")
+		)
+		(fp_line
+			(start -3.3 1.84)
+			(end -3.3 3.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a3ea87b1-a1e1-42d6-b850-88cb44e42fac")
+		)
+		(fp_line
+			(start -3.3 -3.3)
+			(end -3.3 -1.84)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "191040a1-a028-4680-9409-f24804e9efd9")
+		)
+		(fp_circle
+			(center -3.55 3.3)
+			(end -3.52 3.3)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d6fa53a4-c8f8-4e8c-97cd-860ce896185d")
+		)
+		(fp_line
+			(start 3.3 3.3)
+			(end -3.3 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "79b576d5-4e89-455c-9bf0-a9318876d813")
+		)
+		(fp_line
+			(start 3.3 -3.3)
+			(end 3.3 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "953363b9-3831-4b66-bf0c-df34d740405b")
+		)
+		(fp_line
+			(start -3.3 3.3)
+			(end -3.3 -3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2bff5cc6-66a8-4293-979c-a0201465f849")
+		)
+		(fp_line
+			(start -3.3 -3.3)
+			(end 3.3 -3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "46b4eecb-7193-4f22-a9a3-49bed764a305")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "2151ba2b-7c33-4a37-8715-4e1e18d10196")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.91 0 180)
+			(size 2.15 3.32)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+13.2V")
+			(uuid "e9f309b7-c139-48d3-8744-826ea70653f0")
+		)
+		(pad "2" smd rect
+			(at 2.91 0 180)
+			(size 2.15 3.32)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U1-SW)")
+			(uuid "4a7825e1-ce05-4bc9-a577-3321bd474d56")
+		)
+		(embedded_fonts no)
+		(model "libs/easyeda2kicad.3dshapes/IND-SMD_L6.6-W7.1-H3.0.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "easyeda2kicad:C0805"
 		(layer "F.Cu")
 		(uuid "26e23d20-12a0-446f-ad13-f7d7444346fa")
@@ -11008,7 +10926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CGA4J1C0G2A333JT0Y0E/5751574.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1739.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11019,7 +10937,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:33nF Tolerance:±5% Tolerance:±5% Voltage Rating:100V Temperature Coefficient:C0G"
+		(property "Description" "Capacitance:33nF Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11030,7 +10948,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5139491"
+		(property "LCSC" "C1739"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11043,7 +10961,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA4J1C0G2A333JT0Y0E"
+		(property "MPN" "0805B333K500NT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11056,7 +10974,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "FH(风华)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11069,7 +10987,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11095,7 +11013,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA4J1C0G2A333JT0Y0E"
+		(property "EasyEDA Device" "0805B333K500NT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12802,7 +12720,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12813,7 +12731,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12824,7 +12742,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12837,7 +12755,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12889,7 +12807,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13801,7 +13719,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C22984.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13812,7 +13730,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:30kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:30kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13823,7 +13741,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907025"
+		(property "LCSC" "C22984"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13836,7 +13754,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F3002TS"
+		(property "MPN" "0603WAF3002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13849,7 +13767,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13862,7 +13780,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13888,7 +13806,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC0603F3002TS"
+		(property "EasyEDA Device" "0603WAF3002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14706,375 +14624,6 @@
 			)
 		)
 	)
-	(footprint "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-RD"
-		(layer "F.Cu")
-		(uuid "31a02dde-f7d7-437c-a0af-7b22d5495ee9")
-		(at 160 43.45 90)
-		(property "Reference" "C106"
-			(at 5.13 0 0)
-			(layer "F.SilkS")
-			(uuid "58630aec-e359-48d9-a3dc-30b6a3497d0d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "47uF"
-			(at 0 4 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bcfd74b9-1356-4c7b-ad8a-18ff21ba0ff8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/VES470M1HTR-0607/109272.html"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "305b4407-b6b4-43d2-a3a1-c49f2dacc381")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Ripple Current:- Equivalent Series Resistance(ESR):- Diameter:6.3mm Height - Seated (Max):7.7mm Lifetime:1000hrs@105℃ Operating Temperature:-45℃~+105℃ Operating Temperature:-45℃~+105℃"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a27d47b7-5599-46ca-ab63-776fdb16abe3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C108053"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2367cbfe-1b65-448c-ab33-cf061ba80063")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "VES470M1HTR-0607"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3867566-a3c6-42ff-b821-53b0cc43d80d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Lelon(立隆)"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "879d37a0-5968-48fc-8132-8075987e546b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLC Class" "Extended Part"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "afdaeda2-5686-4781-b6c1-35f59f7ee747")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EasyEDA Footprint" "CAP-SMD_BD6.3-L6.6-W6.6-RD"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a987db2-558a-4a03-bc08-0fabf1b55c22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EasyEDA Device" "VES470M1HTR-0607"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "83b051ee-814d-49be-9f2b-8a2eb6a37823")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "CP_*")
-		(path "/988faa9c-4a7c-42eb-be46-0b06c4e58228/b57aab45-75b6-46e1-bd61-091f668eafa4")
-		(sheetname "/Power 5V DC/")
-		(sheetfile "Power_5V_DC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 1.97 -3.38)
-			(end 3.36 -1.98)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5f77b9fe-88bb-4d21-9712-e415d95f294d")
-		)
-		(fp_line
-			(start -3.39 -3.38)
-			(end 1.97 -3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c4c462f5-1ef9-40cb-be35-a456b089938c")
-		)
-		(fp_line
-			(start 3.36 -1.98)
-			(end 3.36 -0.61)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "86cff66f-ff72-4b28-8877-8fe3c9735bd4")
-		)
-		(fp_line
-			(start -3.39 -0.61)
-			(end -3.39 -3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8c669c52-a360-4510-a324-6843eaf23915")
-		)
-		(fp_line
-			(start -3.39 0.61)
-			(end -3.39 3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "12e8eec4-ad2a-4069-ac28-085fd977ee80")
-		)
-		(fp_line
-			(start 3.36 1.98)
-			(end 3.36 0.61)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0f95cf9f-ebe6-48d0-be89-e6703435d14e")
-		)
-		(fp_line
-			(start 1.97 3.38)
-			(end 3.36 1.98)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0b988d64-1313-4ebb-b7b3-d1462681ba55")
-		)
-		(fp_line
-			(start -3.39 3.38)
-			(end 1.97 3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f321a1a2-3379-4c45-aabb-5301a668500c")
-		)
-		(fp_circle
-			(center -3.3 3.3)
-			(end -3.27 3.3)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "9e4820d7-3763-484e-b2f3-ec404f6220ea")
-		)
-		(fp_poly
-			(pts
-				(xy 3.087014 -1.418996) (xy 3.087014 -1.616989) (xy 2.295017 -1.616989) (xy 2.295017 -1.418996)
-				(xy 3.087014 -1.418996)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "ad497e5b-223a-4aa6-9b43-ee70982147a4")
-		)
-		(fp_poly
-			(pts
-				(xy -3.116986 -1.418996) (xy -3.116986 -1.616989) (xy -2.324989 -1.616989) (xy -2.324989 -1.418996)
-				(xy -3.116986 -1.418996)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "f34efb8d-b10e-45f1-bc89-a19b411ea1ab")
-		)
-		(fp_poly
-			(pts
-				(xy 2.790012 -0.858012) (xy 2.790012 -2.177999) (xy 2.592019 -2.177999) (xy 2.592019 -0.858012)
-				(xy 2.790012 -0.858012)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "cd7fadd6-66ec-4f01-ad46-c64cf53db55f")
-		)
-		(fp_line
-			(start 1.97 -3.3)
-			(end 3.29 -1.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c317dc6f-0e72-4b49-8df7-cdff20d371d1")
-		)
-		(fp_line
-			(start -3.31 -3.3)
-			(end 1.97 -3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cdba4b66-81da-4967-bc4f-d52bbf00b256")
-		)
-		(fp_line
-			(start 3.29 -1.98)
-			(end 3.29 1.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cebe55c7-b41e-4ba8-8433-a66e90f4f5b7")
-		)
-		(fp_line
-			(start 3.29 1.98)
-			(end 1.97 3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c7c1a03b-5f1c-4ebc-8fc0-5015791b1d33")
-		)
-		(fp_line
-			(start 1.97 3.3)
-			(end -3.31 3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "58d64e45-ab60-4b71-a7b8-5ba4b69ed825")
-		)
-		(fp_line
-			(start -3.31 3.3)
-			(end -3.31 -3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e61d9462-09f0-4a12-8da6-4dbae4107b13")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "c1de6b8e-9070-4654-80af-10726a716297")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at 2.55 0 270)
-			(size 3.26 1.15)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pintype "passive")
-			(uuid "f5ba80bd-bf1b-4075-af3d-d27a3d7e4fd3")
-		)
-		(pad "2" smd rect
-			(at -2.55 0 270)
-			(size 3.26 1.15)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pintype "passive")
-			(uuid "4894d090-be11-4992-aac8-0cfdce475f72")
-		)
-		(embedded_fonts no)
-		(model "libs/easyeda2kicad.3dshapes/CAP-SMD_L6.6-W6.6-H7.0-LS7.2.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "32a8bbc0-af33-4079-ae98-5a17ecd5d927")
@@ -15280,7 +14829,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15291,7 +14840,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15302,7 +14851,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15315,7 +14864,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15328,7 +14877,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15341,7 +14890,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15367,7 +14916,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16087,7 +15636,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B105KCHNNNE/14487.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16098,7 +15647,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:1uF Voltage Rating:100V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16109,7 +15658,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5159418"
+		(property "LCSC" "C13832"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16122,7 +15671,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA5L2X7R2A105KT0Y0S"
+		(property "MPN" "CL31B105KCHNNNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16135,7 +15684,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16174,7 +15723,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA5L2X7R2A105KT0Y0S"
+		(property "EasyEDA Device" "CL31B105KCHNNNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16421,7 +15970,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC06031M1%2525N/259145.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C22935.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16432,7 +15981,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:1MΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:1MΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16443,7 +15992,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269705"
+		(property "LCSC" "C22935"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16456,7 +16005,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC06031M1%N"
+		(property "MPN" "0603WAF1004T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16469,7 +16018,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16482,7 +16031,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16508,7 +16057,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC06031M1%N"
+		(property "EasyEDA Device" "0603WAF1004T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17702,7 +17251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17713,7 +17262,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17724,7 +17273,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17737,7 +17286,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17750,7 +17299,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17763,7 +17312,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17789,7 +17338,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18660,7 +18209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB9VPNC/17319102.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18682,7 +18231,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16194026"
+		(property "LCSC" "C5199872"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18695,7 +18244,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KB9VPNC"
+		(property "MPN" "CL10B105KB8NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18747,7 +18296,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL10B105KB9VPNC"
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19662,7 +19211,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CGA4J1C0G2A333JT0Y0E/5751574.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1739.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19673,7 +19222,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:33nF Tolerance:±5% Tolerance:±5% Voltage Rating:100V Temperature Coefficient:C0G"
+		(property "Description" "Capacitance:33nF Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19684,7 +19233,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5139491"
+		(property "LCSC" "C1739"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19697,7 +19246,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA4J1C0G2A333JT0Y0E"
+		(property "MPN" "0805B333K500NT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19710,7 +19259,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "FH(风华)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19723,7 +19272,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19749,7 +19298,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA4J1C0G2A333JT0Y0E"
+		(property "EasyEDA Device" "0805B333K500NT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20456,7 +20005,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC06035.1K1%2525N/259156.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C23186.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -20467,7 +20016,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -20478,7 +20027,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269716"
+		(property "LCSC" "C23186"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20491,7 +20040,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC06035.1K1%N"
+		(property "MPN" "0603WAF5101T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20504,7 +20053,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20517,7 +20066,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20543,7 +20092,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC06035.1K1%N"
+		(property "EasyEDA Device" "0603WAF5101T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20746,7 +20295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20757,7 +20306,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:1uF Voltage Rating:25V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20768,7 +20317,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5159427"
+		(property "LCSC" "C5199872"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20781,7 +20330,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA3E1X7R1E105KT0Y0S"
+		(property "MPN" "CL10B105KB8NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20794,7 +20343,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20833,7 +20382,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA3E1X7R1E105KT0Y0S"
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21080,7 +20629,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21091,7 +20640,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21102,7 +20651,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21115,7 +20664,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21128,7 +20677,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21141,7 +20690,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21167,7 +20716,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21949,7 +21498,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21960,7 +21509,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21971,7 +21520,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21984,7 +21533,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21997,7 +21546,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22010,7 +21559,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22036,7 +21585,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23891,7 +23440,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -23902,7 +23451,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -23913,7 +23462,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23926,7 +23475,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23939,7 +23488,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23952,7 +23501,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23978,7 +23527,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25610,7 +25159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C17888.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25621,7 +25170,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±5% Tolerance:±5% Power(Watts):250mW Voltage-Supply(Max):200V Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Power(Watts):250mW Voltage-Supply(Max):200V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25632,7 +25181,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907406"
+		(property "LCSC" "C17888"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25645,7 +25194,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC1206P000 TS"
+		(property "MPN" "1206W4F0000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25658,7 +25207,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25671,7 +25220,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25697,7 +25246,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC1206P000 TS"
+		(property "EasyEDA Device" "1206W4F0000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26494,6 +26043,370 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
+		(layer "F.Cu")
+		(uuid "5e5e1d3f-83e0-49ad-a6c2-843f17d15277")
+		(at 160 43.45 90)
+		(property "Reference" "C106"
+			(at 5.37 0.8 0)
+			(layer "F.SilkS")
+			(uuid "e3696bdd-e1fe-484d-a8d8-55673e56b45b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "47uF"
+			(at 0 4 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d8493e6-51fe-47b9-92b8-bde63fa8cafc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/VZH470M1HTR-0607L/3158589.html"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e65af7b5-e0ff-44b1-b0bb-cd63a2f68353")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Diameter:6.3mm Height - Seated (Max):7.7mm Operating Temperature:-55℃~+105℃ Operating Temperature:-55℃~+105℃"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff35d0cf-8069-41c0-8ff5-0920e7e2d19f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2902971"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a189c51-2b0a-46fb-8fdf-d4d5c978f912")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2902971"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b08cdcc2-d25c-4570-a1f5-6013db623949")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "VZH470M1HTR-0607L"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62017c87-d081-4b4e-af71-50b89031439c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Lelon(立隆)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4304c3a2-469f-4a9e-86f8-3bb863770439")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dad702f-4484-4e8e-8bc6-d3d758151120")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c71f1bf3-7704-453a-a623-4bbb7ffeebb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Device" "VZH470M1HTR-0607L"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "604b2b61-468b-47cc-b509-0980ed0422de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/988faa9c-4a7c-42eb-be46-0b06c4e58228/b57aab45-75b6-46e1-bd61-091f668eafa4")
+		(sheetname "/Power 5V DC/")
+		(sheetfile "Power_5V_DC.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 3.38 -3.38)
+			(end -1.98 -3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4c41dc8f-18b7-4e78-9f15-575cd92bfa9a")
+		)
+		(fp_line
+			(start -1.98 -3.38)
+			(end -3.38 -1.98)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "401f537a-5e65-412c-aa6e-73b72e44fd4b")
+		)
+		(fp_line
+			(start -3.38 -1.98)
+			(end -3.38 -0.69)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "139c5c52-5e34-4552-aebb-5d5eebff9aa2")
+		)
+		(fp_line
+			(start 3.37 -0.71)
+			(end 3.38 -3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a429d2e0-b4a7-41f6-9b46-09be2fb76388")
+		)
+		(fp_line
+			(start 3.36 0.74)
+			(end 3.38 3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a01d2fac-1ce1-45ad-ba20-5a04893fc5ea")
+		)
+		(fp_line
+			(start -3.38 1.98)
+			(end -3.36 0.69)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "97fb5ee0-9019-4ed1-a295-276f4bf24104")
+		)
+		(fp_line
+			(start 3.38 3.38)
+			(end -1.98 3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a364b2a1-3d0f-48da-a196-fea2e208b58e")
+		)
+		(fp_line
+			(start -1.98 3.38)
+			(end -3.38 1.98)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5ae9c72e-1cff-41f4-80ce-2038788289a8")
+		)
+		(fp_circle
+			(center -3.6 3.3)
+			(end -3.57 3.3)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "9fba5c12-6ec9-4ccb-95e3-91e41f740444")
+		)
+		(fp_poly
+			(pts
+				(xy -2.804998 0.858012) (xy -2.804998 2.177999) (xy -2.607005 2.177999) (xy -2.607005 0.858012)
+				(xy -2.804998 0.858012)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "055477b0-3421-4f5b-b092-3386f98086a1")
+		)
+		(fp_poly
+			(pts
+				(xy 3.102 1.418996) (xy 3.102 1.616989) (xy 2.310003 1.616989) (xy 2.310003 1.418996) (xy 3.102 1.418996)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "2c7d2e4f-f31d-4d11-9bb8-c6d5f6f45282")
+		)
+		(fp_poly
+			(pts
+				(xy -3.102 1.418996) (xy -3.102 1.616989) (xy -2.310003 1.616989) (xy -2.310003 1.418996) (xy -3.102 1.418996)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "09d89d91-7e37-4cb7-9932-072a992bd256")
+		)
+		(fp_line
+			(start 3.3 -3.3)
+			(end 3.3 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "989193ac-d9bc-4d76-84c3-fa2269aff918")
+		)
+		(fp_line
+			(start -1.98 -3.3)
+			(end 3.3 -3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ffcb5314-b5da-4654-bca7-ad27e3ff35fb")
+		)
+		(fp_line
+			(start -3.3 -1.98)
+			(end -1.98 -3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a748da5e-19a2-4524-915e-b24b97b200cd")
+		)
+		(fp_line
+			(start -3.3 1.98)
+			(end -3.3 -1.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4fbb07e8-f276-4cc0-a50f-d736ea572847")
+		)
+		(fp_line
+			(start 3.3 3.3)
+			(end -1.98 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0fb579e7-a95c-43a2-b3b7-2e8fd7021797")
+		)
+		(fp_line
+			(start -1.98 3.3)
+			(end -3.3 1.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "93837e9a-5915-4835-bc25-e210226fcd14")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "65add9b8-0dfc-4b5f-a53b-f05ef2535050")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.67 0 90)
+			(size 3.5 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(uuid "fb2eb5d2-d12d-4f99-afc4-84c47025be49")
+		)
+		(pad "2" smd rect
+			(at 2.67 0 90)
+			(size 3.5 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(uuid "fb8a18b1-d90e-4011-b279-4cf067ab9de2")
+		)
+		(embedded_fonts no)
+		(model "libs/easyeda2kicad.3dshapes/CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -27458,7 +27371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C22865.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -27469,7 +27382,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:12.4kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:12.4kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -27480,7 +27393,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2930060"
+		(property "LCSC" "C22865"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27493,7 +27406,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F1242TS"
+		(property "MPN" "0603WAF1242T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27506,7 +27419,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27519,7 +27432,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27545,7 +27458,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC0603F1242TS"
+		(property "EasyEDA Device" "0603WAF1242T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27748,7 +27661,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB9VPNC/17319102.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -27770,7 +27683,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16194026"
+		(property "LCSC" "C5199872"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27783,7 +27696,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KB9VPNC"
+		(property "MPN" "CL10B105KB8NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27835,7 +27748,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL10B105KB9VPNC"
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29971,7 +29884,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C4184.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29982,7 +29895,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:20kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:20kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29993,7 +29906,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907011"
+		(property "LCSC" "C4184"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30006,7 +29919,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F2002TS"
+		(property "MPN" "0603WAF2002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30019,7 +29932,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30032,7 +29945,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30058,7 +29971,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC0603F2002TS"
+		(property "EasyEDA Device" "0603WAF2002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30843,7 +30756,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25819.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -30854,7 +30767,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:47kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:47kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -30865,7 +30778,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907042"
+		(property "LCSC" "C25819"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30878,7 +30791,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F4702TS"
+		(property "MPN" "0603WAF4702T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30891,7 +30804,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30904,7 +30817,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30930,7 +30843,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC0603F4702TS"
+		(property "EasyEDA Device" "0603WAF4702T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33180,288 +33093,6 @@
 		)
 		(embedded_fonts no)
 		(model "libs/easyeda2kicad.3dshapes/L1206_L3.2-W1.6-H1.1.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "easyeda2kicad:IND-SMD_L6.7-W6.5"
-		(layer "F.Cu")
-		(uuid "7cbf32b9-a87b-401f-844d-be9a7c02c944")
-		(at 115.790988 127.772888 180)
-		(property "Reference" "L2"
-			(at 0 -4.474999 0)
-			(layer "F.SilkS")
-			(uuid "ce4391e1-3e96-49da-872b-61af08ce246b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 0 4 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99b8c95f-a091-4782-b5b6-e6e0f70261a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/329fe97c-7311-4726-9bf3-37718f42b168/xgl6060.pdf"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ea79ad20-27cf-48df-9628-558f1b3a8be2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductance:10uH Tolerance:±20% Tolerance:±20% Current Rating:- Current - Saturation(Isat):7.3A DC Resistance(DCR):20.4mΩ Type:Magnetic Shielded Inductor Ratings:AEC-Q200"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4623e2ab-0069-4862-b6a5-398b0f7064cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3911721"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "77987e70-a4b9-43b2-9256-032c9920901d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "XGL6060-103MEC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dfcec3df-e4e4-4122-9261-7ca840e99545")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Coilcraft(线艺)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9fec95e5-c1d9-489b-90fd-a9f5e78b9f4c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLC Class" "Extended Part"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f06d7354-9346-44d5-baf8-c096e1f5dec9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EasyEDA Footprint" "IND-SMD_L6.7-W6.5"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e442416-7141-4828-9371-3b54b8627e1c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EasyEDA Device" "XGL6060-103MEC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22d7be4e-1c08-4ed0-93f1-185666c4f5a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
-		(path "/6008f4fb-ff8e-4306-9ff9-83228c44f689/b9dff717-83b3-4c7a-a9a7-9f71e8d58af0")
-		(sheetname "/Power 12V DC/")
-		(sheetfile "Power_12V_DC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 3.3 3.4)
-			(end -3.3 3.4)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c62753bd-27e0-4085-9a33-a02ae3cc0ad4")
-		)
-		(fp_line
-			(start 3.3 -2.9)
-			(end 3.3 3.4)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "912331bd-ffdc-4298-b5d4-a7e217c93454")
-		)
-		(fp_line
-			(start 3.3 -3.4)
-			(end 3.3 -2.9)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "853614cc-1543-4911-b0a8-4130083093bc")
-		)
-		(fp_line
-			(start -3.3 3.4)
-			(end -3.3 -3.4)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "806c6a0f-8bb1-4ce2-9ba3-0a14c7ecd5cf")
-		)
-		(fp_line
-			(start -3.3 -3.4)
-			(end 3.3 -3.4)
-			(stroke
-				(width 0.25)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9754475a-369e-4341-968d-bd8fe116b48d")
-		)
-		(fp_circle
-			(center -3.23 3.33)
-			(end -3.2 3.33)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "446f5d55-b09b-4bb1-9456-67d968660f8e")
-		)
-		(fp_line
-			(start 3.23 3.32)
-			(end -3.22 3.32)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "96ecda59-1edd-4cff-b397-b32e3a007c20")
-		)
-		(fp_line
-			(start 3.23 -3.33)
-			(end 3.23 3.32)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "425ef0c1-a29b-4d08-a9a9-9750d458ca38")
-		)
-		(fp_line
-			(start -3.22 3.32)
-			(end -3.22 -3.33)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "68fa716b-06ff-4db5-bf0f-1f6a4babf779")
-		)
-		(fp_line
-			(start -3.22 -3.33)
-			(end 3.23 -3.33)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "975f1de1-8784-4cfd-ac44-0cd8d38c14f1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(uuid "6729e714-8396-47ec-a814-830872275be1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -2.02 0 180)
-			(size 1.6 5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+13.2V")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "9cf7a6f6-b24f-4163-b0ec-0d5ce3f0a49f")
-		)
-		(pad "2" smd rect
-			(at 2.02 0 180)
-			(size 1.6 5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U1-SW)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(uuid "45fc6606-2f4f-4c04-9f80-8a258f05e077")
-		)
-		(embedded_fonts no)
-		(model "libs/easyeda2kicad.3dshapes/IND-SMD_L6.7-W6.5.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36468,7 +36099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB9VPNC/17319102.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36490,7 +36121,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16194026"
+		(property "LCSC" "C5199872"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36503,7 +36134,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KB9VPNC"
+		(property "MPN" "CL10B105KB8NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36555,7 +36186,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL10B105KB9VPNC"
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39211,7 +38842,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B105KCHNNNE/14487.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39222,7 +38853,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:1uF Voltage Rating:100V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39233,7 +38864,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5159418"
+		(property "LCSC" "C13832"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39246,7 +38877,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA5L2X7R2A105KT0Y0S"
+		(property "MPN" "CL31B105KCHNNNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39259,7 +38890,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39298,7 +38929,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA5L2X7R2A105KT0Y0S"
+		(property "EasyEDA Device" "CL31B105KCHNNNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40153,7 +39784,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40164,7 +39795,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40175,7 +39806,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40188,7 +39819,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40240,7 +39871,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40487,7 +40118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40498,7 +40129,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40509,7 +40140,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40522,7 +40153,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40535,7 +40166,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40548,7 +40179,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40574,7 +40205,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41868,7 +41499,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KBHNNNE/51263.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KCHSNNE/181486.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41879,7 +41510,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41890,7 +41521,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C50254"
+		(property "LCSC" "C170101"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41903,7 +41534,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B225KBHNNNE"
+		(property "MPN" "CL31B225KCHSNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41929,7 +41560,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41955,7 +41586,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL31B225KBHNNNE"
+		(property "EasyEDA Device" "CL31B225KCHSNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43141,7 +42772,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43152,7 +42783,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43163,7 +42794,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43176,7 +42807,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43228,7 +42859,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45187,7 +44818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45198,7 +44829,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45209,7 +44840,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45222,7 +44853,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45235,7 +44866,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45248,7 +44879,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45274,7 +44905,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50089,11 +49720,11 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "b913f12a-daa5-43a0-8fe4-5fdb8a38d9e2")
-		(at 156.202 37.971)
+		(at 157.4 37.4)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
-			(at 0.798722 -1.746274 0)
+			(at -0.001278 -1.746273 0)
 			(layer "F.SilkS")
 			(uuid "3f7fedc5-ce7c-40a2-85e6-20ab4f273642")
 			(effects
@@ -50734,7 +50365,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.22 -0.5)
@@ -50958,7 +50589,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -50969,7 +50600,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -50980,7 +50611,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50993,7 +50624,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51045,7 +50676,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51993,7 +51624,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52004,7 +51635,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52015,7 +51646,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52028,7 +51659,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52080,7 +51711,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54243,7 +53874,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC06035.1K1%2525N/259156.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C23186.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -54254,7 +53885,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -54265,7 +53896,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269716"
+		(property "LCSC" "C23186"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54278,7 +53909,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC06035.1K1%N"
+		(property "MPN" "0603WAF5101T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54291,7 +53922,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54304,7 +53935,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54330,7 +53961,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC06035.1K1%N"
+		(property "EasyEDA Device" "0603WAF5101T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54823,7 +54454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CGA4J1C0G2A333JT0Y0E/5751574.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1739.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -54834,7 +54465,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:33nF Tolerance:±5% Tolerance:±5% Voltage Rating:100V Temperature Coefficient:C0G"
+		(property "Description" "Capacitance:33nF Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -54845,7 +54476,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5139491"
+		(property "LCSC" "C1739"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54858,7 +54489,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA4J1C0G2A333JT0Y0E"
+		(property "MPN" "0805B333K500NT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54871,7 +54502,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "FH(风华)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54884,7 +54515,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54910,7 +54541,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CGA4J1C0G2A333JT0Y0E"
+		(property "EasyEDA Device" "0805B333K500NT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56093,7 +55724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56104,7 +55735,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56115,7 +55746,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56128,7 +55759,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56141,7 +55772,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56154,7 +55785,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56180,7 +55811,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57629,7 +57260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KBHNNNE/51263.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KCHSNNE/181486.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -57640,7 +57271,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -57651,7 +57282,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C50254"
+		(property "LCSC" "C170101"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57664,7 +57295,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B225KBHNNNE"
+		(property "MPN" "CL31B225KCHSNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57690,7 +57321,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57716,7 +57347,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL31B225KBHNNNE"
+		(property "EasyEDA Device" "CL31B225KCHSNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58256,375 +57887,6 @@
 		)
 		(embedded_fonts no)
 		(model "libs/easyeda2kicad.3dshapes/L1206_L3.2-W1.6-H1.1.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-RD"
-		(layer "F.Cu")
-		(uuid "d8afcc94-4b6c-4142-a7cd-19482d3d9000")
-		(at 152.634 41.941 90)
-		(property "Reference" "C105"
-			(at -5.13 0 0)
-			(layer "F.SilkS")
-			(uuid "bf7a84e0-c9db-43fa-8b06-2dabdf6117cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "47uF"
-			(at 0 4 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44a8abc3-637c-4d4a-8c0d-fdc8570645ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/VES470M1HTR-0607/109272.html"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "63fe7001-ea50-4128-a163-210bb408b1bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Ripple Current:- Equivalent Series Resistance(ESR):- Diameter:6.3mm Height - Seated (Max):7.7mm Lifetime:1000hrs@105℃ Operating Temperature:-45℃~+105℃ Operating Temperature:-45℃~+105℃"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "119030a0-785b-4977-a784-30ce5ad63baa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C108053"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e3da9264-c80e-4cf8-a764-d4e97206c83d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "VES470M1HTR-0607"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1462547c-c0de-4e17-8cd1-cd18fb0034ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Lelon(立隆)"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2419f487-bbbc-401e-bb51-ecbc151249c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLC Class" "Extended Part"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2fb35b17-6697-4b06-82ee-df8ce28b0e90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EasyEDA Footprint" "CAP-SMD_BD6.3-L6.6-W6.6-RD"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa2f53b9-1c8a-4120-aa59-03c8050d088e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EasyEDA Device" "VES470M1HTR-0607"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b95cf849-3d8e-4e13-b788-e53ba3caed99")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "CP_*")
-		(path "/988faa9c-4a7c-42eb-be46-0b06c4e58228/eeb6f905-94b1-4776-94d4-2a0655f1db15")
-		(sheetname "/Power 5V DC/")
-		(sheetfile "Power_5V_DC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 1.97 -3.38)
-			(end 3.36 -1.98)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "afec27fc-7b8e-4d2d-b2e9-a328e15884d8")
-		)
-		(fp_line
-			(start -3.39 -3.38)
-			(end 1.97 -3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a952d65f-b536-4f88-a607-efb2bdde4178")
-		)
-		(fp_line
-			(start 3.36 -1.98)
-			(end 3.36 -0.61)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b2796f8e-1b34-4737-a7a9-b2bb2e2ebff4")
-		)
-		(fp_line
-			(start -3.39 -0.61)
-			(end -3.39 -3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ef61a20b-afbb-45df-8359-1653f4d37b16")
-		)
-		(fp_line
-			(start -3.39 0.61)
-			(end -3.39 3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f6e350e1-c536-43ff-9f04-e7f9ff9b16c9")
-		)
-		(fp_line
-			(start 3.36 1.98)
-			(end 3.36 0.61)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "16695de4-ed10-4bbd-a6a2-b794725a9b2e")
-		)
-		(fp_line
-			(start 1.97 3.38)
-			(end 3.36 1.98)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0ce3b8eb-132c-4306-b1ee-1e654a0ddf01")
-		)
-		(fp_line
-			(start -3.39 3.38)
-			(end 1.97 3.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "66e9b884-e7fa-403b-b111-ca1d2df4be39")
-		)
-		(fp_circle
-			(center -3.3 3.3)
-			(end -3.27 3.3)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "ec2c8c6e-333d-4619-a2c5-f2e417fa8adb")
-		)
-		(fp_poly
-			(pts
-				(xy 3.087014 -1.418996) (xy 3.087014 -1.616989) (xy 2.295017 -1.616989) (xy 2.295017 -1.418996)
-				(xy 3.087014 -1.418996)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "bc8c9ce2-fe69-4532-aa0a-166a1a02f69c")
-		)
-		(fp_poly
-			(pts
-				(xy -3.116986 -1.418996) (xy -3.116986 -1.616989) (xy -2.324989 -1.616989) (xy -2.324989 -1.418996)
-				(xy -3.116986 -1.418996)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "38c5e520-31f8-4041-985d-1cb7236b728c")
-		)
-		(fp_poly
-			(pts
-				(xy 2.790012 -0.858012) (xy 2.790012 -2.177999) (xy 2.592019 -2.177999) (xy 2.592019 -0.858012)
-				(xy 2.790012 -0.858012)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "a5f2ef02-67ea-4825-b746-7a0f25b23f64")
-		)
-		(fp_line
-			(start 1.97 -3.3)
-			(end 3.29 -1.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "37be253a-0ef2-4dba-814b-356fd306b8c6")
-		)
-		(fp_line
-			(start -3.31 -3.3)
-			(end 1.97 -3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "af7adb03-a37b-40ea-85c7-ad24ccf3771b")
-		)
-		(fp_line
-			(start 3.29 -1.98)
-			(end 3.29 1.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ca083416-b91c-4232-9e4d-0529e6b89d62")
-		)
-		(fp_line
-			(start 3.29 1.98)
-			(end 1.97 3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c239f7f6-9b34-4631-bf93-de3155e31ded")
-		)
-		(fp_line
-			(start 1.97 3.3)
-			(end -3.31 3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ec71af81-e2c5-4330-9074-e967620dbd34")
-		)
-		(fp_line
-			(start -3.31 3.3)
-			(end -3.31 -3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "23d366e9-3690-47e3-817a-7e3dda182fdd")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "2004a49a-33b8-4873-aa54-3f037dc9e529")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at 2.55 0 270)
-			(size 3.26 1.15)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pintype "passive")
-			(uuid "34779e16-e8b5-46da-a2a2-3866a1042893")
-		)
-		(pad "2" smd rect
-			(at -2.55 0 270)
-			(size 3.26 1.15)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pintype "passive")
-			(uuid "f3ef6390-30d7-4c9d-b9e1-67d1b30a6dfd")
-		)
-		(embedded_fonts no)
-		(model "libs/easyeda2kicad.3dshapes/CAP-SMD_L6.6-W6.6-H7.0-LS7.2.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59536,7 +58798,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25917.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -59547,7 +58809,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:6.8kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:6.8kΩ Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -59558,7 +58820,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906876"
+		(property "LCSC" "C25917"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59571,7 +58833,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0402F6801TS"
+		(property "MPN" "0402WGF6801TCE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59584,7 +58846,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59597,7 +58859,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59623,7 +58885,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "FRC0402F6801TS"
+		(property "EasyEDA Device" "0402WGF6801TCE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61710,7 +60972,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -61721,7 +60983,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -61732,7 +60994,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61745,7 +61007,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61758,7 +61020,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61771,7 +61033,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61797,7 +61059,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62000,7 +61262,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RC0402FR-0727RL/149337.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25100.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -62011,7 +61273,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:27Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:27Ω Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -62022,7 +61284,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138021"
+		(property "LCSC" "C25100"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62035,7 +61297,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "0402WGF270JTCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62048,7 +61310,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62061,7 +61323,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62087,7 +61349,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RC0402FR-0727RL"
+		(property "EasyEDA Device" "0402WGF270JTCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64257,7 +63519,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB9VPNC/17319102.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -64279,7 +63541,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16194026"
+		(property "LCSC" "C5199872"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64292,7 +63554,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KB9VPNC"
+		(property "MPN" "CL10B105KB8NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64344,7 +63606,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL10B105KB9VPNC"
+		(property "EasyEDA Device" "CL10B105KB8NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64881,7 +64143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC06031M1%2525N/259145.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C22935.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -64892,7 +64154,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:1MΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:1MΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -64903,7 +64165,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269705"
+		(property "LCSC" "C22935"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64916,7 +64178,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC06031M1%N"
+		(property "MPN" "0603WAF1004T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64929,7 +64191,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64942,7 +64204,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64968,7 +64230,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC06031M1%N"
+		(property "EasyEDA Device" "0603WAF1004T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65171,7 +64433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RC0603FR-0749K9L/115868.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C23184.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -65182,7 +64444,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:49.9kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:49.9kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -65193,7 +64455,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C114624"
+		(property "LCSC" "C23184"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65206,7 +64468,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0749K9L"
+		(property "MPN" "0603WAF4992T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65219,7 +64481,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65232,7 +64494,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65258,7 +64520,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RC0603FR-0749K9L"
+		(property "EasyEDA Device" "0603WAF4992T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66517,6 +65779,370 @@
 			)
 		)
 	)
+	(footprint "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
+		(layer "F.Cu")
+		(uuid "f1697cac-6540-4a7a-a982-46ceeedf9b5e")
+		(at 109.5 61.05 90)
+		(property "Reference" "C40"
+			(at -1.6 -4.155 90)
+			(layer "F.SilkS")
+			(uuid "f128d9c0-0672-4f26-a921-7ab248c4db14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "47uF"
+			(at 0 4 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b31bdac-ccd3-40d1-8b62-886413651a5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/VZH470M1HTR-0607L/3158589.html"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "548a0376-8d1d-446a-90d1-75b84b12fce6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Diameter:6.3mm Height - Seated (Max):7.7mm Operating Temperature:-55℃~+105℃ Operating Temperature:-55℃~+105℃"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fef72ea3-d6f4-460b-9191-a4d90e4d29ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2902971"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0910dc0b-bbfa-407f-b41a-6a835882c549")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2902971"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "261a3b59-d140-4fa7-b801-45cc6420d57c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "VZH470M1HTR-0607L"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b561651-f40d-4c9a-acf8-2a490f07601d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Lelon(立隆)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ad42ce9-808b-48aa-a220-d52639f289a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e81cb10-6958-4c89-bb5e-663fc45a0f0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78df65bf-e3bb-46e9-91f2-c10d768954b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Device" "VZH470M1HTR-0607L"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47f4e928-d646-4629-95b4-ab45ff1c56db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a5cd39a2-799e-4eb6-8961-d9a1d545934a/f7e0fa15-1786-484f-9e7d-b8154c7e6dec")
+		(sheetname "/Power 3.3V DC/")
+		(sheetfile "Power_3_3V_DC.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 3.38 -3.38)
+			(end -1.98 -3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc08a588-3b08-4815-9e6e-31593905a41a")
+		)
+		(fp_line
+			(start -1.98 -3.38)
+			(end -3.38 -1.98)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2e7f0d34-e351-4f8f-af69-8bb72d9bfbdb")
+		)
+		(fp_line
+			(start -3.38 -1.98)
+			(end -3.38 -0.69)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb05c6fd-2180-497a-ad45-2a2f3c6fc4ba")
+		)
+		(fp_line
+			(start 3.37 -0.71)
+			(end 3.38 -3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8244b074-a9e6-4a9b-9f2e-8da752c1f96a")
+		)
+		(fp_line
+			(start 3.36 0.74)
+			(end 3.38 3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c64e731-9f2c-4fc6-9253-78a44b877c16")
+		)
+		(fp_line
+			(start -3.38 1.98)
+			(end -3.36 0.69)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b2314d03-4284-4a6d-8855-918cb110288f")
+		)
+		(fp_line
+			(start 3.38 3.38)
+			(end -1.98 3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c648de01-3ca0-4056-9b5f-98143705e9fb")
+		)
+		(fp_line
+			(start -1.98 3.38)
+			(end -3.38 1.98)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c307864b-9818-4a26-8ee7-01037a9be2a4")
+		)
+		(fp_circle
+			(center -3.6 3.3)
+			(end -3.57 3.3)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "a7c7b530-02c7-4bea-b9dc-d871d26ea5d6")
+		)
+		(fp_poly
+			(pts
+				(xy -2.804998 0.858012) (xy -2.804998 2.177999) (xy -2.607005 2.177999) (xy -2.607005 0.858012)
+				(xy -2.804998 0.858012)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "c0e8f978-d31e-45ee-8bd3-3c381750bddc")
+		)
+		(fp_poly
+			(pts
+				(xy 3.102 1.418996) (xy 3.102 1.616989) (xy 2.310003 1.616989) (xy 2.310003 1.418996) (xy 3.102 1.418996)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "66fb276e-e888-4dd7-ad99-6ac1e9878b25")
+		)
+		(fp_poly
+			(pts
+				(xy -3.102 1.418996) (xy -3.102 1.616989) (xy -2.310003 1.616989) (xy -2.310003 1.418996) (xy -3.102 1.418996)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "b4c7dc73-6c96-4223-bcf7-fbbd0eb5a163")
+		)
+		(fp_line
+			(start 3.3 -3.3)
+			(end 3.3 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f0f16f5a-bbdf-425b-a137-3edc87391652")
+		)
+		(fp_line
+			(start -1.98 -3.3)
+			(end 3.3 -3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8d097877-b47e-4183-aa3a-ddcdc5bbd817")
+		)
+		(fp_line
+			(start -3.3 -1.98)
+			(end -1.98 -3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "498fd2e5-bfe7-4adc-b0b8-df439e93182c")
+		)
+		(fp_line
+			(start -3.3 1.98)
+			(end -3.3 -1.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d18518b8-7e30-4a87-85a0-4d575b128a72")
+		)
+		(fp_line
+			(start 3.3 3.3)
+			(end -1.98 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dc3ff995-3521-4ff5-9c75-9dd44cba0e03")
+		)
+		(fp_line
+			(start -1.98 3.3)
+			(end -3.3 1.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "47d245fc-23ee-41e2-9ab8-0bf461e6a224")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "630da48b-6890-46ce-a6f9-147a25c6d63e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.67 0 90)
+			(size 3.5 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "3.3V")
+			(uuid "aca22666-f12f-4f53-9c3f-283638d7dd92")
+		)
+		(pad "2" smd rect
+			(at 2.67 0 90)
+			(size 3.5 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(uuid "b0446c14-6c14-48a2-b1a9-096fcbd73504")
+		)
+		(embedded_fonts no)
+		(model "libs/easyeda2kicad.3dshapes/CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
+	)
 	(footprint "easyeda2kicad:R0402"
 		(layer "F.Cu")
 		(uuid "f21582ff-92ee-44e4-aca6-b0d512cd674e")
@@ -66544,7 +66170,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RC0402FR-0727RL/149337.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25100.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -66555,7 +66181,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:27Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:27Ω Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -66566,7 +66192,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138021"
+		(property "LCSC" "C25100"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66579,7 +66205,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "0402WGF270JTCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66592,7 +66218,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66605,7 +66231,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66631,7 +66257,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RC0402FR-0727RL"
+		(property "EasyEDA Device" "0402WGF270JTCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67178,7 +66804,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67189,7 +66815,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67200,7 +66826,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67213,7 +66839,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67265,7 +66891,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67485,6 +67111,370 @@
 			)
 		)
 	)
+	(footprint "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
+		(layer "F.Cu")
+		(uuid "f300d70f-349f-4141-92b1-b53d99edb3df")
+		(at 152.634 41.941 90)
+		(property "Reference" "C105"
+			(at 0 -4.405 90)
+			(layer "F.SilkS")
+			(uuid "f6edbea0-0ada-44d4-a41c-776efdd90a9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "47uF"
+			(at 0 4 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88249d-1433-4770-abfd-614cda9f63f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/VZH470M1HTR-0607L/3158589.html"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ed953e7-63d2-460f-b196-1c9b2559d68b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Diameter:6.3mm Height - Seated (Max):7.7mm Operating Temperature:-55℃~+105℃ Operating Temperature:-55℃~+105℃"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e33c5d09-01c5-4cb2-b154-5c55e1f2df9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2902971"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74c6d07-4385-4737-a5d0-a625a1e033ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2902971"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "847a4b3b-afcf-457c-bf36-f68f2aa453de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "VZH470M1HTR-0607L"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7eb52e4c-ac84-4404-bee4-1cb30c25f85c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Lelon(立隆)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb6ba3d5-dcbb-4a7d-9d29-7586ed0e2b20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb9141b3-d601-413c-bbca-f5b2639549df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f2041f7-6e20-4fb2-9d60-22a75bbfc65b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Device" "VZH470M1HTR-0607L"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21184a9f-4cc4-466c-b2e1-16c32a8c9f00")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/988faa9c-4a7c-42eb-be46-0b06c4e58228/eeb6f905-94b1-4776-94d4-2a0655f1db15")
+		(sheetname "/Power 5V DC/")
+		(sheetfile "Power_5V_DC.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 3.38 -3.38)
+			(end -1.98 -3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7484fbf6-7254-4033-8803-7ac670b9543d")
+		)
+		(fp_line
+			(start -1.98 -3.38)
+			(end -3.38 -1.98)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "51ce07b4-5102-4dd0-b67f-9d2eab4c545f")
+		)
+		(fp_line
+			(start -3.38 -1.98)
+			(end -3.38 -0.69)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0ca394ff-8b59-40ba-b12c-c19770238f64")
+		)
+		(fp_line
+			(start 3.37 -0.71)
+			(end 3.38 -3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b6f4a502-c2d8-498d-9fc9-258d9f1ab407")
+		)
+		(fp_line
+			(start 3.36 0.74)
+			(end 3.38 3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7e1f7f20-d53a-4424-bfa1-cade6b434da6")
+		)
+		(fp_line
+			(start -3.38 1.98)
+			(end -3.36 0.69)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f390f80b-23a8-4ea2-9211-4421a4cc5a72")
+		)
+		(fp_line
+			(start 3.38 3.38)
+			(end -1.98 3.38)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f36f58a2-bf6f-4a0a-83e8-d64f3229f46b")
+		)
+		(fp_line
+			(start -1.98 3.38)
+			(end -3.38 1.98)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1cf82f41-6b6b-443c-a5ca-f59f522f02f2")
+		)
+		(fp_circle
+			(center -3.6 3.3)
+			(end -3.57 3.3)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "aab8ad90-22d4-438c-9ada-b4647b467e90")
+		)
+		(fp_poly
+			(pts
+				(xy -2.804998 0.858012) (xy -2.804998 2.177999) (xy -2.607005 2.177999) (xy -2.607005 0.858012)
+				(xy -2.804998 0.858012)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "68b0764e-1c4a-4377-b00f-9691ab15d399")
+		)
+		(fp_poly
+			(pts
+				(xy 3.102 1.418996) (xy 3.102 1.616989) (xy 2.310003 1.616989) (xy 2.310003 1.418996) (xy 3.102 1.418996)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "7bb79ef1-65da-42dc-84f5-8a71eeabc106")
+		)
+		(fp_poly
+			(pts
+				(xy -3.102 1.418996) (xy -3.102 1.616989) (xy -2.310003 1.616989) (xy -2.310003 1.418996) (xy -3.102 1.418996)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "3fd5b12d-da18-45bb-84d1-3c2d872ef0f0")
+		)
+		(fp_line
+			(start 3.3 -3.3)
+			(end 3.3 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8d422f72-ce24-42d1-8560-dd30a871daba")
+		)
+		(fp_line
+			(start -1.98 -3.3)
+			(end 3.3 -3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "00ac5387-8bbd-44e4-9f52-64dd9765af73")
+		)
+		(fp_line
+			(start -3.3 -1.98)
+			(end -1.98 -3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8cf8d754-6781-4fed-be81-075bedeab6d1")
+		)
+		(fp_line
+			(start -3.3 1.98)
+			(end -3.3 -1.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0a911ad7-35c1-497e-9a0a-42c14ff07ac3")
+		)
+		(fp_line
+			(start 3.3 3.3)
+			(end -1.98 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a1c632d6-7158-4b99-9ad3-df896688fc48")
+		)
+		(fp_line
+			(start -1.98 3.3)
+			(end -3.3 1.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "afa99721-6acb-4f91-9683-7c0795d06093")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "84a17685-204e-4d5f-9081-77c414bba2f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.67 0 90)
+			(size 3.5 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(uuid "eeff0c33-b149-4f4a-b893-b522ef169acb")
+		)
+		(pad "2" smd rect
+			(at 2.67 0 90)
+			(size 3.5 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(uuid "fbae230b-1424-4d2b-840f-97e4c3be54e4")
+		)
+		(embedded_fonts no)
+		(model "libs/easyeda2kicad.3dshapes/CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
+	)
 	(footprint "easyeda2kicad:R0402"
 		(layer "F.Cu")
 		(uuid "f41e7995-bdee-4b7d-a8cd-fc944f0af072")
@@ -67512,7 +67502,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RC0402FR-0727RL/149337.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25100.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67523,7 +67513,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:27Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:27Ω Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67534,7 +67524,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138021"
+		(property "LCSC" "C25100"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67547,7 +67537,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "0402WGF270JTCE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67560,7 +67550,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67573,7 +67563,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Verify at JLC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67599,7 +67589,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RC0402FR-0727RL"
+		(property "EasyEDA Device" "0402WGF270JTCE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68312,7 +68302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -68323,7 +68313,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -68334,7 +68324,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68347,7 +68337,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68399,7 +68389,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68422,7 +68412,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.87 0.35)
@@ -68980,7 +68970,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -68991,7 +68981,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -69002,7 +68992,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C307331"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69015,7 +69005,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69067,7 +69057,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL05B104KO5NNNC"
+		(property "EasyEDA Device" "CL05B104KB54PNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69314,7 +69304,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KBHNNNE/51263.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B225KCHSNNE/181486.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -69325,7 +69315,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:2.2uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -69336,7 +69326,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C50254"
+		(property "LCSC" "C170101"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69349,7 +69339,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B225KBHNNNE"
+		(property "MPN" "CL31B225KCHSNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69375,7 +69365,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69401,7 +69391,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL31B225KBHNNNE"
+		(property "EasyEDA Device" "CL31B225KCHSNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70247,7 +70237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC0603100K1%2525N/259139.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -70258,7 +70248,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -70269,7 +70259,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269699"
+		(property "LCSC" "C25803"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70282,7 +70272,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC0603100K1%N"
+		(property "MPN" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70295,7 +70285,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70308,7 +70298,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Extended Part"
+		(property "JLC Class" "Basic Part"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70334,7 +70324,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC0603100K1%N"
+		(property "EasyEDA Device" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
