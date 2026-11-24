@@ -167,7 +167,8 @@ Installation notes:
 
 ### Buck Converters U1 / U3 — LMQ66430MC3RXBRQ1
 
-Both bucks use the same part (datasheet: [Datasheets/lmq66430.pdf](Datasheets/lmq66430.pdf)).
+Both bucks use the same part (datasheet: [Datasheets/lmq66430-q1.pdf](Datasheets/lmq66430-q1.pdf),
+LMQ664x0-Q1, SNVSBV1F rev F; top marking **3MC3Q**).
 Decoding the part number with the datasheet's nomenclature (Figure 9-1):
 
 | Code | Meaning |
@@ -182,9 +183,10 @@ Decoding the part number with the datasheet's nomenclature (Figure 9-1):
 - **Clocking:** a fixed 2.2 MHz (with dual random spread spectrum), so there is
   no RT resistor. MODE/SYNC (pin 13) is tied to the 3.3V rail to select
   **FPWM**: constant frequency at light load, no PFM bursts in the audio band.
-  The datasheet revision in the repo no longer documents the MODE/SYNC
-  levels, so confirm FPWM on the bench (review P0-5): the SW node should be a
-  continuous ~2.2 MHz square wave at idle.
+  Per the datasheet (Table 7-1), MODE/SYNC above V_MODE_H (1.6 V max) selects
+  FPWM, below V_MODE_L (1.0 V) selects auto/PFM, and a clock syncs. 3.3 V is
+  well above the threshold and below the pin's 5.5 V absolute maximum. Bench
+  check: the SW node should be a continuous ~2.2 MHz square wave at idle.
 - **Minimum on-time:** at 35 V in, U3 (→ 5 V) needs about 65 ns per cycle,
   which is at the device's minimum on-time. It then stretches its period to
   about 1.8–2.0 MHz and keeps regulating. U1 (→ 13.2 V) is not affected.
