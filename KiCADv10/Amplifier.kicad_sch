@@ -4095,7 +4095,7 @@
 	)
 	(text "PVDD"
 		(exclude_from_sim no)
-		(at 228.6 153.035 0)
+		(at 257.302 153.162 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4267,7 +4267,7 @@
 	)
 	(text "PVDD"
 		(exclude_from_sim no)
-		(at 228.6 172.085 0)
+		(at 257.048 172.212 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4396,6 +4396,12 @@
 		(uuid "23ee249e-6b56-44f5-b7b1-591aabd8a2fa")
 	)
 	(junction
+		(at 247.65 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2731905a-94e6-457e-acfa-1750109e6edc")
+	)
+	(junction
 		(at 104.14 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4508,6 +4514,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f41b223-aeec-4595-9751-f0b5acc1b884")
+	)
+	(junction
+		(at 247.65 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f9ae70a-0101-4829-bdd0-c02da40f2382")
 	)
 	(junction
 		(at 34.29 248.92)
@@ -4774,6 +4786,12 @@
 		(uuid "dff0b6c0-cf3b-4915-ac83-6e283045b2bb")
 	)
 	(junction
+		(at 247.65 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f3f5e3-727f-4712-b656-0f55c5367dda")
+	)
+	(junction
 		(at 30.48 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5034,6 +5052,26 @@
 			(type default)
 		)
 		(uuid "196bd107-94b7-4d7b-9f14-15b79a24f954")
+	)
+	(wire
+		(pts
+			(xy 247.65 161.29) (xy 247.65 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1f4c22-dfd8-4e5a-8b93-56c47bd0d7c5")
+	)
+	(wire
+		(pts
+			(xy 255.27 152.4) (xy 247.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c32a025-9484-41e4-ba36-c925013d9274")
 	)
 	(wire
 		(pts
@@ -6327,6 +6365,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 171.45) (xy 247.65 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cef552e-0b82-405f-b203-c573c2b3e4ab")
+	)
+	(wire
+		(pts
 			(xy 78.74 220.98) (xy 83.82 220.98)
 		)
 		(stroke
@@ -6354,6 +6402,16 @@
 			(type default)
 		)
 		(uuid "8edadff3-41c6-4669-93af-07af5830f881")
+	)
+	(wire
+		(pts
+			(xy 247.65 161.29) (xy 247.65 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd2a0a3-6e62-4adb-bc6f-3b75c17577c6")
 	)
 	(wire
 		(pts
@@ -6757,6 +6815,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 161.29) (xy 247.65 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2382c8-8df9-44c2-8f14-82beaba33b39")
+	)
+	(wire
+		(pts
 			(xy 323.85 176.53) (xy 336.55 176.53)
 		)
 		(stroke
@@ -7157,6 +7225,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 171.45) (xy 224.79 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d879196c-d3fd-40b3-b6a5-4e85d63969e4")
+	)
+	(wire
+		(pts
 			(xy 34.29 228.6) (xy 36.83 228.6)
 		)
 		(stroke
@@ -7404,6 +7482,16 @@
 			(type default)
 		)
 		(uuid "ed2c8d7c-4290-46ec-ba9f-a976f1eae836")
+	)
+	(wire
+		(pts
+			(xy 247.65 152.4) (xy 224.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed88af77-3765-4948-bcd6-510dba0d6edf")
 	)
 	(wire
 		(pts
@@ -12331,7 +12419,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C1206"
 			(at 317.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12342,7 +12430,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB9VPNC/17319102.html"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B105KCHNNNE/14487.html"
 			(at 317.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12353,7 +12441,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:1uF Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
 			(at 317.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12364,7 +12452,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16194026"
+		(property "LCSC" "C13832"
 			(at 317.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12375,7 +12463,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KB9VPNC"
+		(property "MPN" "CL31B105KCHNNNE"
 			(at 317.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12408,7 +12496,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Footprint" "C0603"
+		(property "EasyEDA Footprint" "C1206"
 			(at 317.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12419,7 +12507,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL10B105KB9VPNC"
+		(property "EasyEDA Device" "CL31B105KCHNNNE"
 			(at 317.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -14383,6 +14471,82 @@
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
 					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NeatAmp:PWR_GND")
+		(at 243.84 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47dad185-d5f4-46a2-8bcf-3241d74806a6")
+		(property "Reference" "#PWR0251"
+			(at 243.84 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdd2c973-f169-4abb-bb29-abdcf815b9bb")
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
@@ -20402,7 +20566,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_PVDD")
-		(at 224.79 171.45 270)
+		(at 255.27 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20412,7 +20576,7 @@
 		(dnp no)
 		(uuid "9bd11755-fd44-4324-ab10-f6f4d5df6402")
 		(property "Reference" "#PWR0209"
-			(at 224.79 171.45 0)
+			(at 255.27 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20423,7 +20587,7 @@
 			)
 		)
 		(property "Value" "PVDD"
-			(at 224.79 171.45 90)
+			(at 255.27 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20435,7 +20599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 171.45 0)
+			(at 255.27 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20446,7 +20610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 171.45 0)
+			(at 255.27 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20457,7 +20621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 171.45 0)
+			(at 255.27 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24278,7 +24442,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_PVDD")
-		(at 224.79 152.4 270)
+		(at 255.27 152.4 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24288,7 +24452,7 @@
 		(dnp no)
 		(uuid "cd87c7c6-0e6d-4047-8f63-9c12edf4db6b")
 		(property "Reference" "#PWR0208"
-			(at 224.79 152.4 0)
+			(at 255.27 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24299,7 +24463,7 @@
 			)
 		)
 		(property "Value" "PVDD"
-			(at 224.79 152.4 90)
+			(at 255.27 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24311,7 +24475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 152.4 0)
+			(at 255.27 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24322,7 +24486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 152.4 0)
+			(at 255.27 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24333,7 +24497,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 152.4 0)
+			(at 255.27 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24758,7 +24922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C1206"
 			(at 172.72 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -24769,7 +24933,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B223KB8NNNC/21834.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C527321.html"
 			(at 172.72 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -24780,7 +24944,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitance:22nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+		(property "Description" "Capacitance:22nF Tolerance:±5% Voltage Rating:50V Temperature Coefficient:X7R"
 			(at 172.72 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -24791,7 +24955,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21122"
+		(property "LCSC" "C527321"
 			(at 172.72 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -24802,7 +24966,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B223KB8NNNC"
+		(property "MPN" "CC1206JRX7R9BB223"
 			(at 172.72 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -24813,7 +24977,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "YAGEO"
 			(at 172.72 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -24824,7 +24988,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 172.72 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -24835,7 +24999,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Footprint" "C0603"
+		(property "EasyEDA Footprint" "C1206"
 			(at 172.72 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -24846,7 +25010,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "CL10B223KB8NNNC"
+		(property "EasyEDA Device" "CC1206JRX7R9BB223"
 			(at 172.72 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -25460,6 +25624,153 @@
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
 					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 247.65 167.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db4222de-5e5a-4d1b-b94f-6169cc5516a1")
+		(property "Reference" "C109"
+			(at 250.19 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 250.19 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C1206"
+			(at 247.65 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B105KCHNNNE/14487.html"
+			(at 247.65 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
+			(at 247.65 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC" "C13832"
+			(at 247.65 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "CL31B105KCHNNNE"
+			(at 247.65 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 247.65 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 247.65 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "C1206"
+			(at 247.65 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Device" "CL31B105KCHNNNE"
+			(at 247.65 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ffdb8e5-803b-4f53-bb50-72c9e46f4f6e")
+		)
+		(pin "2"
+			(uuid "7199198f-5d6f-4329-9fdd-ef79826b215a")
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -28563,6 +28874,153 @@
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
 					(reference "#PWR0239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 247.65 156.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbd21da0-75d8-4269-9e73-d924bf6ac3b3")
+		(property "Reference" "C108"
+			(at 250.19 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 250.19 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C1206"
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL31B105KCHNNNE/14487.html"
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:100V Temperature Coefficient:X7R"
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC" "C13832"
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "CL31B105KCHNNNE"
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "C1206"
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Device" "CL31B105KCHNNNE"
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee66e993-c21a-4b3f-b5e3-5d896261ca91")
+		)
+		(pin "2"
+			(uuid "fca58f80-e2f4-4fdd-9250-4603d0f8a98e")
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
+					(reference "C108")
 					(unit 1)
 				)
 			)

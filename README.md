@@ -542,6 +542,43 @@ The following components are excluded from the SMT order
 - **L7–L14** — output filter inductors (Coilcraft XGL1712-103MED and
   Würth/Codaca MA5172-AE dual footprints) — order from Mouser
 - **TP1–TP30** — test points (optional)
+- **C80, C81, C108, C109** — bottom-side 1206 caps directly under U12 (see
+  below) — order from LCSC
+
+#### Bottom-side caps under U12 (hand-soldered, V1.3)
+
+The board is assembled by JLCPCB on the **top side only**. Four 1206
+capacitors sit on the **bottom**, right under their U12 pins, for the shortest
+possible loop (U12's DKQ package is top-cooled, so the bottom under it is free):
+
+| Ref | Function | U12 pin | Part | LCSC | Qty / board |
+|-----|----------|---------|------|------|-------------|
+| C108 | PVDD_A bypass | 40 | Samsung CL31B105KCHNNNE, 1 µF 100 V X7R 1206 | C13832 | 1 |
+| C109 | PVDD_B bypass | 35 | Samsung CL31B105KCHNNNE, 1 µF 100 V X7R 1206 | C13832 | 1 |
+| C80 | AVDD decoupling | 23 | Samsung CL31B105KCHNNNE, 1 µF 100 V X7R 1206 | C13832 | 1 |
+| C81 | C_START (pop-free ramp) | 24 | Yageo CC1206JRX7R9BB223, 22 nF 50 V X7R 1206 | C527321 | 1 |
+
+Per 5 boards: **15 × C13832** and **5 × C527321** (order a few spares; check
+LCSC's minimum order quantity).
+
+- **C108/C109 are mandatory.** The TAS3251 datasheet (§8.3.1.2) requires a
+  1 µF ceramic as close to each PVDD pin as possible. Without them, output
+  ringing can exceed the pin ratings and damage the device. The In2.Cu PVDD
+  plane does not replace them.
+- **C_START = 22 nF** gives a slower start-up ramp. TI recommends 10 nF for
+  best pop/click performance; 10–470 nF is allowed.
+
+**Ordering checklist (JLCPCB + LCSC):**
+1. JLCPCB does **not** ship loose parts with a PCBA order (customs
+   restriction), and its parts library is assembly-only. Buy these four from
+   **LCSC** as a separate order; check at checkout whether shipping can be
+   combined.
+2. The four footprints are set to **Exclude from position files** in KiCad,
+   so the CPL export contains top-side parts only.
+3. They stay in the KiCad BOM. On JLCPCB's BOM matching page, set
+   **C80, C81, C108, C109 → "Do Not Place"**, so they are not quoted or assembled
+   and no double-sided assembly is charged.
+4. Solder them after the boards arrive, before the first power-up.
 
 ---
 

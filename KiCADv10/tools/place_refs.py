@@ -4,7 +4,7 @@ Readable orientation for a board viewed with the speaker outputs on the right
 (= normal KiCad view here): text angle 0 (left-to-right) or 90 (bottom-to-top).
 
 Usage (KiCad bundled Python, KiCad closed):
-  /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/bin/python3 tools/place_refs.py NeatAmp.kicad_pcb out.kicad_pcb
+  /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/bin/python3 tools/place_refs.py NeatAmp.kicad_pcb out.kicad_pcb [REF1,REF2,...]
 References with no free spot keep their position and are reported as UNPLACED.
 """
 import sys, math
@@ -209,6 +209,15 @@ for t in board.GetTracks():
         pass  # vias are tented: not exposed copper
 
 refs = [i for i, f in enumerate(fps) if f.Reference().IsVisible() and f.Reference().GetLayer() == pcbnew.F_SilkS]
+
+# Optional 3rd argument: comma-separated references to re-place; all other
+# references stay where they are and count as obstacles.
+if len(sys.argv) > 3:
+    only = set(sys.argv[3].split(','))
+    for i in refs:
+        if fps[i].GetReference() not in only:
+            obs.add('text', i, None, bbox_mm(fps[i].Reference().GetBoundingBox()))
+    refs = [i for i in refs if fps[i].GetReference() in only]
 
 # text extents at angle 0
 ext = {}
