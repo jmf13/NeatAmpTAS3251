@@ -3657,16 +3657,16 @@
 		(uuid "91ea6da9-12ea-4363-99eb-b701a7b6e843")
 	)
 	(junction
+		(at 172.72 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91f66759-6fba-49bb-88a7-0923fa128709")
+	)
+	(junction
 		(at 243.84 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95b602f9-c81a-4e6f-9361-944119a5666d")
-	)
-	(junction
-		(at 172.72 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95c50782-d074-4d93-b244-96fed32907af")
 	)
 	(junction
 		(at 264.16 151.13)
@@ -3867,6 +3867,16 @@
 	(no_connect
 		(at 241.3 55.88)
 		(uuid "ed1fc21b-501b-4ad2-905d-07b86b6da4d5")
+	)
+	(wire
+		(pts
+			(xy 158.75 138.43) (xy 162.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01aad060-3838-403e-929e-8ef14078772b")
 	)
 	(wire
 		(pts
@@ -4207,6 +4217,16 @@
 			(type default)
 		)
 		(uuid "44e3a4c9-6dff-4cc0-8037-d12608c79686")
+	)
+	(wire
+		(pts
+			(xy 170.18 138.43) (xy 172.72 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460549d9-a9ea-4f9d-a2bf-b5fec44a8563")
 	)
 	(wire
 		(pts
@@ -4790,16 +4810,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 138.43) (xy 172.72 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad2238b9-76b2-45ce-b5b9-e044e5aa4c5f")
-	)
-	(wire
-		(pts
 			(xy 114.3 50.8) (xy 114.3 58.42)
 		)
 		(stroke
@@ -5300,7 +5310,7 @@
 	)
 	(global_label "ENABLE_12V"
 		(shape input)
-		(at 162.56 138.43 180)
+		(at 158.75 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5310,7 +5320,7 @@
 		)
 		(uuid "044063d5-acdb-4b27-a3d1-750e0cb72b6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 138.43 0)
+			(at 158.75 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11263,6 +11273,153 @@
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/6008f4fb-ff8e-4306-9ff9-83228c44f689"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 138.43 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a58e8177-46f0-44e5-a826-2fecf7e76609")
+		(property "Reference" "R55"
+			(at 165.1 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 167.64 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 166.37 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
+			(at 166.37 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+			(at 166.37 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 166.37 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 166.37 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 166.37 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLC Class" "Basic Part"
+			(at 166.37 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "R0603"
+			(at 166.37 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Device" "0603WAF1002T5E"
+			(at 166.37 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3fb3c25-0a17-47b1-b4b8-f669148cbbf5")
+		)
+		(pin "2"
+			(uuid "a5505f0f-74ab-4ea2-981c-dccaed403ea0")
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/6008f4fb-ff8e-4306-9ff9-83228c44f689"
+					(reference "R55")
 					(unit 1)
 				)
 			)
