@@ -174,7 +174,7 @@ P('TP19', 'TP', 274, 66, 270, txt=(3, 0, 0, 0, 'left', 'hidev'))
 
 # ---- fault / clip LEDs (open-drain outputs pull the cathode low)
 for x, r, led, kind, lab, net in [(296, 'R46', 'LED1', 'LED', 'LED1_P2', 'TAS_FAULT'),
-                                  (310, 'R47', 'LED2', 'LEDA', 'LED2_P1', 'TAS_CLIP')]:
+                                  (310, 'R47', 'LED2', 'LED', 'LED2_P1', 'TAS_CLIP')]:
     PW('3.3V', x, 64)
     P(r, 'R', x, 67, 180)                                # pin2 (x,64)=3.3V, pin1 (x,70)
     W((x, 70), (x, 71)); LBL(lab, x, 71)

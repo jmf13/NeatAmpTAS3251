@@ -26969,7 +26969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "NeatAmp:LED_1A2K")
+		(lib_id "Device:LED")
 		(at 289.56 189.23 90)
 		(unit 1)
 		(body_style 1)
@@ -26990,7 +26990,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YLED0603YG"
+		(property "Value" "KT-0603Y"
 			(at 292.1 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27001,7 +27001,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED0603-FD"
+		(property "Footprint" "easyeda2kicad:LED-SMD_L1.6-W0.8-R-RD"
 			(at 289.56 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -27012,7 +27012,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/YLED0603YG/20382443.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2287.html"
 			(at 289.56 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -27023,7 +27023,7 @@
 				)
 			)
 		)
-		(property "Description" "Lamp Holder Type:- Illumination Color:Yellow Green Voltage - Forward(Vf):1.8V~2.4V Voltage - Forward(Vf):1.8V~2.4V Power(Watts):- Forward Current:30mA Wavelength - Dominant:566nm~576nm Wavelength - Dominant:566nm~576nm Peak Wavelength:- Diode Configuratio"
+		(property "Description" "Lamp Holder Type:1.6mm x 0.8mm square LED Illumination Color:Yellow Voltage - Forward(Vf):1.8V~2.4V Forward Current:20mA Wavelength - Dominant:585nm~595nm"
 			(at 289.56 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -27034,7 +27034,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19171392"
+		(property "LCSC" "C2287"
 			(at 289.56 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -27045,7 +27045,7 @@
 				)
 			)
 		)
-		(property "MPN" "YLED0603YG"
+		(property "MPN" "KT-0603Y"
 			(at 289.56 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -27056,7 +27056,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YONGYUTAI(永裕泰)"
+		(property "Manufacturer" "KENTO"
 			(at 289.56 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -27078,7 +27078,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Footprint" "LED0603-FD"
+		(property "EasyEDA Footprint" "LED-SMD_L1.6-W0.8-R-RD"
 			(at 289.56 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -27089,7 +27089,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "YLED0603YG"
+		(property "EasyEDA Device" "KT-0603Y"
 			(at 289.56 189.23 0)
 			(hide yes)
 			(show_name no)

@@ -37505,358 +37505,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "easyeda2kicad:LED0603-FD"
-		(layer "F.Cu")
-		(uuid "8dcf7686-041a-47f6-8ddd-755a02d52685")
-		(at 146.65 129.5 180)
-		(property "Reference" "LED2"
-			(at 0.1 1.775 0)
-			(layer "F.SilkS")
-			(uuid "774c262c-7961-45a1-acaa-a8793484c59d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "YLED0603YG"
-			(at 0 4 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e6cdd21-69ff-47c7-87cd-d194e072bbc3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/YLED0603YG/20382443.html"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "282974f1-588e-42bd-98e3-5f244cf8c92f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Lamp Holder Type:- Illumination Color:Yellow Green Voltage - Forward(Vf):1.8V~2.4V Voltage - Forward(Vf):1.8V~2.4V Power(Watts):- Forward Current:30mA Wavelength - Dominant:566nm~576nm Wavelength - Dominant:566nm~576nm Peak Wavelength:- Diode Configuratio"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "101b2921-7088-47b7-ac8c-5ea2f14c4413")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C19171392"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7006dbd-1a75-4b73-ad73-e30540911810")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "YLED0603YG"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "857e3b96-bb2e-4b8c-888c-dc6cef9e8b2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "YONGYUTAI(永裕泰)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d538d974-ef58-4e32-bf77-a365cf89dda1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLC Class" "Extended Part"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32e83417-bdff-4926-b29e-369d5aebc174")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EasyEDA Footprint" "LED0603-FD"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7da900bf-5611-47a2-8fee-2e7e76c78084")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "EasyEDA Device" "YLED0603YG"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ff4898e-c875-4fa5-b2c1-50e9ba3f0add")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/f9225482-5a52-40bd-a9f9-5af688b65258/f724010f-79c4-4960-90e1-300f0ab0b32f")
-		(sheetname "/Amplifier/")
-		(sheetfile "Amplifier.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 1.75 0.45)
-			(end 1.45 0.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "683776b0-6c31-4b7a-a3f4-eb57afb8f2dc")
-		)
-		(fp_line
-			(start 1.75 0.35)
-			(end 1.75 0.45)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7d631b72-7928-4fef-80bf-c16742c9a57c")
-		)
-		(fp_line
-			(start 1.75 0.35)
-			(end 1.75 -0.35)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "17922794-1100-45b2-ae75-47d81bf983b1")
-		)
-		(fp_line
-			(start 1.75 -0.35)
-			(end 1.75 -0.45)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "67d38517-9a8b-4bfe-acb9-9c7aafdf1b99")
-		)
-		(fp_line
-			(start 1.75 -0.45)
-			(end 1.45 -0.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f834ab02-80ae-461f-96ae-cb7f1afa2f1a")
-		)
-		(fp_line
-			(start 0.3 0.75)
-			(end 1.45 0.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f13126a4-5187-4ade-a144-e894a5a1069a")
-		)
-		(fp_line
-			(start 0.3 -0.75)
-			(end 1.45 -0.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d3ce7ac2-f8ce-4782-86a9-6d941a0a9e54")
-		)
-		(fp_line
-			(start -0.13 0.01)
-			(end 0.13 0.01)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f1e9370e-a9b0-44f4-af8b-e98ee8d330c9")
-		)
-		(fp_line
-			(start -0.13 -0.38)
-			(end -0.13 0.38)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6ffb302a-2197-49ca-b449-5d43c686eee0")
-		)
-		(fp_line
-			(start -0.3 0.75)
-			(end -1.55 0.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4c283e4f-a8c1-48ae-9cb1-945b82ff73dd")
-		)
-		(fp_line
-			(start -0.3 -0.75)
-			(end -1.55 -0.75)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "604dcee6-2644-4aa4-8c05-ee2dd03c06a2")
-		)
-		(fp_line
-			(start -1.55 0.75)
-			(end -1.55 -0.73)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a135f9d5-2237-48b9-87e9-4bc1305cae8a")
-		)
-		(fp_circle
-			(center -0.8 0.4)
-			(end -0.77 0.4)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "ad8013b8-5603-44fc-b5df-67c76ae5f94b")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e9444cff-021b-440d-85c3-c74b05b2b300")
-		)
-		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f014a504-3d12-49ac-99f1-d6c9ca3daf31")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "02a6ca35-9ced-46c6-bf72-4fc48bd4ba55")
-		)
-		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2cf7bb8a-c2dc-4247-9754-5860f70a034f")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(uuid "f81eca06-bc4c-48cd-ba9f-e5955516081f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -0.85 0 90)
-			(size 1 0.9)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Amplifier/LED2_P1")
-			(pinfunction "A_1")
-			(pintype "passive")
-			(uuid "a10d1d02-fadd-43f3-a3d1-179d6db12bb3")
-		)
-		(pad "2" smd rect
-			(at 0.85 0 90)
-			(size 1 0.9)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "TAS_CLIP")
-			(pinfunction "K_2")
-			(pintype "passive")
-			(uuid "ff6a6654-5914-4632-91b7-604604bfd157")
-		)
-		(embedded_fonts no)
-		(model "libs/easyeda2kicad.3dshapes/LED0603_Inf.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "easyeda2kicad:C1210"
 		(layer "F.Cu")
 		(uuid "8eeca6b4-6f1b-4e56-9466-16cab70cbd23")
@@ -62500,6 +62148,338 @@
 		)
 		(embedded_fonts no)
 		(model "libs/easyeda2kicad.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "easyeda2kicad:LED-SMD_L1.6-W0.8-R-RD"
+		(layer "F.Cu")
+		(uuid "e8209146-992b-4c79-9610-d1900f6c23ac")
+		(at 146.65 129.5 180)
+		(descr "0603")
+		(property "Reference" "LED2"
+			(at -0.115 -1.774999 0)
+			(layer "F.SilkS")
+			(uuid "e0b461bc-d248-49df-94a2-3d4402228fdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "KT-0603Y"
+			(at 0 4 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a87dfaa-3833-4f37-b34d-1ddce8ec6940")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2287.html"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c75d6497-e9f8-4c5e-9e01-1a2e5c964e78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Lamp Holder Type:1.6mm x 0.8mm square LED Illumination Color:Yellow Voltage - Forward(Vf):1.8V~2.4V Forward Current:20mA Wavelength - Dominant:585nm~595nm"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e7c4344-6e66-4c18-bbdc-582c805ce283")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2286"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "354bfe65-1b21-4346-9d30-2590638614af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2287"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2eca58f-7598-44f5-bef6-ca207d9c18e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KT-0603Y"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef8683a8-6b48-443e-bf40-c5329afd5f54")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b11040f0-4959-4d0c-a44e-06e9c0b2f137")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e55d05e9-526a-4876-8467-c766bc05a546")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "LED-SMD_L1.6-W0.8-R-RD"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ce6cce3-913f-4358-81c3-ab712ed8bb25")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Device" "KT-0603Y"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0bb640a-1439-4d64-b74d-55a142af037a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f9225482-5a52-40bd-a9f9-5af688b65258/f724010f-79c4-4960-90e1-300f0ab0b32f")
+		(sheetname "/Amplifier/")
+		(sheetfile "Amplifier.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.47 0.7)
+			(end 0.2 0.7)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b3f90905-911f-4feb-94b4-6c84c0bfad7e")
+		)
+		(fp_line
+			(start 1.47 -0.7)
+			(end 1.47 0.7)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2f8d749-b4e2-4632-a749-f8f010d7fe2e")
+		)
+		(fp_line
+			(start 0.2 -0.7)
+			(end 1.47 -0.7)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "94928ca3-1e25-46dc-8c67-ca058bac78ee")
+		)
+		(fp_line
+			(start 0.09 0)
+			(end -0.12 0)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "57d15dff-a285-40a5-987d-3824e68dfe9d")
+		)
+		(fp_line
+			(start 0.09 -0.4)
+			(end 0.09 0.38)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e0b3f2ae-676e-4cd7-9357-7684294be14e")
+		)
+		(fp_line
+			(start -0.3 -0.7)
+			(end -1.4 -0.7)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "93c2b7ba-d5eb-4897-b0b2-329f00690ff4")
+		)
+		(fp_line
+			(start -1.4 0.7)
+			(end -0.3 0.7)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "80ea5889-0535-474c-9a76-0b77543fbc32")
+		)
+		(fp_line
+			(start -1.4 -0.7)
+			(end -1.7 -0.4)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "66d620d2-5872-44a6-b6c9-9f7b2b07eaf3")
+		)
+		(fp_line
+			(start -1.7 0.4)
+			(end -1.4 0.7)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "76578c6b-0c0c-40ae-a196-2f357a8ef917")
+		)
+		(fp_line
+			(start -1.7 -0.4)
+			(end -1.7 0.4)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1585e97e-63a1-480c-8698-4ae55cc43605")
+		)
+		(fp_circle
+			(center 0.8 -0.4)
+			(end 0.85 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6a1040ab-a494-42ed-a11e-d67b27c9f985")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3532815b-cc0b-40a9-9c59-f54196cff70c")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eba01abf-b464-444a-b6fc-a82c7511485b")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6c5502d3-14e3-448f-9838-dfa46b8d711a")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "65ddf822-7256-4410-8c89-c57caaa66667")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "b68159dc-809a-4361-951f-8eac932ffe6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0.75 0 180)
+			(size 0.8 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "TAS_CLIP")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "97c9f5ef-bc2d-4b1a-87ad-cf9d2ca12807")
+		)
+		(pad "2" smd rect
+			(at -0.75 0 180)
+			(size 0.8 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Amplifier/LED2_P1")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "9c6cbb70-2343-47a8-bad2-d70c89b1252c")
+		)
+		(embedded_fonts no)
+		(model "libs/easyeda2kicad.3dshapes/LED0603_L1.6-W0.8-H0.6.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
