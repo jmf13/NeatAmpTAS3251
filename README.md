@@ -94,7 +94,7 @@ experimental until the bench tests are done.
 | [hw_review_2026-11-06.md](hw_review_2026-11-06.md) | Full hardware review: every finding (P0 fixes, P1 savings, P2 improvements) with reasoning, datasheet references and status. Starts with the **open items summary** |
 | [tas/README.md](tas/README.md) | ESP32-S3 firmware: ESP-IDF setup, build, debugging, firmware architecture, and the **step-by-step V1.0/V1.1 rework checklist** |
 | [KiCADv10/README.md](KiCADv10/README.md) | How the KiCad 10 project was converted from EasyEDA, libraries and netlist checks |
-| [Datasheets/](Datasheets/) | TAS3251, LMQ66430-Q1, TPS7A47, UHP-500, heatsink datasheet and STEP |
+| [Datasheets/](Datasheets/) | TAS3251, LMQ66430-Q1, TPS7A47, UHP-500, ADAU1462/1466, XU316-1024-QF60B (`C7397517.pdf`), heatsink datasheet and STEP |
 
 ---
 
@@ -260,7 +260,7 @@ and the sensitive rails get an LDO after the buck.
 | PVDD | 35 V | External PSU via F1, Q1 | TAS3251 output stage, both bucks |
 | +13.2V | 13.2 V | U1 LMQ66430 buck | U2 LDO input (GOOD_13.2V = U1 power-good) |
 | 12V_GVDD | 12.0 V | U2 TPS7A4701 LDO | TAS3251 GVDD_A/B. Enabled by the ESP32 (ENABLE_12V) |
-| +5V | ~4.6 V | U3 buck (via D5) or USB-C (via D3) | 3.3 V buck, analog LDO, status LEDs, I²S connector |
+| +5V (**≈ 4.6 V**) | 4.4–4.8 V | U3 buck 5.02 V (via D5) or USB-C (via D3) | 3.3 V buck, analog LDO, status LEDs, I²S connector |
 | 3.3V | 3.3 V | U4 AP63203 buck | ESP32-S3, TAS3251 DAC_DVDD, ADAU1466 digital |
 | +3.3VA | 3.3 V | U5 TPS7A2033 LDO | TAS3251 DAC_AVDD only |
 
@@ -337,19 +337,30 @@ R7 holds EN low by default, and R55 (10 kΩ in series) limits the current into E
 > even at 50 mA in a small SMD package. Buck + LDO keeps losses low and the noise
 > lower than a buck alone.
 
-#### 5 V rail and USB-C power OR
+#### +5V rail (≈ 4.6 V) and USB-C power OR
 
-U3 (5.02 V) and USB-C VBUS are OR-ed through Schottky diodes D5 and D3, so the
+U3 (5.02 V) and USB-C VBUS are OR-ed through SS34 Schottky diodes D5 and D3, so the
 digital side runs from either. With USB-C only (programming), the TAS3251 power
 stage stays unpowered. A 1 MΩ resistor discharges VBUS for clean hot-plugging.
 
-The diode drop leaves the +5V rail at **~4.6 V**. That's fine for the 3.3 V
-regulators. Options to restore 5.0 V are open in [P2-3](hw_review_2026-11-06.md#p2-3).
+The diode drop leaves the net called **+5V at about 4.6 V** (4.4–4.8 V from USB-C).
+This is intentional: everything on it works at 4.6 V (AP63203 needs ≥ 3.8 V, TPS7A2033
+≥ 3.45 V), and at 4.6 V the SK9822 LEDs still accept the ESP32's 3.3 V logic. Moving
+U3's feedback after D5 was rejected because of start-up detection and stability risks
+([P2-3](hw_review_2026-11-06.md#p2-3)).
+
+**USB-C only** (programming): a PC port supplies 500 mA at 5 V, about 0.6 A at 3.3 V.
+That powers the ESP32, but not the DSP board as well. Unplug the DSP board, or use a
+USB-C charger that advertises ≥ 1.5 A.
 
 #### 3.3 V rails
 
-- **3.3V digital, U4 AP63203:** fixed 3.3 V buck from +5V, always on. Feeds the ESP32-S3,
-  TAS3251 DAC_DVDD and the ADAU1466 digital side.
+- **3.3V digital, U4 AP63203:** fixed 3.3 V, 2 A buck from +5V, always on (L5 6.8 µH,
+  1.1 MHz). Feeds the ESP32-S3 and TAS3251 DAC_DVDD (~0.55 A peak). From the datasheets,
+  the DSP board (ADAU1466 + XU316) adds ~0.6 A typical and ~1 A or more with a heavy DSP
+  program. That leaves U4 with no margin. **The DSP board should therefore take its power
+  from +5V** (U11 pin 2) and make its own 3.3 V, 1.8 V and 0.9 V (XU316) and 1.2 V
+  (ADAU1466 core). Budget and details: [P2-10](hw_review_2026-11-06.md#p2-10).
 - **+3.3VA analog, U5 TPS7A2033:** ultra-low-noise LDO (7 µVrms) for TAS3251 DAC_AVDD
   only. From V1.3 it is fed through **L15** (600 Ω ferrite bead) with **C77** 10 µF on the
   +5V side, so switching noise on +5V doesn't reach the DAC. Enabled by default (100 kΩ
@@ -640,12 +651,15 @@ The I²S connector U11 (JST XH, 6-pin) accepts audio from:
 
 | Pin | Signal |
 |---|---|
-| 1 | DATA (SDIN) |
-| 2 | BCLK |
-| 3 | LRCK |
-| 4 | MCLK |
-| 5 | +5V |
-| 6 | GND |
+| 1 | GND |
+| 2 | +5V (≈ 4.6 V) |
+| 3 | MCLK |
+| 4 | LRCK |
+| 5 | SCLK (BCLK) |
+| 6 | SDIN (DATA) |
+
+Pinout from the V1.3 KiCad netlist. Earlier versions of this README listed a different
+order (1 DATA … 5 +5V, 6 GND); check against your board before plugging in a module.
 
 Series resistors on all four signal lines damp reflections and EMI. The ESP32 does not
 drive I²S on the board. On V1.0/V1.1 a test tone can be patched from H2 to U11
@@ -819,7 +833,7 @@ See [What's new in V1.3](#whats-new-in-v13) and the
 
 ## Next versions: ideas
 
-- Restore a true 5.0 V on +5V (feedback after the OR diode, or ideal-diode OR) ([P2-3](hw_review_2026-11-06.md#p2-3)).
+- Ideal-diode OR instead of D3/D5: removes ~0.7 W of diode loss at full digital load and gives a true 5.0 V (then the SK9822 lines need a 5 V buffer) ([P2-3](hw_review_2026-11-06.md#p2-3), [P2-10](hw_review_2026-11-06.md#p2-10)).
 - A real BOOT button on IO0 instead of the H2 jumper ([P2-4](hw_review_2026-11-06.md#p2-4)).
 - Wire the PSU's DC-OK contact to a GPIO as an early mains-off warning.
 - Enclosure: the supplied 3D shell has **not passed JLCPCB's manufacturing review** and
