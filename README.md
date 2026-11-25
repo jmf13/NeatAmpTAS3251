@@ -307,19 +307,32 @@ Set by ADR pin (46):
 
 This pin is connected to ESP32 IO12.
 
-### Switching Frequency Select — U13
+### Switching Frequency Select — FREQ_ADJ resistor
 
 The TAS3251 PWM switching frequency is set by a resistor from FREQ_ADJ (pin 18)
-to AGND, broken out on jumper header **U13** (2x4, 2.54mm). Bridge exactly one
-pin pair with a shunt; the current default is **pins 3-4 (10kΩ)**, giving the
-highest switching frequency.
+to GND (datasheet SLASEG6C §7.3.9). From V1.3 the jumper header U13 is gone. There are two
+0603 positions on the bottom side directly behind pin 18:
 
-| U13 pins | R to AGND | Switching frequency |
-|----------|-----------|----------------------|
-| 3-4 | 10kΩ only | 768kHz ← highest (default) |
-| 5-6 | 20kΩ only | 576kHz |
-| 7-8 | 30kΩ only | 384kHz |
-| 1-2 | Pulled to 3.3V | Target/slave mode (external sync via OSC_IOP/IOM) |
+- **R38**, FREQ_ADJ to GND, fitted with **10 kΩ = 600 kHz, the highest switching frequency** (default).
+- **R56**, FREQ_ADJ to 3.3 V, 0 Ω, DNP. Fit it (and remove R38) only for target/slave mode.
+
+To change the frequency, swap R38's value. Do it with the board unpowered, or at least
+with RESET_AMP low.
+
+| R38 | Switching frequency | LCSC (1 %, 0603) |
+|-----|---------------------|------------------|
+| 10 kΩ | **600 kHz** ← highest (default) | C25804 |
+| 20 kΩ | 500 kHz (AM1) | C4184 |
+| 30 kΩ | 450 kHz (AM2) | C22984 |
+| removed, R56 = 0 Ω | Target/slave mode (external sync via OSC_IOP/IOM, H3) | C21189 |
+
+OSC_IOM/OSC_IOP (pins 19/20) go to H3 through R39/R40 (22 Ω), which are **DNP** by default.
+In controller mode those pins carry the ~3.6 MHz sync clock (6 × f_PWM), and the datasheet
+says to leave them unconnected when not used. Fit R39/R40 only when syncing boards.
+
+V1.0 boards still have header U13 (pairs 3-4 / 5-6 / 7-8 = 10 / 20 / 30 kΩ, pair 1-2 = 3.3 V).
+Earlier revisions of this README listed 768 / 576 / 384 kHz. The current datasheet gives
+600 / 500 / 450 kHz.
 
 ### What ESP32-S3 Controls via I2C
 
@@ -582,11 +595,15 @@ Removed in V1.3 (they still exist on V1.0–V1.2 boards). Probe here instead:
 | TP28 / TP29 | TAS_FAULT / TAS_RESET | U14 pin 8 / pin 6 |
 | TP30 | PVDDLMQ | C2–C7 pads |
 
-#### Bottom-side caps under U12 (hand-soldered, V1.3)
+#### Bottom-side parts (hand-soldered, V1.3)
 
-The board is assembled by JLCPCB on the **top side only**. Four 1206
-capacitors sit on the **bottom**, right under their U12 pins, for the shortest
-possible loop (U12's DKQ package is top-cooled, so the bottom under it is free):
+The board is assembled by JLCPCB on the **top side only**. Six capacitors sit on
+the **bottom** and are hand-soldered:
+
+- **Four 1206s right under their U12 pins**, for the shortest possible loop. U12's
+  DKQ package is top-cooled, so the bottom under it is free.
+- **Two 1210 bulk capacitors** (C20, C68) that moved to the bottom to make room for
+  C57–C60 next to the SPK_IN corridors.
 
 | Ref | Function | U12 pin | Part | LCSC | Qty / board |
 |-----|----------|---------|------|------|-------------|
@@ -594,9 +611,14 @@ possible loop (U12's DKQ package is top-cooled, so the bottom under it is free):
 | C109 | PVDD_B bypass | 35 | Samsung CL31B105KCHNNNE, 1 µF 100 V X7R 1206 | C13832 | 1 |
 | C80 | AVDD decoupling | 23 | Samsung CL31B105KCHNNNE, 1 µF 100 V X7R 1206 | C13832 | 1 |
 | C81 | C_START (pop-free ramp) | 24 | Yageo CC1206JRX7R9BB223, 22 nF 50 V X7R 1206 | C527321 | 1 |
+| C20 | 12V_GVDD bulk | — | Samsung CL32B106KBJNNNE, 10 µF 50 V X7R 1210 | C138687 | 1 |
+| C68 | 3.3 V (DAC_DVDD) bulk | — | Samsung CL32B106KBJNNNE, 10 µF 50 V X7R 1210 | C138687 | 1 |
 
-Per 5 boards: **15 × C13832** and **5 × C527321** (order a few spares; check
-LCSC's minimum order quantity).
+Per 5 boards: **15 × C13832**, **5 × C527321** and **10 × C138687** (order a few
+spares; check LCSC's minimum order quantity).
+
+R56 (0 Ω, FREQ_ADJ to 3.3 V) is also on the bottom, but it is DNP and only fitted for
+target mode.
 
 - **C108/C109 are mandatory.** The TAS3251 datasheet (§8.3.1.2) requires a
   1 µF ceramic as close to each PVDD pin as possible. Without them, output
@@ -607,13 +629,14 @@ LCSC's minimum order quantity).
 
 **Ordering checklist (JLCPCB + LCSC):**
 1. JLCPCB does **not** ship loose parts with a PCBA order (customs
-   restriction), and its parts library is assembly-only. Buy these four from
+   restriction), and its parts library is assembly-only. Buy these six from
    **LCSC** as a separate order; check at checkout whether shipping can be
    combined.
-2. The four footprints are set to **Exclude from position files** in KiCad,
-   so the CPL export contains top-side parts only.
+2. The six footprints (and DNP R56) are set to **Exclude from position files**
+   in KiCad (schematic and PCB, set 2026-11-25), so the CPL export contains
+   top-side parts only. A CPL export with "both sides" shows no bottom rows.
 3. They stay in the KiCad BOM. On JLCPCB's BOM matching page, set
-   **C80, C81, C108, C109 → "Do Not Place"**, so they are not quoted or assembled
+   **C20, C68, C80, C81, C108, C109 → "Do Not Place"**, so they are not quoted or assembled
    and no double-sided assembly is charged.
 4. Solder them after the boards arrive, before the first power-up.
 

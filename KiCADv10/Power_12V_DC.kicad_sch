@@ -9779,7 +9779,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "852eeea0-4ccf-48ec-8e29-e9c713604874")
 		(property "Reference" "C20"

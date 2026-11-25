@@ -4152,18 +4152,6 @@
 		)
 		(uuid "52948bfa-b533-4b9e-ae4c-1a43804584c7")
 	)
-	(text "PWM FREQUENCY SELECT (fit one jumper on U13)"
-		(exclude_from_sim no)
-		(at 40.894 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "63777bd3-13cb-43da-a671-8db186f8f0ff")
-	)
 	(text "PVDD: bulk + local decoupling (A: C74-C76, B: C84-C86)"
 		(exclude_from_sim no)
 		(at 171.45 224.79 0)
@@ -4231,9 +4219,9 @@
 		)
 		(uuid "ab2c7a94-6233-42c3-825d-ed19f8f8145a")
 	)
-	(text "U13 pair 3-4 = 768 kHz PWM (default, see README)"
+	(text "R38 10k = 600 kHz (default)  20k = 500 kHz  30k = 450 kHz  (SLASEG6C)"
 		(exclude_from_sim no)
-		(at 31.75 184.15 0)
+		(at 42.926 150.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4346,12 +4334,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1899fc92-f7ff-4f20-a6e9-813e1e1c8eee")
-	)
-	(junction
-		(at 83.82 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cea831d-1386-4cfb-9b48-95390082e238")
 	)
 	(junction
 		(at 243.84 93.98)
@@ -4712,12 +4694,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2033d08-39c3-4819-9b44-9a46108b6b1a")
-	)
-	(junction
-		(at 83.82 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d20c4955-fcb9-4fcc-92f7-32a5024b9761")
 	)
 	(junction
 		(at 60.96 210.82)
@@ -5171,16 +5147,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 158.75) (xy 83.82 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2517e273-767b-4953-9aa8-c55e4479e53d")
-	)
-	(wire
-		(pts
 			(xy 176.53 199.39) (xy 307.34 199.39)
 		)
 		(stroke
@@ -5331,16 +5297,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 163.83) (xy 64.77 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2a9d2a-4f94-47e3-8656-148b322f76f7")
-	)
-	(wire
-		(pts
 			(xy 83.82 236.22) (xy 83.82 238.76)
 		)
 		(stroke
@@ -5368,16 +5324,6 @@
 			(type default)
 		)
 		(uuid "315be2b1-9146-423c-a4f1-6fd27aa31419")
-	)
-	(wire
-		(pts
-			(xy 39.37 158.75) (xy 39.37 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "316aedf6-b39a-4378-bcc3-5cbb69d33c91")
 	)
 	(wire
 		(pts
@@ -5481,7 +5427,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 156.21) (xy 83.82 158.75)
+			(xy 83.82 156.21) (xy 83.82 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5521,16 +5467,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 158.75) (xy 83.82 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418e376b-10a6-472a-a65c-0aa8d5b659bb")
-	)
-	(wire
-		(pts
 			(xy 224.79 118.11) (xy 237.49 118.11)
 		)
 		(stroke
@@ -5548,16 +5484,6 @@
 			(type default)
 		)
 		(uuid "43b742af-4150-4ba9-95d7-123bd8149005")
-	)
-	(wire
-		(pts
-			(xy 67.31 158.75) (xy 39.37 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43c9da3f-c114-47c1-be96-7765bae1b3f7")
 	)
 	(wire
 		(pts
@@ -5701,16 +5627,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 161.29) (xy 83.82 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "514ba0f6-65f7-4086-823b-f01750e3e27e")
-	)
-	(wire
-		(pts
 			(xy 104.14 248.92) (xy 111.76 248.92)
 		)
 		(stroke
@@ -5838,16 +5754,6 @@
 			(type default)
 		)
 		(uuid "5ef4c4b4-21b3-4d96-8156-f1fafc1909e6")
-	)
-	(wire
-		(pts
-			(xy 64.77 163.83) (xy 64.77 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f392589-73b7-47e9-b11e-b7190342d6da")
 	)
 	(wire
 		(pts
@@ -6068,16 +5974,6 @@
 			(type default)
 		)
 		(uuid "70eb2f70-cb96-43b8-b15a-3f8a7c91c326")
-	)
-	(wire
-		(pts
-			(xy 80.01 161.29) (xy 83.82 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "718c0027-70c0-4838-b671-313946657b2b")
 	)
 	(wire
 		(pts
@@ -6421,16 +6317,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 156.21) (xy 68.58 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9342a4b7-b41c-4a21-b1eb-33f535d74341")
-	)
-	(wire
-		(pts
 			(xy 27.94 210.82) (xy 34.29 210.82)
 		)
 		(stroke
@@ -6548,6 +6434,16 @@
 			(type default)
 		)
 		(uuid "9daab129-56be-4e01-a7ac-aebc467038fb")
+	)
+	(wire
+		(pts
+			(xy 78.74 156.21) (xy 83.82 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1d3b74-6a6f-4969-acc8-5581170da57e")
 	)
 	(wire
 		(pts
@@ -6828,16 +6724,6 @@
 			(type default)
 		)
 		(uuid "b36cf9af-4720-48e9-8314-654ebf3b0a9c")
-	)
-	(wire
-		(pts
-			(xy 52.07 161.29) (xy 52.07 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b39e551d-9cee-4127-973b-64c90e5a6b11")
 	)
 	(wire
 		(pts
@@ -7411,6 +7297,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 156.21) (xy 71.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed336905-774c-48d0-908a-861148b6510a")
+	)
+	(wire
+		(pts
 			(xy 247.65 152.4) (xy 224.79 152.4)
 		)
 		(stroke
@@ -7541,16 +7437,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 161.29) (xy 52.07 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7660ed7-c37b-4615-a4fa-e1cc5c349495")
-	)
-	(wire
-		(pts
 			(xy 176.53 194.31) (xy 176.53 199.39)
 		)
 		(stroke
@@ -7558,16 +7444,6 @@
 			(type default)
 		)
 		(uuid "f8a6c16a-48a8-44b3-9872-41ed888e74f5")
-	)
-	(wire
-		(pts
-			(xy 80.01 156.21) (xy 83.82 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f94c4fcf-ceea-407d-8025-cc0bfa3ef815")
 	)
 	(wire
 		(pts
@@ -7598,16 +7474,6 @@
 			(type default)
 		)
 		(uuid "fc9ece8e-06bc-40fa-8457-ec2faac54fd7")
-	)
-	(wire
-		(pts
-			(xy 80.01 163.83) (xy 83.82 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca770d6-a91b-4107-ac73-9f60478c527e")
 	)
 	(wire
 		(pts
@@ -9052,6 +8918,153 @@
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
 					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "03ede177-5565-4550-930c-123004aabf2c")
+		(property "Reference" "R56"
+			(at 72.39 153.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 77.47 153.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 74.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C21189.html"
+			(at 74.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Power(Watts):100mW. DNP: fit only for TAS3251 target (slave) mode, FREQ_ADJ to 3.3V; then remove R38"
+			(at 74.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 74.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0603WAJ0000T5E"
+			(at 74.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 74.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLC Class" "Basic Part"
+			(at 74.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "R0603"
+			(at 74.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Device" "0603WAJ0000T5E"
+			(at 74.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "512cdaa0-9d53-4bf1-ba73-2a046eb24ce7")
+		)
+		(pin "2"
+			(uuid "5c505f34-f88a-43b9-a8d2-d78f258935bc")
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -11223,7 +11236,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "226f2012-245b-4497-a77a-d9cc89f55b2d")
 		(property "Reference" "R40"
 			(at 125.73 167.386 90)
@@ -11247,7 +11260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0402"
+		(property "Footprint" "easyeda2kicad:R0603"
 			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11258,7 +11271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C23345.html"
 			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11269,7 +11282,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Power(Watts):100mW Temperature Coefficient:±100ppm/℃. DNP: fit only when syncing boards via H3"
 			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11280,7 +11293,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC" "C23345"
 			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11291,7 +11304,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF220JTCE"
+		(property "MPN" "0603WAF220JT5E"
 			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11324,7 +11337,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Footprint" "R0402"
+		(property "EasyEDA Footprint" "R0603"
 			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11335,7 +11348,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "0402WGF220JTCE"
+		(property "EasyEDA Device" "0603WAF220JT5E"
 			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11405,7 +11418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC06034991%2525N/258866.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C666886.html"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11416,7 +11429,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:499Ω Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thin Film Resistor Resistance:499Ω Tolerance:±0.1% Power(Watts):100mW Temperature Coefficient:±25ppm/℃"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11427,7 +11440,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269426"
+		(property "LCSC" "C666886"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11438,7 +11451,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC06034991%N"
+		(property "MPN" "TD03G4990BT"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11449,7 +11462,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "FH(风华)"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11482,7 +11495,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC06034991%N"
+		(property "EasyEDA Device" "TD03G4990BT"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12256,7 +12269,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2f12f804-136a-4a52-87f3-12ed3562bb19")
 		(property "Reference" "C80"
@@ -13290,7 +13303,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 172.72 180)
+		(at 83.82 172.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13300,7 +13313,7 @@
 		(dnp no)
 		(uuid "39b887df-4c2f-4e59-b2dc-5003757823af")
 		(property "Reference" "R38"
-			(at 36.83 171.45 0)
+			(at 81.28 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13311,7 +13324,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 36.83 173.99 0)
+			(at 81.28 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13322,7 +13335,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
-			(at 39.37 172.72 0)
+			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13333,7 +13346,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
-			(at 39.37 172.72 0)
+			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13344,7 +13357,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
-			(at 39.37 172.72 0)
+			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13355,7 +13368,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 39.37 172.72 0)
+			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13366,7 +13379,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 39.37 172.72 0)
+			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13377,7 +13390,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 39.37 172.72 0)
+			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13388,7 +13401,7 @@
 			)
 		)
 		(property "JLC Class" "Basic Part"
-			(at 39.37 172.72 0)
+			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13399,7 +13412,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "R0603"
-			(at 39.37 172.72 0)
+			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13410,7 +13423,7 @@
 			)
 		)
 		(property "EasyEDA Device" "0603WAF1002T5E"
-			(at 39.37 172.72 0)
+			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13851,7 +13864,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC06034991%2525N/258866.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C666886.html"
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13862,7 +13875,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:499Ω Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thin Film Resistor Resistance:499Ω Tolerance:±0.1% Power(Watts):100mW Temperature Coefficient:±25ppm/℃"
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13873,7 +13886,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269426"
+		(property "LCSC" "C666886"
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13884,7 +13897,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC06034991%N"
+		(property "MPN" "TD03G4990BT"
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13895,7 +13908,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "FH(风华)"
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13928,7 +13941,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC06034991%N"
+		(property "EasyEDA Device" "TD03G4990BT"
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15227,7 +15240,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "55613cc5-9c1b-4989-9d59-2505d5b00fc8")
 		(property "Reference" "C68"
@@ -16489,7 +16502,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6f4c3ac8-6c46-4ece-abf7-e0eea09a2861")
 		(property "Reference" "R39"
 			(at 125.73 158.369 90)
@@ -16513,7 +16526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0402"
+		(property "Footprint" "easyeda2kicad:R0603"
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16524,7 +16537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C23345.html"
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16535,7 +16548,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+		(property "Description" "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Power(Watts):100mW Temperature Coefficient:±100ppm/℃. DNP: fit only when syncing boards via H3"
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16546,7 +16559,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC" "C23345"
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16557,7 +16570,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF220JTCE"
+		(property "MPN" "0603WAF220JT5E"
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16590,7 +16603,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Footprint" "R0402"
+		(property "EasyEDA Footprint" "R0603"
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16601,7 +16614,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "0402WGF220JTCE"
+		(property "EasyEDA Device" "0603WAF220JT5E"
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -17368,247 +17381,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 72.39 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "874351ce-c11f-453b-a7af-e2c45dbfff6f")
-		(property "Reference" "U13"
-			(at 69.85 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PZ2.54-2*4"
-			(at 74.93 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:HDR-TH_8P-P2.54-V-M-R2-C4-S2.54"
-			(at 72.39 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ2.54-2*4/5790845.html"
-			(at 72.39 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pin Structure:2x4P Pitch:2.54mm Row Spacing:2.54mm Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:2 Number of Pins:8P Current Rating:2.5A Length of Mating Pin:6mm Insulation Height:2.54mm Length of End Connection Pin:3mm Co"
-			(at 72.39 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5156676"
-			(at 72.39 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PZ2.54-2*4"
-			(at 72.39 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "ZHOURI(洲日)"
-			(at 72.39 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Class" "Extended Part"
-			(at 72.39 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EasyEDA Footprint" "HDR-TH_8P-P2.54-V-M-R2-C4-S2.54"
-			(at 72.39 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EasyEDA Device" "PZ2.54-2*4"
-			(at 72.39 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9903a9b-f778-4c7e-91f4-0a524989f06b")
-		)
-		(pin "2"
-			(uuid "b7ddc4f1-b8e0-465e-a4d2-b8740d88effa")
-		)
-		(pin "3"
-			(uuid "1c4c3abf-b41d-4703-8d66-cf5d1be55b79")
-		)
-		(pin "4"
-			(uuid "a7fc785d-cc39-47af-ae43-a3ea59b9bc0d")
-		)
-		(pin "5"
-			(uuid "5dd5eff2-f542-4920-944a-86d2ea94abb9")
-		)
-		(pin "6"
-			(uuid "f401c0e7-cf33-4198-bc44-5093df76c23b")
-		)
-		(pin "7"
-			(uuid "0e36a0d7-8cdd-47b2-9210-bd3314fe9414")
-		)
-		(pin "8"
-			(uuid "d748d674-d32e-404c-abf6-a530ff2fa807")
-		)
-		(instances
-			(project "NeatAmp"
-				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NeatAmp:PWR_GND")
-		(at 64.77 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87c9d195-25bd-4df1-8266-e8e198135200")
-		(property "Reference" "#PWR0240"
-			(at 64.77 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e84a6f3-7bee-4a15-9869-eaa24e561008")
-		)
-		(instances
-			(project "NeatAmp"
-				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
-					(reference "#PWR0240")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 111.76 77.47 0)
 		(mirror x)
@@ -17653,7 +17425,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C667147.html"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17664,7 +17436,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
+		(property "Description" "Type:Thin Film Resistor Resistance:100kΩ Tolerance:±0.1% Power(Watts):100mW Temperature Coefficient:±25ppm/℃"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17675,7 +17447,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "LCSC" "C667147"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17686,7 +17458,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1003T5E"
+		(property "MPN" "TD03G1003BT"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17697,7 +17469,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "FH(风华)"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17708,7 +17480,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17730,7 +17502,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "0603WAF1003T5E"
+		(property "EasyEDA Device" "TD03G1003BT"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17876,7 +17648,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC06034991%2525N/258866.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C666886.html"
 			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17887,7 +17659,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:499Ω Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thin Film Resistor Resistance:499Ω Tolerance:±0.1% Power(Watts):100mW Temperature Coefficient:±25ppm/℃"
 			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17898,7 +17670,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269426"
+		(property "LCSC" "C666886"
 			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17909,7 +17681,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC06034991%N"
+		(property "MPN" "TD03G4990BT"
 			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17920,7 +17692,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "FH(风华)"
 			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -17953,7 +17725,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC06034991%N"
+		(property "EasyEDA Device" "TD03G4990BT"
 			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18844,7 +18616,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RMC06034991%2525N/258866.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C666886.html"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18855,7 +18627,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:499Ω Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(property "Description" "Type:Thin Film Resistor Resistance:499Ω Tolerance:±0.1% Power(Watts):100mW Temperature Coefficient:±25ppm/℃"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18866,7 +18638,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C269426"
+		(property "LCSC" "C666886"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18877,7 +18649,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMC06034991%N"
+		(property "MPN" "TD03G4990BT"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18888,7 +18660,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
+		(property "Manufacturer" "FH(风华)"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18921,7 +18693,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "RMC06034991%N"
+		(property "EasyEDA Device" "TD03G4990BT"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -19698,7 +19470,7 @@
 	)
 	(symbol
 		(lib_id "NeatAmp:PWR_GND")
-		(at 39.37 176.53 0)
+		(at 83.82 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19708,7 +19480,7 @@
 		(dnp no)
 		(uuid "9db28f70-30bc-47ce-a8b4-b8fd37dcd6fb")
 		(property "Reference" "#PWR0238"
-			(at 39.37 176.53 0)
+			(at 83.82 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19719,7 +19491,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 180.34 0)
+			(at 83.82 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19729,7 +19501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 176.53 0)
+			(at 83.82 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19740,7 +19512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 176.53 0)
+			(at 83.82 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19751,7 +19523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 176.53 0)
+			(at 83.82 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20431,153 +20203,6 @@
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
 					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 52.07 172.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aae447c4-4412-457c-ad7d-c96799e1958c")
-		(property "Reference" "R37"
-			(at 54.61 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "20kΩ"
-			(at 54.61 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 52.07 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C4184.html"
-			(at 52.07 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:20kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
-			(at 52.07 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC" "C4184"
-			(at 52.07 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "0603WAF2002T5E"
-			(at 52.07 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 52.07 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLC Class" "Basic Part"
-			(at 52.07 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "EasyEDA Footprint" "R0603"
-			(at 52.07 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "EasyEDA Device" "0603WAF2002T5E"
-			(at 52.07 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eca49a37-da27-4b08-ae78-9bdcd88481c9")
-		)
-		(pin "2"
-			(uuid "5f81a853-3b5b-4c40-b913-dfcfa022c6c2")
-		)
-		(instances
-			(project "NeatAmp"
-				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
-					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -23807,7 +23432,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d68e5520-4c40-494c-9094-7b7275684389")
 		(property "Reference" "C81"
@@ -24067,7 +23692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C667147.html"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24078,7 +23703,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
+		(property "Description" "Type:Thin Film Resistor Resistance:100kΩ Tolerance:±0.1% Power(Watts):100mW Temperature Coefficient:±25ppm/℃"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24089,7 +23714,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "LCSC" "C667147"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24100,7 +23725,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1003T5E"
+		(property "MPN" "TD03G1003BT"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24111,7 +23736,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "FH(风华)"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24122,7 +23747,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24144,7 +23769,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "0603WAF1003T5E"
+		(property "EasyEDA Device" "TD03G1003BT"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24547,7 +24172,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "db4222de-5e5a-4d1b-b94f-6169cc5516a1")
 		(property "Reference" "C109"
@@ -24807,7 +24432,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C667147.html"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24818,7 +24443,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
+		(property "Description" "Type:Thin Film Resistor Resistance:100kΩ Tolerance:±0.1% Power(Watts):100mW Temperature Coefficient:±25ppm/℃"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24829,7 +24454,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "LCSC" "C667147"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24840,7 +24465,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1003T5E"
+		(property "MPN" "TD03G1003BT"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24851,7 +24476,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "FH(风华)"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24862,7 +24487,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24884,7 +24509,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "0603WAF1003T5E"
+		(property "EasyEDA Device" "TD03G1003BT"
 			(at 111.76 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -25863,153 +25488,6 @@
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
 					(reference "C75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 64.77 172.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ead911b2-4b2e-4c37-a30d-b73d405b7f39")
-		(property "Reference" "R41"
-			(at 67.31 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "30kΩ"
-			(at 67.31 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C22984.html"
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:30kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC" "C22984"
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "0603WAF3002T5E"
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLC Class" "Verify at JLC"
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "EasyEDA Footprint" "R0603"
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "EasyEDA Device" "0603WAF3002T5E"
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7824d453-f3b1-42d7-8fba-8eb43bd28e75")
-		)
-		(pin "2"
-			(uuid "b0bcdc8b-2de6-4060-95fd-fe302f9ee391")
-		)
-		(instances
-			(project "NeatAmp"
-				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -27281,82 +26759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NeatAmp:PWR_GND")
-		(at 52.07 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f82c65e2-c3da-4140-889d-a4d3c6b200f5")
-		(property "Reference" "#PWR0239"
-			(at 52.07 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c26daa35-1c91-49f2-9c63-587a2080cbda")
-		)
-		(instances
-			(project "NeatAmp"
-				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
-					(reference "#PWR0239")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 247.65 156.21 180)
 		(unit 1)
@@ -27364,7 +26766,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "fbd21da0-75d8-4269-9e73-d924bf6ac3b3")
 		(property "Reference" "C108"
@@ -27774,7 +27176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C25803.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C667147.html"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27785,7 +27187,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃"
+		(property "Description" "Type:Thin Film Resistor Resistance:100kΩ Tolerance:±0.1% Power(Watts):100mW Temperature Coefficient:±25ppm/℃"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27796,7 +27198,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "LCSC" "C667147"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27807,7 +27209,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1003T5E"
+		(property "MPN" "TD03G1003BT"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27818,7 +27220,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "FH(风华)"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27829,7 +27231,7 @@
 				)
 			)
 		)
-		(property "JLC Class" "Basic Part"
+		(property "JLC Class" "Extended Part"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -27851,7 +27253,7 @@
 				)
 			)
 		)
-		(property "EasyEDA Device" "0603WAF1003T5E"
+		(property "EasyEDA Device" "TD03G1003BT"
 			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)

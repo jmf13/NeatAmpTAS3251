@@ -720,7 +720,7 @@ low, and never connect a tweeter without its crossover capacitor.
 | U15 | 5-6 | IO39 ↔ GOOD_13.2V | 13.2 V good sense |
 | U15 | 7-8 | IO38 ↔ ENABLE_12V | 12 V GVDD enable |
 | H2 | 13-14 | TAS_ADR ↔ IO12 | I2C address strap read |
-| U13 | 3-4 (exactly one pair) | FREQ_ADJ → 10 kΩ | 768 kHz PWM (default, see top-level README) |
+| U13 | 3-4 (exactly one pair) | FREQ_ADJ → 10 kΩ | 600 kHz PWM, the highest (default, see top-level README) |
 
 #### C. Flash the firmware first, without 36 V
 
