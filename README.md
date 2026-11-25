@@ -48,7 +48,7 @@ possible.
 |---|---|
 | Amplifier | TI TAS3251, stereo BTL, **2 × 175 W into 4 Ω** at 35 V, digital (I²S) input, built-in DSP |
 | PWM frequency | 600 kHz (set by R38, selectable 600 / 500 / 450 kHz) |
-| Output filter | 10 µH + film caps per leg. Two footprints per leg to compare MA5172-AE and Coilcraft XGL1712 |
+| Output filter | 10 µH + 1.05 µF film caps per leg (f₀ ≈ 49 kHz). Footprints for MA5172-AE (THT; 7 µH MA5173-AE is the same family) and Coilcraft XGL1712 (SMD) |
 | Supply | One external **35 V** supply (Mean Well UHP-500-36, trimmed). USB-C 5 V for the digital side only |
 | Controller | ESP32-S3-WROOM-1U-N8R8 (Wi-Fi, 8 MB flash, 8 MB Octal PSRAM), firmware in [`tas/`](tas/README.md) |
 | DSP | ADAU1466 ready: I²S connector, supply and I²C prepared |
@@ -420,9 +420,11 @@ The datasheet gives 600 / 500 / 450 kHz.
   XGL1712-103MED (SMD), L8/L10/L12/L14 = MA5172-AE (THT toroid, made for TI's class-D
   EVMs). **Fit only one per leg.** The plan is to keep MA5172-AE after a listening and
   distortion comparison ([P1-1](hw_review_2026-11-06.md#p1-1)).
-- **Capacitors:** Jimson MKP (polypropylene) film caps. Never use PET/MKT here. The final
-  per-leg capacitance (680 nF ≈ 60 kHz corner, or ~1.05 µF ≈ 49 kHz with the extra
-  150/220 nF positions) is still to be decided ([P2-6](hw_review_2026-11-06.md#p2-6)).
+- **Capacitors:** Jimson MKP (polypropylene) film caps. Never use PET/MKT here. **All are
+  fitted:** 1 nF + 680 nF + 150 nF + 220 nF = **1.051 µF per leg** to GND.
+- **Test plan:** first with **10 µH** (f₀ ≈ 49 kHz; −0.4 dB at 20 kHz into 4 Ω, +1 dB into 8 Ω),
+  then possibly with the **7 µH MA5173-AE** (f₀ ≈ 59 kHz). The calculated response for each
+  combination is in [P2-6](hw_review_2026-11-06.md#p2-6).
 
 #### Grounding
 
