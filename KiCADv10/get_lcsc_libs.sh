@@ -19,6 +19,7 @@ easyeda2kicad --full --lcsc_id=C27777 --output libs/easyeda2kicad --overwrite ||
 easyeda2kicad --full --lcsc_id=C48467 --output libs/easyeda2kicad --overwrite || echo 'FAILED C48467'
 easyeda2kicad --full --lcsc_id=C50254 --output libs/easyeda2kicad --overwrite || echo 'FAILED C50254'
 easyeda2kicad --full --lcsc_id=C53547 --output libs/easyeda2kicad --overwrite || echo 'FAILED C53547'
+easyeda2kicad --full --lcsc_id=C85833 --output libs/easyeda2kicad --overwrite || echo 'FAILED C85833'
 easyeda2kicad --full --lcsc_id=C85841 --output libs/easyeda2kicad --overwrite || echo 'FAILED C85841'
 easyeda2kicad --full --lcsc_id=C89120 --output libs/easyeda2kicad --overwrite || echo 'FAILED C89120'
 easyeda2kicad --full --lcsc_id=C90084 --output libs/easyeda2kicad --overwrite || echo 'FAILED C90084'

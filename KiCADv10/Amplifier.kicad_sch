@@ -4408,12 +4408,6 @@
 		(uuid "27afd859-d78c-40f9-9541-7bf33a58c24f")
 	)
 	(junction
-		(at 317.5 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "283d778c-65fd-4097-85f4-60f91aa9a795")
-	)
-	(junction
 		(at 289.56 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4538,12 +4532,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a8cd328-e0b0-4b54-9748-75dce6a48df7")
-	)
-	(junction
-		(at 314.96 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b8c12b3-e1f7-4ac9-ad64-4e470cadf8d4")
 	)
 	(junction
 		(at 111.76 124.46)
@@ -5063,7 +5051,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 266.7) (xy 30.48 266.7)
+			(xy 27.94 266.7) (xy 34.29 266.7)
 		)
 		(stroke
 			(width 0)
@@ -5073,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 189.23) (xy 336.55 199.39)
+			(xy 336.55 184.15) (xy 336.55 199.39)
 		)
 		(stroke
 			(width 0)
@@ -5280,16 +5268,6 @@
 			(type default)
 		)
 		(uuid "2a1c3357-0cb2-4572-b394-e1807e092214")
-	)
-	(wire
-		(pts
-			(xy 336.55 184.15) (xy 336.55 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c13ae24-b290-4bef-85f1-ce54c5add155")
 	)
 	(wire
 		(pts
@@ -5500,16 +5478,6 @@
 			(type default)
 		)
 		(uuid "3c5f303a-bca1-4520-ad6e-f51ca783a10f")
-	)
-	(wire
-		(pts
-			(xy 30.48 248.92) (xy 34.29 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c77222f-45dd-433e-93c4-69643505a214")
 	)
 	(wire
 		(pts
@@ -6043,7 +6011,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 228.6) (xy 30.48 228.6)
+			(xy 27.94 228.6) (xy 34.29 228.6)
 		)
 		(stroke
 			(width 0)
@@ -6463,23 +6431,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 210.82) (xy 30.48 210.82)
+			(xy 27.94 210.82) (xy 34.29 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9388a301-e7d4-4c4f-8079-041b137cad68")
-	)
-	(wire
-		(pts
-			(xy 30.48 266.7) (xy 34.29 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94076792-98f8-47c2-887c-8a8c6d1b3c02")
 	)
 	(wire
 		(pts
@@ -6493,7 +6451,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 248.92) (xy 30.48 248.92)
+			(xy 27.94 248.92) (xy 34.29 248.92)
 		)
 		(stroke
 			(width 0)
@@ -6973,16 +6931,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 210.82) (xy 34.29 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb19e9d8-e204-4860-a2d5-b91f798d1152")
-	)
-	(wire
-		(pts
 			(xy 224.79 110.49) (xy 237.49 110.49)
 		)
 		(stroke
@@ -7393,16 +7341,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 228.6) (xy 34.29 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e89b1db9-80ef-48a2-afb8-92be7dad4cc2")
-	)
-	(wire
-		(pts
 			(xy 83.82 218.44) (xy 83.82 220.98)
 		)
 		(stroke
@@ -7711,6 +7649,16 @@
 		)
 		(uuid "001a94be-ed6e-4b62-88fd-f58d411ebca5")
 	)
+	(label "DAC_FILTB-"
+		(at 161.29 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "067829cb-67b8-4db8-9651-3e0e60d2e98b")
+	)
 	(label "LED2_P1"
 		(at 289.56 185.42 0)
 		(effects
@@ -7720,6 +7668,16 @@
 			(justify left bottom)
 		)
 		(uuid "07b6cca0-6d5c-4af4-b30a-df5620ffe69c")
+	)
+	(label "DAC_FILTB+"
+		(at 161.29 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b5a8a2f-976f-4447-9b28-c849101f779d")
 	)
 	(label "U12_SDIN"
 		(at 226.06 121.92 0)
@@ -7750,6 +7708,16 @@
 			(justify left bottom)
 		)
 		(uuid "3466b017-cedb-4c3c-93db-dadc2907c86a")
+	)
+	(label "DAC_OUTA-"
+		(at 168.91 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36fe9a6a-2d9b-4c7b-ab2d-64fada7bcf86")
 	)
 	(label "U12_MCLK"
 		(at 226.06 114.3 0)
@@ -7791,6 +7759,16 @@
 		)
 		(uuid "54c92cb2-dacb-4825-a43d-4841315bcaf8")
 	)
+	(label "DAC_FILTA-"
+		(at 161.29 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "552bd6ec-5ab3-44b0-a44a-a6862b5e1497")
+	)
 	(label "U12_OSC_IOP"
 		(at 129.54 163.83 0)
 		(effects
@@ -7801,6 +7779,16 @@
 		)
 		(uuid "5e65829a-0113-4fc5-b207-dfe9fcc7cce6")
 	)
+	(label "DAC_FILTA+"
+		(at 161.29 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64b1d151-ac1b-49fb-95df-4bd0b15a931e")
+	)
 	(label "U12_LRCK"
 		(at 318.77 127 0)
 		(effects
@@ -7810,6 +7798,16 @@
 			(justify left bottom)
 		)
 		(uuid "65d7895b-15a4-4425-9106-af2809340829")
+	)
+	(label "DAC_OUTA+"
+		(at 168.91 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6755aba6-c285-421a-a23b-bcd7c971483d")
 	)
 	(label "LED1_P2"
 		(at 307.34 185.42 0)
@@ -7850,6 +7848,16 @@
 			(justify right bottom)
 		)
 		(uuid "8eabdfe6-b824-452b-82fd-ddde572ad89a")
+	)
+	(label "DAC_OUTB-"
+		(at 168.91 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "955a1f11-ec3c-4261-b52f-e81ebfd00ee8")
 	)
 	(label "U12_AVDD"
 		(at 176.53 175.26 180)
@@ -7911,26 +7919,6 @@
 		)
 		(uuid "e434eca1-b355-4610-8928-34ebc949f680")
 	)
-	(label "DAC_OUTA+"
-		(at 168.91 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6755aba6-c285-421a-a23b-bcd7c971483d")
-	)
-	(label "DAC_OUTA-"
-		(at 168.91 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36fe9a6a-2d9b-4c7b-ab2d-64fada7bcf86")
-	)
 	(label "DAC_OUTB+"
 		(at 168.91 91.44 0)
 		(effects
@@ -7940,56 +7928,6 @@
 			(justify left bottom)
 		)
 		(uuid "e531df8b-666f-4d73-bfe4-011b144c20c4")
-	)
-	(label "DAC_OUTB-"
-		(at 168.91 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "955a1f11-ec3c-4261-b52f-e81ebfd00ee8")
-	)
-	(label "DAC_FILTA+"
-		(at 161.29 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64b1d151-ac1b-49fb-95df-4bd0b15a931e")
-	)
-	(label "DAC_FILTA-"
-		(at 161.29 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "552bd6ec-5ab3-44b0-a44a-a6862b5e1497")
-	)
-	(label "DAC_FILTB+"
-		(at 161.29 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0b5a8a2f-976f-4447-9b28-c849101f779d")
-	)
-	(label "DAC_FILTB-"
-		(at 161.29 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "067829cb-67b8-4db8-9651-3e0e60d2e98b")
 	)
 	(global_label "LRCK"
 		(shape passive)

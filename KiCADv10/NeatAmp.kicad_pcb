@@ -7365,6 +7365,350 @@
 	)
 	(footprint "easyeda2kicad:C1210"
 		(layer "F.Cu")
+		(uuid "1c8be4cd-0881-4b7c-9554-b91e950474a2")
+		(at 142.98 65.5 180)
+		(property "Reference" "C77"
+			(at -4.02 0 0)
+			(layer "F.SilkS")
+			(uuid "f39ce4d3-eacb-40c2-a7d6-66db0075461e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "08150765-69da-4976-a66e-63d5f0c145f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL32B106KBJNNNE/150006.html"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72d890d4-2125-453f-b0b6-992a9a9c4164")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e5b45d4-0530-4a7d-a4cc-ba35259e3a9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C138687"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e818c9a-2e98-4d21-8cbe-2f6aea397cc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C138687"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "009b27d5-e48f-4de7-9296-428681b78cba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL32B106KBJNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00fde40e-df52-4a77-b632-11fa9f950f95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f5bb38d-d257-40b1-837c-ec3a9be3b87d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8411eeb-fa6c-45cb-b63c-277dd44d4589")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "C1210"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d91a6293-4fdc-4d19-bc8b-72f93c3b5212")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Device" "CL32B106KBJNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1199ccfb-ef62-42b9-9ce5-6bc8ad7b5a88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/a5cd39a2-799e-4eb6-8961-d9a1d545934a/e00ba0ef-84aa-4170-aff7-9fa290c4c233")
+		(sheetname "/Power 3.3V DC/")
+		(sheetfile "Power_3_3V_DC.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 2.56 1.43)
+			(end 2.56 -1.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "86742bcb-e012-4780-9bfa-9e3c81c20a94")
+		)
+		(fp_line
+			(start 2.41 -1.58)
+			(end 0.78 -1.58)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5af9b44b-fff5-4eb7-b2a2-61a534dc659c")
+		)
+		(fp_line
+			(start 0.78 1.58)
+			(end 2.41 1.58)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "19efcc81-a20c-4a11-a614-c3c75ba50656")
+		)
+		(fp_line
+			(start -0.78 1.58)
+			(end -2.41 1.58)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "94ca9c85-f953-4167-8b73-d012604a8047")
+		)
+		(fp_line
+			(start -2.41 -1.58)
+			(end -0.78 -1.58)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d17f7bc2-1f6d-47c8-9714-eed3a271ac1a")
+		)
+		(fp_line
+			(start -2.56 1.43)
+			(end -2.56 -1.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ac71457d-7cdf-4aab-b0ae-3a69394c4d7a")
+		)
+		(fp_arc
+			(start 2.56 1.43)
+			(mid 2.516066 1.536066)
+			(end 2.41 1.58)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a9cb8914-8294-4ee5-b0ed-050a5b6ab69d")
+		)
+		(fp_arc
+			(start 2.41 -1.58)
+			(mid 2.516066 -1.536066)
+			(end 2.56 -1.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2056c5c2-aaa5-4aa3-9eff-ac28a67f8e04")
+		)
+		(fp_arc
+			(start -2.41 1.58)
+			(mid -2.516066 1.536066)
+			(end -2.56 1.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "13dec00d-6a4a-4376-ab0e-2ab14cdcc916")
+		)
+		(fp_arc
+			(start -2.56 -1.43)
+			(mid -2.516066 -1.536066)
+			(end -2.41 -1.58)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a969b575-3c46-4990-a695-bc4eb530e3cf")
+		)
+		(fp_circle
+			(center -1.6 1.25)
+			(end -1.57 1.25)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "e7d0a9fd-fb58-45c7-a5fe-3b6b0850f5c5")
+		)
+		(fp_line
+			(start 1.6 1.25)
+			(end -1.6 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "98b74f2d-91e1-4d42-97e2-0e40d12da36e")
+		)
+		(fp_line
+			(start 1.6 -1.25)
+			(end 1.6 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0c440b43-044e-4816-bf50-bf3d5205bccc")
+		)
+		(fp_line
+			(start -1.6 1.25)
+			(end -1.6 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "47c0fdce-95d8-4d79-8ed0-84179dd848bd")
+		)
+		(fp_line
+			(start -1.6 -1.25)
+			(end 1.6 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "31377d84-c6ba-491f-9f96-90271be44fb0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2898aafb-019f-412d-9fc7-27e74ca2c9ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.52 0 180)
+			(size 1.635 2.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pintype "passive")
+			(uuid "8068e2ce-1078-4d8b-8abf-8300cc4523b1")
+		)
+		(pad "2" smd rect
+			(at 1.52 0 180)
+			(size 1.635 2.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(uuid "49b9b74a-650f-4a41-8a0d-8b8db1cac871")
+		)
+		(embedded_fonts no)
+		(model "libs/easyeda2kicad.3dshapes/C1210_L3.2-W2.5-H2.5.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "easyeda2kicad:C1210"
+		(layer "F.Cu")
 		(uuid "1d423daf-a296-41a4-81ff-21315ea333af")
 		(at 119.307948 101.947808 -90)
 		(property "Reference" "C18"
@@ -9897,7 +10241,7 @@
 			(at 1.1 0.95 180)
 			(size 0.6 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
+			(net "Net-(U5-IN)")
 			(pinfunction "IN_1")
 			(pintype "passive")
 			(uuid "2df81381-afc5-4ca4-8b6a-a5a972d21b77")
@@ -10745,9 +11089,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/6008f4fb-ff8e-4306-9ff9-83228c44f689/b9dff717-83b3-4c7a-a9a7-9f71e8d58af0")
 		(sheetname "/Power 12V DC/")
 		(sheetfile "Power_12V_DC.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10877,6 +11228,8 @@
 			(size 2.15 3.32)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+13.2V")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "e9f309b7-c139-48d3-8744-826ea70653f0")
 		)
 		(pad "2" smd rect
@@ -10884,6 +11237,8 @@
 			(size 2.15 3.32)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U1-SW)")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "4a7825e1-ce05-4bc9-a577-3321bd474d56")
 		)
 		(embedded_fonts no)
@@ -13160,9 +13515,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f9225482-5a52-40bd-a9f9-5af688b65258/adbcf8ff-a56e-4e24-8e38-2f51af742a92")
 		(sheetname "/Amplifier/")
 		(sheetfile "Amplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13336,6 +13698,7 @@
 			(size 0.8 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pintype "passive")
 			(uuid "eff3f06c-c408-4c18-a09a-0292e9cff8a2")
 		)
 		(pad "2" smd rect
@@ -13343,6 +13706,7 @@
 			(size 0.8 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "3.3V")
+			(pintype "passive")
 			(uuid "aa24e5cc-c134-4d4d-ab05-537658fd5630")
 		)
 		(embedded_fonts no)
@@ -25845,9 +26209,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/988faa9c-4a7c-42eb-be46-0b06c4e58228/b57aab45-75b6-46e1-bd61-091f668eafa4")
 		(sheetname "/Power 5V DC/")
 		(sheetfile "Power_5V_DC.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26054,6 +26425,7 @@
 			(size 3.5 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
+			(pintype "passive")
 			(uuid "fb2eb5d2-d12d-4f99-afc4-84c47025be49")
 		)
 		(pad "2" smd rect
@@ -26061,6 +26433,7 @@
 			(size 3.5 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pintype "passive")
 			(uuid "fb8a18b1-d90e-4011-b279-4cf067ab9de2")
 		)
 		(embedded_fonts no)
@@ -33800,6 +34173,347 @@
 			)
 		)
 	)
+	(footprint "easyeda2kicad:L0603"
+		(layer "F.Cu")
+		(uuid "7f7cca7a-beb9-4617-b562-dab987108925")
+		(at 143.5 68.5 180)
+		(descr "600Ω±25% @100MHz")
+		(property "Reference" "L15"
+			(at -3 0 0)
+			(layer "F.SilkS")
+			(uuid "32ee2042-5c84-4c78-a5a8-37e1adc33468")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BLM18KG601SN1D"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "c2b9de47-eda2-4c53-bafe-64e978aac82a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C85833.html"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c8a981e-1c43-48b4-91fd-6cef0fafa90f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Impedance @ Frequency:600Ω@100MHz Tolerance:±25% DC Resistance(DCR):150mΩ Current Rating:1.3A Number of Circuits:1 Operating Temperature:-55℃~+125℃"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaf43c0d-4f17-47d0-8afc-8e962d6aa0ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C85833"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "004e82ee-a667-4d77-bac0-6d12c6d992fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C85833"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c3b941c-cc6b-4cf3-8bce-d95813bfac32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BLM18KG601SN1D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f0e71d3-4f9c-4a8f-992c-d8d75b64dc41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08b03c55-529d-4038-8db2-3f2e662b748a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdf3d65d-9ce5-49dc-a33c-0385ed7c792f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "L0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dc7b39c-606c-40fb-981d-d23727309be9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "EasyEDA Device" "BLM18KG601SN1D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3555bec-25cf-4717-87c4-11f6af858213")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
+		(path "/a5cd39a2-799e-4eb6-8961-d9a1d545934a/ddbc79dc-42d0-4661-be1d-624d957f7888")
+		(sheetname "/Power 3.3V DC/")
+		(sheetfile "Power_3_3V_DC.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.42 0.52)
+			(end 1.27 0.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b008402a-1715-481a-bb4f-d2a1ec9237b1")
+		)
+		(fp_line
+			(start 1.42 -0.5)
+			(end 1.42 0.52)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ee7ad55-c252-4ae6-8456-2a1671496995")
+		)
+		(fp_line
+			(start 1.27 0.65)
+			(end 0.51 0.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b9e57da7-ed58-4cbe-bd82-09205e608aac")
+		)
+		(fp_line
+			(start 1.27 -0.65)
+			(end 1.42 -0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "db94ed34-f1df-43a3-836b-cb2f80fa6439")
+		)
+		(fp_line
+			(start 1.27 -0.65)
+			(end 0.51 -0.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf15a587-7edd-4468-8541-ddab675f1a56")
+		)
+		(fp_line
+			(start -1.27 0.65)
+			(end -0.51 0.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fb142517-27fe-4514-8bab-33e41041124c")
+		)
+		(fp_line
+			(start -1.27 0.65)
+			(end -1.42 0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "80ec9d59-e8f1-4ed6-848e-7fe8180f5c43")
+		)
+		(fp_line
+			(start -1.27 -0.65)
+			(end -0.51 -0.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b1aea7bf-56ea-4a11-bff4-084da061d9be")
+		)
+		(fp_line
+			(start -1.42 0.5)
+			(end -1.42 -0.52)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "827fa068-9b50-4f53-a357-8b110d882bdb")
+		)
+		(fp_line
+			(start -1.42 -0.52)
+			(end -1.27 -0.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c48955f3-f0f0-4b20-9938-8a9784c64778")
+		)
+		(fp_circle
+			(center -0.8 0.4)
+			(end -0.77 0.4)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "74f2df88-4d83-47e3-a62b-f14af6acc4a2")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3e9cdc4e-5d85-40ff-9719-100b4be84f0e")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "68a6f5e4-1ec5-4a08-97d8-e867f7bb5fd2")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9fe42845-ca59-4999-8e40-96d78a9c4792")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "32321f9b-b63c-4ab8-a1cb-eec11522db22")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "10f0b104-5137-44c4-9aab-916c413fcfd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.7 0)
+			(size 0.8 0.864)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pintype "passive")
+			(uuid "2d11ebf8-16ba-4712-9bb9-b2590e40fa8f")
+		)
+		(pad "2" smd rect
+			(at 0.7 0)
+			(size 0.8 0.864)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U5-IN)")
+			(pintype "passive")
+			(uuid "bd966e5b-a16a-4c8a-ab69-d805b026c080")
+		)
+		(embedded_fonts no)
+		(model "libs/easyeda2kicad.3dshapes/L0603_L1.6-W0.8-H0.5_BEAD.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
+	)
 	(footprint "easyeda2kicad:L0805"
 		(layer "F.Cu")
 		(uuid "7fc910af-4655-47ce-811e-5d0ff8daf2d2")
@@ -37049,7 +37763,7 @@
 			(at -0.7 0 180)
 			(size 0.8 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
+			(net "Net-(U5-IN)")
 			(pintype "passive")
 			(uuid "f4630e60-4e9f-454d-adb1-b8048d3ae97d")
 		)
@@ -41565,9 +42279,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f9225482-5a52-40bd-a9f9-5af688b65258/ebf87691-d3bd-424e-8362-8d78f1e11c5d")
 		(sheetname "/Amplifier/")
 		(sheetfile "Amplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -41741,6 +42462,7 @@
 			(size 0.8 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "AGND")
+			(pintype "passive")
 			(uuid "662a29f6-ce23-4d78-a333-4356c9fac963")
 		)
 		(pad "2" smd rect
@@ -41748,6 +42470,7 @@
 			(size 0.8 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3.3VA")
+			(pintype "passive")
 			(uuid "c8ac6f20-e95f-4889-97ba-0559d3abe982")
 		)
 		(embedded_fonts no)
@@ -55466,6 +56189,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "GND_7")
+			(pintype "passive")
 			(uuid "d59009af-195e-43e2-9f67-0cb305d7da2e")
 		)
 		(pad "7" smd oval
@@ -55484,6 +56209,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "GND_7")
+			(pintype "passive")
 			(uuid "b70698d0-da6d-42a7-95d6-d7255c9905ff")
 		)
 		(pad "8" smd oval
@@ -61625,9 +62352,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f9225482-5a52-40bd-a9f9-5af688b65258/f724010f-79c4-4960-90e1-300f0ab0b32f")
 		(sheetname "/Amplifier/")
 		(sheetfile "Amplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61797,7 +62531,7 @@
 			(size 0.8 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "TAS_CLIP")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "97c9f5ef-bc2d-4b1a-87ad-cf9d2ca12807")
 		)
@@ -61806,7 +62540,7 @@
 			(size 0.8 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Amplifier/LED2_P1")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "9c6cbb70-2343-47a8-bad2-d70c89b1252c")
 		)
@@ -65224,9 +65958,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/a5cd39a2-799e-4eb6-8961-d9a1d545934a/f7e0fa15-1786-484f-9e7d-b8154c7e6dec")
 		(sheetname "/Power 3.3V DC/")
 		(sheetfile "Power_3_3V_DC.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -65433,6 +66174,7 @@
 			(size 3.5 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "3.3V")
+			(pintype "passive")
 			(uuid "aca22666-f12f-4f53-9c3f-283638d7dd92")
 		)
 		(pad "2" smd rect
@@ -65440,6 +66182,7 @@
 			(size 3.5 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pintype "passive")
 			(uuid "b0446c14-6c14-48a2-b1a9-096fcbd73504")
 		)
 		(embedded_fonts no)
@@ -66556,9 +67299,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/988faa9c-4a7c-42eb-be46-0b06c4e58228/eeb6f905-94b1-4776-94d4-2a0655f1db15")
 		(sheetname "/Power 5V DC/")
 		(sheetfile "Power_5V_DC.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -66765,6 +67515,7 @@
 			(size 3.5 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
+			(pintype "passive")
 			(uuid "eeff0c33-b149-4f4a-b893-b522ef169acb")
 		)
 		(pad "2" smd rect
@@ -66772,6 +67523,7 @@
 			(size 3.5 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
+			(pintype "passive")
 			(uuid "fbae230b-1424-4d2b-840f-97e4c3be54e4")
 		)
 		(embedded_fonts no)
@@ -71302,7 +72054,7 @@
 	(footprint "easyeda2kicad:C1206"
 		(layer "B.Cu")
 		(uuid "9142507a-439d-4fc4-893c-894987ba827f")
-		(at 130.59 91.5 180)
+		(at 130.41 91.5 180)
 		(property "Reference" "C81"
 			(at 4.22 0 0)
 			(layer "B.SilkS")
@@ -71443,10 +72195,17 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f9225482-5a52-40bd-a9f9-5af688b65258/d68e5520-4c40-494c-9094-7b7275684389")
 		(sheetname "/Amplifier/")
 		(sheetfile "Amplifier.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.56 -0.94)
@@ -71620,6 +72379,7 @@
 			(size 1.485 1.728)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
+			(pintype "passive")
 			(uuid "3c89a391-e1bd-4b75-92a4-11062a536a64")
 		)
 		(pad "2" smd rect
@@ -71627,6 +72387,7 @@
 			(size 1.485 1.728)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(U12-C_START)")
+			(pintype "passive")
 			(uuid "97bae8d4-3a1f-42e8-8745-2ec9dae0dbec")
 		)
 		(embedded_fonts no)
@@ -71786,10 +72547,17 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f9225482-5a52-40bd-a9f9-5af688b65258/2f12f804-136a-4a52-87f3-12ed3562bb19")
 		(sheetname "/Amplifier/")
 		(sheetfile "Amplifier.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.56 -0.94)
@@ -71963,6 +72731,7 @@
 			(size 1.485 1.728)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
+			(pintype "passive")
 			(uuid "418cb159-c90a-4e24-ab8d-b96da2392e8a")
 		)
 		(pad "2" smd rect
@@ -71970,6 +72739,7 @@
 			(size 1.485 1.728)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/Amplifier/U12_AVDD")
+			(pintype "passive")
 			(uuid "cae3be2c-4a4f-4764-bcbc-b79b02db0d07")
 		)
 		(embedded_fonts no)
@@ -71988,7 +72758,7 @@
 	(footprint "easyeda2kicad:C1206"
 		(layer "B.Cu")
 		(uuid "bbfad929-de40-4a7c-bae4-53d4b4ab5ded")
-		(at 136.11 86.42)
+		(at 135.91 86.42)
 		(property "Reference" "C108"
 			(at 0 -2.12 0)
 			(layer "B.SilkS")
@@ -72132,7 +72902,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.56 -0.94)
@@ -72678,7 +73448,7 @@
 	(footprint "easyeda2kicad:C1206"
 		(layer "B.Cu")
 		(uuid "e08f96bf-6183-48ce-ac5e-5409d312ea5b")
-		(at 136.11 89.59 180)
+		(at 135.91 89.59 180)
 		(property "Reference" "C109"
 			(at 0 -2.11 0)
 			(layer "B.SilkS")
@@ -72822,7 +73592,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.56 -0.94)

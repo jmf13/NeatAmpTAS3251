@@ -712,6 +712,25 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Audio_Diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.82,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.25,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
@@ -746,25 +765,6 @@
         "tuning_profile": "",
         "via_diameter": 1.016,
         "via_drill": 0.508,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.25,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Audio_Diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.82,
-        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -1033,7 +1033,7 @@
         "uuid": "59d97e0d-9fd2-4c25-8670-f1881c68671c"
       }
     ],
-    "used_designators": "#PWR14,#PWR160,#PWR163,#PWR175,#PWR231,#PWR249,#PWR251,C70,C108-109,R7,R43-45,R52-55,TP28-29",
+    "used_designators": "#PWR14,#PWR117,#PWR160,#PWR163,#PWR175,#PWR231,#PWR249,#PWR251,C70,C77,C108-109,R7,R43-45,R52-55,TP28-29",
     "variants": []
   },
   "sheets": [
