@@ -7366,7 +7366,7 @@
 	(footprint "easyeda2kicad:C1210"
 		(layer "F.Cu")
 		(uuid "1c8be4cd-0881-4b7c-9554-b91e950474a2")
-		(at 142.98 65.5 180)
+		(at 143.48 66 180)
 		(property "Reference" "C77"
 			(at -4.02 0 0)
 			(layer "F.SilkS")
@@ -7419,6 +7419,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -34230,6 +34231,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -37459,7 +37461,7 @@
 		(uuid "88a81491-ef2f-4098-a03a-ad368027dea2")
 		(at 140.1 68.45 180)
 		(property "Reference" "C42"
-			(at -3.192381 1.600001 0)
+			(at 0.6 1.45 0)
 			(layer "F.SilkS")
 			(uuid "2bc3a7a1-47b7-40a2-9de9-adc9c8da1891")
 			(effects
@@ -40124,7 +40126,7 @@
 		(uuid "97e77b70-ddab-4811-8b8d-9d0119605178")
 		(at 137.191408 67.397382 90)
 		(property "Reference" "R10"
-			(at 0.800001 2.412381 0)
+			(at -3.102618 0.308592 90)
 			(layer "F.SilkS")
 			(uuid "1eb8893b-2e48-4db1-8978-47278f712a0c")
 			(effects
@@ -42151,7 +42153,7 @@
 		(uuid "9fa1450f-151a-4321-8a12-13d6947c96da")
 		(at 138.34 76.6 90)
 		(property "Reference" "C61"
-			(at 3.442381 -0.8 90)
+			(at 3.1 -0.34 90)
 			(layer "F.SilkS")
 			(uuid "e8f530d8-4d40-4be5-80b3-62d36a2cbd79")
 			(effects
