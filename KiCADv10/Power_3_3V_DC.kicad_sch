@@ -2415,13 +2415,13 @@
 		(uuid "417c9e61-4b08-487f-b404-48fd8b92b12d")
 	)
 	(junction
-		(at 109.22 66.04)
+		(at 120.65 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45ce3eca-daf8-4194-8ed5-a098c2beb6e7")
 	)
 	(junction
-		(at 119.38 66.04)
+		(at 130.81 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45f41d29-5485-458e-b5d8-5771914c3d31")
@@ -2433,13 +2433,19 @@
 		(uuid "46db86aa-4f07-4275-8e1e-87ee7e888281")
 	)
 	(junction
+		(at 109.22 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e652b4e-3549-47ab-980d-2e372ca647ac")
+	)
+	(junction
 		(at 187.96 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c06cd36-34e0-4591-8954-e55a1787bc4e")
 	)
 	(junction
-		(at 124.46 55.88)
+		(at 135.89 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5da9d18e-cdb5-406d-9c27-a65a5547220b")
@@ -2481,7 +2487,7 @@
 		(uuid "a96ca9e5-c95c-4e24-86be-d4ac96147674")
 	)
 	(junction
-		(at 109.22 55.88)
+		(at 120.65 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3ae09ad-ff6c-485a-9ac2-9d2ffa51075f")
@@ -2505,10 +2511,16 @@
 		(uuid "be21a602-6d8a-487c-a187-c665c66a6703")
 	)
 	(junction
-		(at 119.38 55.88)
+		(at 130.81 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1b9168a-28f6-4799-8895-8f23892d7d1a")
+	)
+	(junction
+		(at 109.22 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de4d1894-535a-4d36-8544-3ce8d6db68bf")
 	)
 	(junction
 		(at 99.06 55.88)
@@ -2522,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 55.88) (xy 124.46 55.88)
+			(xy 130.81 55.88) (xy 135.89 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2562,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 58.42) (xy 132.08 58.42)
+			(xy 146.05 58.42) (xy 143.51 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2652,6 +2664,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 63.5) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc55167-4dc8-4bce-bb28-a041091d35b8")
+	)
+	(wire
+		(pts
 			(xy 99.06 63.5) (xy 99.06 66.04)
 		)
 		(stroke
@@ -2702,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 134.62 55.88)
+			(xy 135.89 55.88) (xy 146.05 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +2804,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 119.38 55.88)
+			(xy 109.22 55.88) (xy 120.65 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870622cd-b5d9-4479-872a-395cdbb6a519")
+	)
+	(wire
+		(pts
+			(xy 120.65 55.88) (xy 130.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 40.64) (xy 124.46 40.64)
+			(xy 88.9 40.64) (xy 135.89 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2812,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 40.64) (xy 124.46 55.88)
+			(xy 135.89 40.64) (xy 135.89 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2832,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 58.42) (xy 132.08 66.04)
+			(xy 143.51 58.42) (xy 143.51 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 119.38 66.04)
+			(xy 130.81 63.5) (xy 130.81 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2954,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 66.04) (xy 132.08 66.04)
+			(xy 109.22 66.04) (xy 120.65 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ee1993-6ac6-4a97-b662-11bb515ff64e")
+	)
+	(wire
+		(pts
+			(xy 130.81 66.04) (xy 143.51 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2932,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 63.5) (xy 109.22 66.04)
+			(xy 120.65 63.5) (xy 120.65 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3002,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 66.04) (xy 119.38 66.04)
+			(xy 120.65 66.04) (xy 130.81 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3860,7 +3902,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 139.7 55.88 0)
+		(at 151.13 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3870,7 +3912,7 @@
 		(dnp no)
 		(uuid "2ce53be9-eefa-4053-b7e5-3172ba0b7fe9")
 		(property "Reference" "CN5"
-			(at 138.43 52.07 0)
+			(at 149.86 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3880,7 +3922,7 @@
 			)
 		)
 		(property "Value" "B2B-XH-A(LF)(SN)"
-			(at 138.43 62.23 0)
+			(at 149.86 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3890,7 +3932,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_B2B-XH-A-LF-SN"
-			(at 139.7 55.88 0)
+			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3901,7 +3943,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_JST-B2B-XH-A-LF-SN_C158012.html"
-			(at 139.7 55.88 0)
+			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3912,7 +3954,7 @@
 			)
 		)
 		(property "Description" "Wire-to-board header, JST XH, 1x2P, pitch 2.5 mm, through hole (same series as U11)"
-			(at 139.7 55.88 0)
+			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3923,7 +3965,7 @@
 			)
 		)
 		(property "LCSC" "C158012"
-			(at 139.7 55.88 0)
+			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3934,7 +3976,7 @@
 			)
 		)
 		(property "MPN" "B2B-XH-A(LF)(SN)"
-			(at 139.7 55.88 0)
+			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3945,7 +3987,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 139.7 55.88 0)
+			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3956,7 +3998,7 @@
 			)
 		)
 		(property "JLC Class" "Extended Part"
-			(at 139.7 55.88 0)
+			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,7 +4009,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "CONN-TH_B2B-XH-A-LF-SN"
-			(at 139.7 55.88 0)
+			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,7 +4020,7 @@
 			)
 		)
 		(property "EasyEDA Device" "B2B-XH-A(LF)(SN)"
-			(at 139.7 55.88 0)
+			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4665,6 +4707,153 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 109.22 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5da92964-1e0d-44b9-a5e6-755dca019602")
+		(property "Reference" "C79"
+			(at 111.76 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 111.76 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C1210"
+			(at 109.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL32B106KBJNNNE/150006.html"
+			(at 109.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+			(at 109.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC" "C138687"
+			(at 109.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "CL32B106KBJNNNE"
+			(at 109.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 109.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLC Class" "Extended Part"
+			(at 109.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Footprint" "C1210"
+			(at 109.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "EasyEDA Device" "CL32B106KBJNNNE"
+			(at 109.22 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "820219c6-a708-4039-aff7-89281a005df1")
+		)
+		(pin "2"
+			(uuid "b2175ebe-538b-40c7-b8e5-a5d0660d0f22")
+		)
+		(instances
+			(project "NeatAmp"
+				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/a5cd39a2-799e-4eb6-8961-d9a1d545934a"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NeatAmp:PWR_GND")
 		(at 63.5 66.04 0)
 		(unit 1)
@@ -5041,7 +5230,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 59.69 180)
+		(at 130.81 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5051,7 +5240,7 @@
 		(dnp no)
 		(uuid "969b663c-12e3-4388-ace4-4d671941e7fa")
 		(property "Reference" "C41"
-			(at 121.92 58.42 0)
+			(at 133.35 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5062,7 +5251,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 121.92 60.96 0)
+			(at 133.35 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5073,7 +5262,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0402"
-			(at 119.38 59.69 0)
+			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5084,7 +5273,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL05B104KB54PNC/291005.html"
-			(at 119.38 59.69 0)
+			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5095,7 +5284,7 @@
 			)
 		)
 		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 119.38 59.69 0)
+			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5106,7 +5295,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 119.38 59.69 0)
+			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5117,7 +5306,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KB54PNC"
-			(at 119.38 59.69 0)
+			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5128,7 +5317,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 119.38 59.69 0)
+			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,7 +5328,7 @@
 			)
 		)
 		(property "JLC Class" "Basic Part"
-			(at 119.38 59.69 0)
+			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5150,7 +5339,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "C0402"
-			(at 119.38 59.69 0)
+			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5161,7 +5350,7 @@
 			)
 		)
 		(property "EasyEDA Device" "CL05B104KB54PNC"
-			(at 119.38 59.69 0)
+			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6682,7 +6871,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 109.22 59.69 0)
+		(at 120.65 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6692,7 +6881,7 @@
 		(dnp no)
 		(uuid "f7e0fa15-1786-484f-9e7d-b8154c7e6dec")
 		(property "Reference" "C40"
-			(at 111.76 58.42 0)
+			(at 123.19 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6703,7 +6892,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 111.76 60.96 0)
+			(at 123.19 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6714,7 +6903,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
-			(at 109.22 59.69 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6725,7 +6914,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/VZH470M1HTR-0607L/3158589.html"
-			(at 109.22 59.69 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6736,7 +6925,7 @@
 			)
 		)
 		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Diameter:6.3mm Height - Seated (Max):7.7mm Operating Temperature:-55℃~+105℃ Operating Temperature:-55℃~+105℃"
-			(at 109.22 59.69 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6747,7 +6936,7 @@
 			)
 		)
 		(property "LCSC" "C2902971"
-			(at 109.22 59.69 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6758,7 +6947,7 @@
 			)
 		)
 		(property "MPN" "VZH470M1HTR-0607L"
-			(at 109.22 59.69 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6769,7 +6958,7 @@
 			)
 		)
 		(property "Manufacturer" "Lelon(立隆)"
-			(at 109.22 59.69 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6780,7 +6969,7 @@
 			)
 		)
 		(property "JLC Class" "Extended Part"
-			(at 109.22 59.69 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6791,7 +6980,7 @@
 			)
 		)
 		(property "EasyEDA Footprint" "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
-			(at 109.22 59.69 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6802,7 +6991,7 @@
 			)
 		)
 		(property "EasyEDA Device" "VZH470M1HTR-0607L"
-			(at 109.22 59.69 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
