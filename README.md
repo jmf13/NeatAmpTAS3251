@@ -131,7 +131,23 @@ most important changes are listed below. Each links to the detailed finding.
 - **Proper heatsink** (ATS-TI1OP-1099-C1-R1, made for TI's TAS3251EVM), grounded through plated mounting holes. → [V1.3-1](hw_review_2026-11-06.md#v13-1)
 - 3.3 V supply connector CN5: screw terminal → JST XH 2-pin. → [V1.3-2](hw_review_2026-11-06.md#v13-2)
 - Test points reduced from 30 to 15, and all useful ones are reachable with the heatsink fitted. → [V1.3-5](hw_review_2026-11-06.md#v13-5)
-- H2 expansion header reduced from 2×12 to 2×7.
+- H2 expansion header reduced from 2×12 to 2×7 (now CN12).
+- **All connectors renamed to CN** (V1.0–V1.2 silkscreen still shows the old names):
+
+  | V1.0–V1.2 | V1.3 | Function |
+  |---|---|---|
+  | U7 | CN4 | Expansion, JST XH 6-pin |
+  | U10 | CN7 | DSP control (I²C, reset, selfboot), JST XH 6-pin |
+  | U11 | CN8 | I²S to/from DSP board, JST XH 6-pin |
+  | U14 | CN9 | ESP32 ↔ TAS3251 control jumpers, 2×4 |
+  | U15 | CN10 | Power-control jumpers, 2×4 |
+  | H1 | CN11 | 4-pin header |
+  | H2 | CN12 | Expansion header, 2×7 |
+  | H3 | CN13 | Oscillator sync (OSC_IOM/IOP) + SDOUT, 4-pin |
+  | USBC1 | CN14 | USB-C |
+  | — | CN6 | New: DSP board power, JST XH 4-pin |
+
+  Text describing V1.0/V1.1 boards (rework steps in `tas/README.md`) keeps the old names on purpose.
 
 **BOM**
 
@@ -652,11 +668,13 @@ The I²S connector U11 (JST XH, 6-pin) accepts audio from:
 | Pin | Signal |
 |---|---|
 | 1 | GND |
-| 2 | +5V (≈ 4.6 V) |
+| 2 | +5V (≈ 4.6 V, after D5; powers e.g. the DIR9001 module) |
 | 3 | MCLK |
 | 4 | LRCK |
 | 5 | SCLK (BCLK) |
 | 6 | SDIN (DATA) |
+
+CN7 (DSP control) and CN8 (I²S) are both 6-pin JST XH. CN8 pin 2 is +5V and CN7 pin 2 is 3.3V, so a swapped cable puts 5 V on the DSP board's 3.3 V rail. **Label both cables** (CN7/CN8) and the connectors on the silkscreen. The DSP board takes its main power from CN6 and doesn't need CN8 pin 2.
 
 Pinout from the V1.3 KiCad netlist. Earlier versions of this README listed a different
 order (1 DATA … 5 +5V, 6 GND); check against your board before plugging in a module.

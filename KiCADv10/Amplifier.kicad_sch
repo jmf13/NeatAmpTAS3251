@@ -4140,7 +4140,7 @@
 		)
 		(uuid "4873cbce-11cc-411c-840c-4a498be67bbd")
 	)
-	(text "H3: oscillator sync (OSC_IOM/OSC_IOP) + SDOUT"
+	(text "CN13: oscillator sync (OSC_IOM/OSC_IOP) + SDOUT"
 		(exclude_from_sim no)
 		(at 102.616 175.768 0)
 		(effects
@@ -11282,7 +11282,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Power(Watts):100mW Temperature Coefficient:±100ppm/℃. DNP: fit only when syncing boards via H3"
+		(property "Description" "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Power(Watts):100mW Temperature Coefficient:±100ppm/℃. DNP: fit only when syncing boards via CN13"
 			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -16548,7 +16548,7 @@
 				)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Power(Watts):100mW Temperature Coefficient:±100ppm/℃. DNP: fit only when syncing boards via H3"
+		(property "Description" "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Power(Watts):100mW Temperature Coefficient:±100ppm/℃. DNP: fit only when syncing boards via CN13"
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -20366,7 +20366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab1cbdc5-fd7d-4031-a0f0-0395847a1797")
-		(property "Reference" "H3"
+		(property "Reference" "CN13"
 			(at 105.41 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20502,7 +20502,7 @@
 		(instances
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
-					(reference "H3")
+					(reference "CN13")
 					(unit 1)
 				)
 			)
@@ -21414,7 +21414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbf8fc18-70f5-4da1-9707-315536db3e10")
-		(property "Reference" "U11"
+		(property "Reference" "CN8"
 			(at 283.718 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21556,7 +21556,7 @@
 		(instances
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/f9225482-5a52-40bd-a9f9-5af688b65258"
-					(reference "U11")
+					(reference "CN8")
 					(unit 1)
 				)
 			)

@@ -4519,7 +4519,7 @@
 		)
 		(uuid "1d708525-63c8-4716-8a56-1bafd84b104a")
 	)
-	(text "Pick TAS address\nwith jumper (H2 13-14)"
+	(text "Pick TAS address\nwith jumper (CN12 13-14)"
 		(exclude_from_sim no)
 		(at 14.732 170.688 0)
 		(effects
@@ -4575,7 +4575,7 @@
 		)
 		(uuid "884a55f7-ab31-47e9-b940-c03548f7b45f")
 	)
-	(text "U14: ESP32 <-> TAS3251 control, U15: power control.\nFit shunts on each pair (see tas/README.md, rework B)"
+	(text "CN9: ESP32 <-> TAS3251 control, CN10: power control.\nFit shunts on each pair (see tas/README.md, rework B)"
 		(exclude_from_sim no)
 		(at 227.076 62.738 0)
 		(effects
@@ -11414,7 +11414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bfe7046-3786-4adb-8155-a90047fa4be1")
-		(property "Reference" "U14"
+		(property "Reference" "CN9"
 			(at 247.65 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11562,7 +11562,7 @@
 		(instances
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/76a69935-161a-4b31-bab6-197a5037526f"
-					(reference "U14")
+					(reference "CN9")
 					(unit 1)
 				)
 			)
@@ -11886,7 +11886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e6382b4-3984-41c2-ad21-da32ac33b98c")
-		(property "Reference" "USBC1"
+		(property "Reference" "CN14"
 			(at 22.86 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12049,7 +12049,7 @@
 		(instances
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/76a69935-161a-4b31-bab6-197a5037526f"
-					(reference "USBC1")
+					(reference "CN14")
 					(unit 1)
 				)
 			)
@@ -12066,7 +12066,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e900a33-eb1b-4c06-8766-f984caef4868")
-		(property "Reference" "H1"
+		(property "Reference" "CN11"
 			(at 71.12 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12202,7 +12202,7 @@
 		(instances
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/76a69935-161a-4b31-bab6-197a5037526f"
-					(reference "H1")
+					(reference "CN11")
 					(unit 1)
 				)
 			)
@@ -13126,7 +13126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7f406cc-810e-4b9e-9f6c-909902e83564")
-		(property "Reference" "H2"
+		(property "Reference" "CN12"
 			(at 63.5 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13292,7 +13292,7 @@
 		(instances
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/76a69935-161a-4b31-bab6-197a5037526f"
-					(reference "H2")
+					(reference "CN12")
 					(unit 1)
 				)
 			)
@@ -13677,7 +13677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aaa1bbd5-07a1-4263-8a30-2947f1691fe9")
-		(property "Reference" "U15"
+		(property "Reference" "CN10"
 			(at 247.65 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13825,7 +13825,7 @@
 		(instances
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/76a69935-161a-4b31-bab6-197a5037526f"
-					(reference "U15")
+					(reference "CN10")
 					(unit 1)
 				)
 			)
@@ -15428,7 +15428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2327b25-17c5-40c0-9be1-24586d91442d")
-		(property "Reference" "U7"
+		(property "Reference" "CN4"
 			(at 71.12 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15570,7 +15570,7 @@
 		(instances
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/76a69935-161a-4b31-bab6-197a5037526f"
-					(reference "U7")
+					(reference "CN4")
 					(unit 1)
 				)
 			)
@@ -16706,7 +16706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4672e7d-8eba-4da0-80fe-6c2a842e6634")
-		(property "Reference" "U10"
+		(property "Reference" "CN7"
 			(at 153.67 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16848,7 +16848,7 @@
 		(instances
 			(project "NeatAmp"
 				(path "/59d97e0d-9fd2-4c25-8670-f1881c68671c/76a69935-161a-4b31-bab6-197a5037526f"
-					(reference "U10")
+					(reference "CN7")
 					(unit 1)
 				)
 			)

@@ -3953,7 +3953,7 @@
 				)
 			)
 		)
-		(property "Description" "Wire-to-board header, JST XH, 1x2P, pitch 2.5 mm, through hole (same series as U11)"
+		(property "Description" "Wire-to-board header, JST XH, 1x2P, pitch 2.5 mm, through hole (same series as CN8)"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
