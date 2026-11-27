@@ -32839,10 +32839,10 @@
 	(footprint "NeatAmp_custom:MountingHole_3.2mm_M3_Pad_7mm"
 		(layer "F.Cu")
 		(uuid "7ce9814f-8885-4c6f-b4bc-cb827b6cf38c")
-		(at 65.5 92.5)
+		(at 65.6 92.5)
 		(descr "M3 mounting hole, 3.2 mm plated drill, 7 mm pad (as on the EasyEDA MainBoard)")
 		(tags "mounting hole M3 pad")
-		(property "Reference" "MH6"
+		(property "Reference" "MH7"
 			(at 0 -4.6 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -73963,6 +73963,17 @@
 			)
 		)
 	)
+	(gr_arc
+		(start 61.714 30.605)
+		(mid 63.053107 27.372107)
+		(end 66.286 26.033)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "1e9e81af-8e6a-4ea4-a652-a0bb2835fe50")
+	)
 	(gr_poly
 		(pts
 			(xy 119.826475 144.141376) (xy 119.845517 144.151567) (xy 119.845517 144.165988) (xy 119.845517 144.18041)
@@ -75164,7 +75175,7 @@
 		(uuid "421c60f9-1abd-44a0-b6be-f24f2ee3e68d")
 	)
 	(gr_line
-		(start 61.714 26.033)
+		(start 66.286 26.033)
 		(end 133 26.033)
 		(stroke
 			(width 0.3)
@@ -75175,7 +75186,7 @@
 	)
 	(gr_line
 		(start 61.714 97)
-		(end 61.714 26.033)
+		(end 61.714 30.605)
 		(stroke
 			(width 0.3)
 			(type dash)
@@ -75319,7 +75330,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "DSP board outline (DSP_Board/NeatAmp_DSP.kicad_pcb)\non M3 standoffs 15-20 mm at MH2/MH5/MH6"
+	(gr_text "DSP board outline (DSP_Board/NeatAmp_DSP.kicad_pcb)\non M3 standoffs 15-20 mm at MH2/MH5/MH6/MH7"
 		(at 61.5 24 0)
 		(layer "Dwgs.User")
 		(uuid "5ad80807-dbae-421e-a696-7db0a6660600")
