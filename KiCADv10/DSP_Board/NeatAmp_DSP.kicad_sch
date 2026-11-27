@@ -1,0 +1,1287 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "843bf0e3-36aa-4ba1-99a1-1f3cf7735b78")
+	(paper "A4")
+	(title_block
+		(title "NeatAmp DSP board")
+		(date "2026-11-26")
+		(rev "0.1")
+		(company "zoomMediaPlus")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 80.01 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4edccc1-678b-40c0-b07b-1cd4399e4b87")
+		(property "Reference" "CN1"
+			(at 82.55000000000001 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B4B-XH-A(LF)(SN)"
+			(at 82.55000000000001 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_B4B-XH-A-LF-SN"
+			(at 80.01 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C144395.html"
+			(at 80.01 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power in from amp CN6 (5V_PVDD ~5.0 V, max ~0.8 A). Pins 1-2 +5V, 3-4 GND. Straight XH cable pin 1 -> pin 1."
+			(at 80.01 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144395"
+			(at 80.01 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B4B-XH-A(LF)(SN)"
+			(at 80.01 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 80.01 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58f6082b-f5da-4191-bf58-dc23eff8b542")
+		)
+		(pin "2"
+			(uuid "8ee3c99e-c6ac-4383-bf3b-c9bd1497aedb")
+		)
+		(pin "3"
+			(uuid "ce4d28d7-5f29-4dd8-aef0-4d8a17435392")
+		)
+		(pin "4"
+			(uuid "ff1f2a14-151d-45cd-afee-9a461092a6c5")
+		)
+		(instances
+			(project "NeatAmp_DSP"
+				(path "/843bf0e3-36aa-4ba1-99a1-1f3cf7735b78"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 67.31 48.26) (xy 74.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584e8845-791a-45b0-8017-a8a018b8fe9f")
+	)
+	(label "+5V_IN"
+		(at 67.31 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c0de199-6d81-4c52-addf-c2d7d100dc66")
+	)
+	(wire
+		(pts
+			(xy 67.31 50.8) (xy 74.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2236eb5-59e0-4c84-8d22-6fed8cdb219c")
+	)
+	(label "+5V_IN"
+		(at 67.31 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3ac8a85-9286-417e-a338-f58fa63b6ae7")
+	)
+	(wire
+		(pts
+			(xy 67.31 53.34) (xy 74.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ddf99d7-afe9-403c-9dac-2d6b0b2f6a72")
+	)
+	(label "GND"
+		(at 67.31 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e90fc0b-c922-4d29-abe6-0e1084d14eb3")
+	)
+	(wire
+		(pts
+			(xy 67.31 55.88) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0173b584-8f1e-416e-87dc-cf00849f009a")
+	)
+	(label "GND"
+		(at 67.31 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0ecc0f0-564b-48b4-83c9-12c87ade32ca")
+	)
+	(text "Power in from amp CN6 (5V_PVDD ~5.0 V, max ~0.8 A). Pins 1-2 +5V, 3-4 GND. Straight XH cable pin 1 -> pin 1."
+		(exclude_from_sim no)
+		(at 90.17 53.339999999999996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eca60946-3099-4dcc-8f8f-7ddcb0006c21")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 80.01 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0acc341b-d54f-4325-a989-7856f2287795")
+		(property "Reference" "CN2"
+			(at 82.55000000000001 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B6B-XH-A(LF)(SN)"
+			(at 82.55000000000001 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_6P-P2.50_B6B-XH-A-LF-SN"
+			(at 80.01 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C144397.html"
+			(at 80.01 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Control from amp CN7: 1 GND, 2 amp 3.3V (not used here), 3 DSP_RESET, 4 SDA, 5 SCL, 6 SELFBOOT."
+			(at 80.01 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144397"
+			(at 80.01 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B6B-XH-A(LF)(SN)"
+			(at 80.01 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 80.01 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74326437-75c3-4e33-ae57-74f504de1d2a")
+		)
+		(pin "2"
+			(uuid "a6d7d127-b6c2-43e8-93c2-5cea5da2c0bf")
+		)
+		(pin "3"
+			(uuid "2f3f2775-76d9-463b-ad95-d2570e77bf58")
+		)
+		(pin "4"
+			(uuid "03600732-5609-4851-b3fb-40c4dc959106")
+		)
+		(pin "5"
+			(uuid "87eabc6b-4467-4672-b404-56ca337a3b40")
+		)
+		(pin "6"
+			(uuid "51ddad04-3084-4c19-bfa9-292dd95ad77c")
+		)
+		(instances
+			(project "NeatAmp_DSP"
+				(path "/843bf0e3-36aa-4ba1-99a1-1f3cf7735b78"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 67.31 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee35fae5-cccd-4e0e-a8c8-143017efb962")
+	)
+	(label "GND"
+		(at 67.31 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be40b382-ed7d-4aa5-b7b6-dc564b1af86e")
+	)
+	(no_connect
+		(at 74.93 78.74)
+		(uuid "b1c6345e-b8de-4bae-892e-96c4d76f1928")
+	)
+	(wire
+		(pts
+			(xy 67.31 81.28) (xy 74.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c2fff1-3689-4544-abc1-ad3ade92a946")
+	)
+	(label "DSP_RESET"
+		(at 67.31 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "410f3c72-1e43-4d94-aabb-625e49ff9a2d")
+	)
+	(wire
+		(pts
+			(xy 67.31 83.82) (xy 74.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8503255f-73a0-4514-bbc6-6dca413a27a7")
+	)
+	(label "DSP_SDA"
+		(at 67.31 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c79f96b9-da7e-4fbf-ba4d-082c029254f1")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 74.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0f8b69-11ba-43e1-8be4-0bc1f872b463")
+	)
+	(label "DSP_SCL"
+		(at 67.31 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5359097-a512-40cd-8ff6-65d8c8261205")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 74.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6511fc-66de-4b1b-befe-3ba9ae88cefc")
+	)
+	(label "DSP_SELFBOOT"
+		(at 67.31 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1ad2471-5715-48fe-9110-d12672eaba12")
+	)
+	(text "Control from amp CN7: 1 GND, 2 amp 3.3V (not used here), 3 DSP_RESET, 4 SDA, 5 SCL, 6 SELFBOOT."
+		(exclude_from_sim no)
+		(at 90.17 83.82000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a75b504f-9aa1-4e72-b5d9-5f076de1f27e")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 80.01 111.75999999999999 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d93b78f-f666-483e-b7cc-4bce8cabc8c1")
+		(property "Reference" "CN3"
+			(at 82.55000000000001 104.13999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B6B-XH-A(LF)(SN)"
+			(at 82.55000000000001 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_6P-P2.50_B6B-XH-A-LF-SN"
+			(at 80.01 111.75999999999999 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C144397.html"
+			(at 80.01 111.75999999999999 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "I2S to amp CN8: 1 GND, 2 amp +5V (NOT connected here, review A26), 3 MCLK, 4 LRCK, 5 SCLK, 6 SDIN (DSP -> TAS3251)."
+			(at 80.01 111.75999999999999 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144397"
+			(at 80.01 111.75999999999999 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B6B-XH-A(LF)(SN)"
+			(at 80.01 111.75999999999999 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 80.01 111.75999999999999 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93d5fcac-e288-4fd0-be14-6c15ab47e19b")
+		)
+		(pin "2"
+			(uuid "3081e92a-3cce-4c58-991f-6cdfc3d8381d")
+		)
+		(pin "3"
+			(uuid "0d9517a4-6add-42ce-afb2-65af1daa1937")
+		)
+		(pin "4"
+			(uuid "d100f0c0-bb1a-44af-af16-9e7eeb43171c")
+		)
+		(pin "5"
+			(uuid "31604b4b-50b8-4ac4-adbb-d631f69bd9da")
+		)
+		(pin "6"
+			(uuid "e00d44bf-b392-4c37-81cd-f6f5ad7c3a36")
+		)
+		(instances
+			(project "NeatAmp_DSP"
+				(path "/843bf0e3-36aa-4ba1-99a1-1f3cf7735b78"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 67.31 106.68) (xy 74.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9846c5f3-77df-4579-85ca-db9946162981")
+	)
+	(label "GND"
+		(at 67.31 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "013259f4-e4ba-4f95-a671-869e1ffe0126")
+	)
+	(no_connect
+		(at 74.93 109.22)
+		(uuid "b7428816-0ff6-4c4d-93de-069760835871")
+	)
+	(wire
+		(pts
+			(xy 67.31 111.76) (xy 74.93 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b82d49-bb59-4fa0-b915-5e279c9379b3")
+	)
+	(label "MCLK"
+		(at 67.31 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "574f9c2c-b822-46b0-b83a-1103fa9b751f")
+	)
+	(wire
+		(pts
+			(xy 67.31 114.3) (xy 74.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3758948a-87a4-4bda-b20f-24c63a97694a")
+	)
+	(label "LRCK"
+		(at 67.31 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23c841cd-a4b9-42a9-a1aa-8ba1d5e34214")
+	)
+	(wire
+		(pts
+			(xy 67.31 116.84) (xy 74.93 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcad8f8-c0b8-4547-aa81-655b26a92b5f")
+	)
+	(label "SCLK"
+		(at 67.31 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4babbfc-2a95-434b-9be1-9a7f8648083d")
+	)
+	(wire
+		(pts
+			(xy 67.31 119.38) (xy 74.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4b98b5-9dee-4518-9e7f-98fcdb28584b")
+	)
+	(label "SDIN"
+		(at 67.31 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "123b0ffd-da1e-4b88-8fab-98de035e2f11")
+	)
+	(text "I2S to amp CN8: 1 GND, 2 amp +5V (NOT connected here, review A26), 3 MCLK, 4 LRCK, 5 SCLK, 6 SDIN (DSP -> TAS3251)."
+		(exclude_from_sim no)
+		(at 90.17 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1454758-9ee4-418a-9aab-aef173394704")
+	)
+	(text "DSP board (ADAU1466 + XU316) for NeatAmp V1.3 - mechanical/connector skeleton (2026-11-26).\nStacked on the main board on 3 x M3 standoffs (15-20 mm) at MH1/MH2/MH3; same XY coordinates as NeatAmp.kicad_pcb.\nPower: own regulators from +5V_IN (review P2-10): AP63203 3.3 V, 2x AP63201 1.2 V / 0.9 V, LDO 1.8 V, sequenced via EN;\ninput bulk 47-100 uF + ceramics. I2C pull-ups to this board 3.3 V. Bottom side: no parts (faces the main board)."
+		(exclude_from_sim no)
+		(at 30.48 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9870dc3-8dca-40df-8951-56e46e0679c6")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

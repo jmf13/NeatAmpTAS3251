@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda2kicad.pretty")(options "")(descr "LCSC footprints"))
+  (lib (name "NeatAmp_custom")(type "KiCad")(uri "${KIPRJMOD}/libs/NeatAmp_custom.pretty")(options "")(descr "Parts without LCSC number"))
+)

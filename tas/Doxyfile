@@ -1,0 +1,25 @@
+# Minimal Doxygen config for the Tas ESP32-S3 firmware. Unlisted settings
+# fall back to Doxygen's built-in defaults. Run from the tas/ directory:
+#   doxygen Doxyfile
+# HTML output is written to docs/html/index.html (gitignored).
+
+PROJECT_NAME           = "Tas — NeatAmpTAS3251 ESP32-S3 Firmware"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = main
+FILE_PATTERNS          = *.h *.hpp *.c *.cpp
+RECURSIVE               = NO
+
+GENERATE_HTML           = YES
+GENERATE_LATEX          = NO
+GENERATE_XML            = NO
+
+EXTRACT_ALL              = YES
+EXTRACT_PRIVATE          = YES
+EXTRACT_STATIC           = YES
+
+OPTIMIZE_OUTPUT_FOR_C    = NO
+JAVADOC_AUTOBRIEF        = NO
+
+WARN_IF_UNDOCUMENTED     = YES
+WARN_NO_PARAMDOC         = YES
+QUIET                    = NO

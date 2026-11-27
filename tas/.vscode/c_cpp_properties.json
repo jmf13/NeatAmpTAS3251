@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "ESP-IDF",
+      "compilerPath": "/Users/iko/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
+      "intelliSenseMode": "gcc-arm",
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}

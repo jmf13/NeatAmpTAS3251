@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "NeatAmp")(type "KiCad")(uri "${KIPRJMOD}/NeatAmp.kicad_sym")(options "")(descr "Generated from EasyEDA netlist"))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda2kicad.kicad_sym")(options "")(descr "LCSC parts"))
+)

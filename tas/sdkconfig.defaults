@@ -1,0 +1,18 @@
+# Board-specific Kconfig defaults for the ESP32-S3-WROOM-1U-N8R8 module used
+# on this board (8 MB Quad flash, 8 MB Octal PSRAM). `sdkconfig` itself is
+# per-developer/gitignored, so these values are what `idf.py set-target` /
+# a fresh `idf.py build` seed a new sdkconfig with; kconfgen fills in all
+# other PSRAM-dependent defaults (malloc thresholds, memtest, etc.) from
+# these on its own.
+#
+# esp_psram must be a PRIV_REQUIRES of the "main" component (see
+# main/CMakeLists.txt) for CONFIG_SPIRAM to even be a valid option — this
+# project builds with MINIMAL_BUILD ON, which prunes the Kconfig tree to
+# only components something actually depends on.
+CONFIG_ESPTOOLPY_FLASHSIZE_8MB=y
+CONFIG_SPIRAM=y
+# N8R8 = Octal (OPI) PSRAM. Octal mode claims GPIO35/36/37 (module pins
+# 28/29/30) internally; they must not be used by the board (fixed in HW V1.2).
+# Quad mode would fail PSRAM init on this module.
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_SPEED_80M=y

@@ -1,0 +1,15 @@
+(version 1)
+
+# JLCPCB, 4-layer, 2 oz outer copper (capabilities page, 2026-11-22):
+# min track/space 0.16 mm; SMD pad to pad (different nets) 0.15 mm.
+# Net classes keep 0.20 mm for routing margin; fine-pitch footprints
+# (U1/U3 LMQ66430 ~0.195 mm, U12 HSSOP-56) only need the JLC limit.
+(rule "Pad to pad (fine-pitch footprints)"
+	(constraint clearance (min 0.16mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+
+# JLC: via hole / NPTH to track 0.2 mm (board setup minimum),
+# PTH to track 0.28 mm, inner-layer PTH hole to copper 0.3 mm.
+(rule "PTH hole to copper"
+	(constraint hole_clearance (min 0.3mm))
+	(condition "A.Pad_Type == 'Through-hole'"))
